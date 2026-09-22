@@ -102,10 +102,7 @@ def main():
         jobs = days[day]
         ordered = [dict(jobs[jid], job_id=jid) for jid in JOB_ORDER if jid in jobs]
         manifest_days.append({"date": day, "jobs": ordered})
-    manifest = {
-        "updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "days": manifest_days,
-    }
+    manifest = {"days": manifest_days}
     (DATA_DIR / "manifest.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8"
     )

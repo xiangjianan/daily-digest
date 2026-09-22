@@ -181,7 +181,7 @@ async function init() {
   const today = fmtLocal(new Date());
   show(dateSet.has(today) ? today : latest);
   document.getElementById('footer').textContent =
-    '数据更新于 ' + manifest.updated + ' · 共 ' + dateSet.size + ' 天';
+    '最新：' + (manifest.days[0] ? manifest.days[0].date : '-') + ' · 共 ' + dateSet.size + ' 天';
 }
 
 document.getElementById('prev').addEventListener('click', function() {
