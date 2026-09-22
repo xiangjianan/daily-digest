@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-06",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "I have all the data I need. Here's my compiled report:\n\n---\n\n## 🔥 GitHub 本周有趣新项目速递（2026.07.06）\n\n### 1. [usestrix/strix](https://github.com/usestrix/strix)\n**开源 AI 渗透测试工具，自动发现并修复应用漏",
+   "full": "I have all the data I need. Here's my compiled report:\n\n---\n\n## 🔥 GitHub 本周有趣新项目速递（2026.07.06）\n\n### 1. [usestrix/strix](https://github.com/usestrix/strix)\n**开源 AI 渗透测试工具，自动发现并修复应用漏洞。**\n\n⭐ 37,553（本周 +10,338）\n🎯 **安全 × AI 的跨界碰撞**——用 AI Agent 模拟黑客攻击路径，自动执行渗透测试并给出修复建议。相比传统扫描器，它理解业务逻辑和攻击链，能发现更深层的漏洞。一周内暴涨上万 star，安全社区给出了强烈信号。\n🏷️ AI / 安全 / 渗透测试 / Python\n\n---\n\n### 2. [browser-use/video-use](https://github.com/browser-use/video-use)\n**用编程 Agent 来编辑视频——\"写代码即剪辑\"。**\n\n⭐ 15,223（本周 +4,288）\n🎯 **颠覆传统视频工作流**——不需要 After Effects 或 DaVinci，用自然语言让 AI coding agent 操作 FFmpeg/MoviePy 等工具完成剪辑、转场、字幕叠加。来自 browser-use 团队（做 browser-use 的那个），创意极其新颖，把「代码即生产力」推到了视频领域。\n🏷️ AI / 视频 / Agent / Python\n\n---\n\n### 3. [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)\n**高性能代码智能 MCP 服务器，毫秒级索引代码库为知识图谱。**\n\n⭐ 26,998（本周 +7,945）\n🎯 **用 C 从零造了一个极快的代码索引引擎**——支持 158 种语言、亚毫秒查询、比传统方案节省 99% token。单二进制文件零依赖，专为 Claude Code / Cursor / Codex 等编程 Agent 提供「代码记忆」。把 tree-sitter + SQLite + 知识图谱组合得恰到好处，是 MCP 生态中最实用的新工具之一。\n🏷️ MCP / 代码分析 / 知识图谱 / C\n\n---\n\n### 4. [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)\n**终端里的 Agent 多路复用器——同时管理多个 AI 编程 Agent。**\n\n⭐ 12,389（本周 +3,937）\n🎯 **tmux for AI Agents**——在终端里同时跑 Claude Code、Codex 等多个编程 Agent，统一管理它们的输入输出、上下文和任务分配。Rust 写的 TUI，概念新颖：当 Agent 多到需要「调度器」时，herdr 就是那个调度器。代表了 Agent 工作流从「单线程」向「并行编排」演进的清晰趋势。\n🏷️ Agent / TUI / 终端 / Rust\n\n---\n\n### 5. [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)\n**前馈式 3D 基础模型——从流式数据实时重建三维场景。**\n\n⭐ 9,980（本周 +1,875）\n🎯 **3D 视觉前沿研究**——不同于传统的 NeRF/Gaussian Splatting 等需要大量计算的重模型，它采用前馈架构，从连续的视觉流数据中增量构建场景地图。对于机器人导航、AR/VR、自动驾驶等需要实时 3D 理解的场景意义重大。学术与工程并重的项目。\n🏷️ 3D / 深度学习 / 机器人 / 计算机视觉\n\n---\n\n> 📝 **编辑推荐**：本周 GitHub 的主旋律是 **Agent 编排与基础设施**——从 herdr 的多 Agent 调度到 codebase-memory-mcp 的代码记忆，从 strix 的自动化安全到 video-use 的 Agent 驱动创作，开发者正在从「用一个 Agent」进化到「管理和编排一群 Agent」的新阶段。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

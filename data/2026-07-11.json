@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-11",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Now I have all the data needed. Here's my final report:\n\n---\n\n## 🔥 GitHub 本周精选新项目\n\n> 数据来源：GitHub Trending (本周) + GitHub API 交叉验证 · 2026-07-11\n\n---\n\n### 1. [RuView](https://github.c",
+   "full": "Now I have all the data needed. Here's my final report:\n\n---\n\n## 🔥 GitHub 本周精选新项目\n\n> 数据来源：GitHub Trending (本周) + GitHub API 交叉验证 · 2026-07-11\n\n---\n\n### 1. [RuView](https://github.com/ruvnet/RuView) — 用 WiFi 信号\"看到\"空间\n\n一句话简介：将普通 WiFi 信号转化为实时空间智能、生命体征监测和人体存在检测——完全无需摄像头。\n\n⭐ 79,940 stars（本周 +3,657） | 创建于 2025-06-07\n\n🎯 **为什么有趣**：这可能是本周最具创意的项目。利用 WiFi 信号的反射和相位变化来做室内人体姿态估计、呼吸/心率监测和存在检测，完全不依赖任何视觉传感器。用 Rust + ESP32 实现，接入了 Home Assistant，兼顾隐私和实用性。一个月内近 8 万 star，说明社区对\"无视觉感知\"这个方向高度认可。\n\n🏷️ IoT / 硬件 / Rust / WiFi / 隐私计算\n\n---\n\n### 2. [herdr](https://github.com/ogulcancelik/herdr) — 终端里的 AI Agent 多路复用器\n\n一句话简介：住在终端里的 agent multiplexer，让你同时管理和编排多个 AI 编程代理。\n\n⭐ 15,331 stars（本周 +4,714） | 创建于 2026-03-27\n\n🎯 **为什么有趣**：随着 Claude Code、Codex 等 AI 编程代理的普及，同时跑多个 agent 成了刚需。herdr 借鉴了 tmux 的理念，把它搬到了 agent 编排的场景——一个 TUI 界面管理多个并行工作的 AI agent。概念新颖，Rust 实现，本周增速惊人（4.7k），精准命中了\"agent 工程师\"的痛点。\n\n🏷️ CLI / TUI / Rust / Agent 编排 / 开发工具\n\n---\n\n### 3. [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — 专为 AI Agent 设计的 Office 套件\n\n一句话简介：第一个专为 AI agent 打造的 Office 套件，无需安装 Office 即可通过命令行读写 Word、Excel 和 PowerPoint。\n\n⭐ 14,740 stars（本周 +5,789） | 创建于 2026-03-15\n\n🎯 **为什么有趣**：传统 Office 库（如 python-docx）是为人类程序员设计的 API，而 OfficeCLI 从第一天起就面向 AI agent 的使用模式优化——单二进制、零依赖、支持 Claude Code / Codex 等工具直接调用。本周 5,789 的 star 增长证明了\"agent-first 工具链\"这个品类的爆发力。用 C# 写的，Apache 2.0 开源。\n\n🏷️ AI Agent / CLI / Office 自动化 / C# / 工具\n\n---\n\n### 4. [facebook/astryx](https://github.com/facebook/astryx) — Meta 开源的 Agent-Ready 设计系统\n\n一句话简介：Meta（Facebook）开源的全可定制设计系统，从底层为 AI agent 生成界面做好准备。\n\n⭐ 7,815 stars（本周 +3,582） | 创建于 2026-01-09\n\n🎯 **为什么有趣**：Meta 出品，自带光环。不同于传统设计系统只服务人类开发者，astryx 明确定位为 \"agent ready\"——它的组件结构和 token 体系让 AI agent 可以直接理解和操作 UI。这标志着大厂开始认真对待\"agent 是新的用户\"这一范式。TypeScript 实现，MIT 协议。\n\n🏷️ 设计系统 / TypeScript / AI Agent / 前端 / Meta\n\n---\n\n### 💡 编辑推荐\n\n本周 GitHub 的主线叙事极其清晰：**AI Agent 基础设施的大爆发**。从终端复用器（herdr）到 Office 文件操作（OfficeCLI）到 UI 生成（astryx）到安全沙箱（CubeSandbox），开发者正在疯狂构建\"agent-first\"的新一代开发工具链。与此同时，RuView 这类跳出纯软件、用 WiFi 信号做空间感知的项目，提醒我们最有创意的技术创新往往发生在跨领域交叉点。**Agent 时代的基础设施建设，已经进入\"军备竞赛\"阶段。**",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

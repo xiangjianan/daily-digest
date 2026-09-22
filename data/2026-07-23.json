@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-23",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Now I have all the data I need. Here's the compiled report:\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐（2026.7.23）\n\n---\n\n### 1. [Nutlope/hallmark](https://github.com/Nutlope/hallmark)\n**一句话简介：** 给",
+   "full": "Now I have all the data I need. Here's the compiled report:\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐（2026.7.23）\n\n---\n\n### 1. [Nutlope/hallmark](https://github.com/Nutlope/hallmark)\n**一句话简介：** 给 AI 编码工具（Claude Code、Cursor、Codex）注入「反 AI 味道」的设计技能，让生成的 UI 不再千篇一律。\n\n⭐ **15,880**（本周 +8,471 🚀）\n\n🎯 **为什么有趣：** \"AI slop\" 已经成为 2026 年最被吐槽的现象之一——所有 AI 生成的网页看起来都一个样。hallmark 用一套精心设计的 CSS 规则和 prompt skill，从根源上解决这个问题，概念极其精准地击中了行业痛点。一周怒涨 8,400+ star，说明社区苦 AI 审美久矣。同时支持三大主流 AI 编码工具，实用性和覆盖面俱佳。\n\n🏷️ AI / CSS / 设计工具 / Prompt Engineering\n\n---\n\n### 2. [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)\n**一句话简介：** 本地优先的代码智能图谱，为 AI 编码工具构建代码库的持久化知识地图，只让 AI 读取真正相关的内容。\n\n⭐ **25,598**（本周 +5,639）\n\n🎯 **为什么有趣：** 当前 AI 编码工具的最大瓶颈不是模型能力，而是上下文窗口和噪音。code-review-graph 用图数据库的方式为整个代码库建立语义关联索引，让 AI 在做 code review 或大型项目操作时只「看该看的」，实测大幅降低 token 消耗。思路新颖——不是换更强的模型，而是给模型装上「代码阅读导航」。同时支持 MCP 协议和 CLI，与现有 AI 工具链无缝集成。\n\n🏷️ AI / 代码分析 / MCP / CLI / 图数据库\n\n---\n\n### 3. [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)\n**一句话简介：** 前馈式 3D 基础模型，能从流式数据中实时重建三维场景。\n\n⭐ **14,975**（本周 +4,250）\n\n🎯 **为什么有趣：** 这是一个纯前沿研究方向的项目。传统 3D 重建依赖 NeRF/Gaussian Splatting 等迭代优化方法，速度慢且难以实时处理。lingbot-map 提出前馈（feed-forward）范式，直接从流式数据（如机器人传感器）输出 3D 场景，推理速度大幅提升。对于机器人导航、自动驾驶、AR/VR 等领域都有重要意义。一周 4,250 star 表明 3D 基础模型正成为新的社区热点。\n\n🏷️ 3D 重建 / 深度学习 / 机器人 / 计算机视觉\n\n---\n\n### 4. [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)\n**一句话简介：** 专为 AI Agent 打造的 Office 套件 CLI——无需安装 Office，单个二进制文件即可读写 Word、Excel、PowerPoint。\n\n⭐ **21,339**（本周 +3,579）\n\n🎯 **为什么有趣：** AI Agent 操控 Office 文件一直是痛点（要么依赖 LibreOffice，要么调用微软 API）。OfficeCLI 直接用 C# 实现了一套完整的 Office 文件解析和生成引擎，编译成单文件 CLI，完美适配 Claude Code、Codex 等 AI 编码工具的 agent 工作流。概念上非常巧妙——不是让 Agent 去用 Office，而是为 Agent 造了一个专属 Office。本周 3,500+ star 验证了这个刚需。\n\n🏷️ AI Agent / CLI / Office 自动化 / C#\n\n---\n\n### 5. [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)\n**一句话简介：** 港大数据科学实验室出品，实现「终身个性化辅导」的 AI 教育系统。\n\n⭐ **29,245**（本周 +3,030）\n\n🎯 **为什么有趣：** 区别于简单的\"AI 答题机器人\"，DeepTutor 融合了 Socratic teaching（苏格拉底式教学法）、多 Agent 协作和 RAG 深度研究能力，能够根据学生长期的学习轨迹进行真正的个性化教学。系统不仅\"回答问题\"，还会主动引导学生思考、检测认知盲区、动态调整教学策略。来自港大学术团队，有论文支撑（arxiv: 2604.26962），兼具学术前沿性和实际可用性。\n\n🏷️ AI 教育 / 多 Agent 系统 / RAG / LLM 应用\n\n---\n\n> 📝 **编辑推荐：** 本周 GitHub 趋势的核心主题非常清晰——**「AI 工具的基础设施化」**。无论是反 AI 审美公式化（hallmark）、优化 AI 代码上下文（code-review-graph）、为 Agent 造专属工具链（OfficeCLI），还是让 AI 真正\"教\"而非\"答\"（DeepTutor），社区正在从\"让 AI 能做事\"转向\"让 AI 做得好、做得准、做得像人\"。与此同时，3D 基础模型（lingbot-map）的爆发暗示着下一个技术热点正在从 2D 语言模型向 3D 空间智能迁移。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

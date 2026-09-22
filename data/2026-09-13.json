@@ -1,0 +1,35 @@
+{
+ "date": "2026-09-13",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-09-13] 每日创意小工具 #1：KEYTRACE —— 密码走位透视镜\n\n💡 一句话介绍：粘贴任意密码/PIN，在发光键盘上实时画出它的按键轨迹和热力图，让 `qwerty`、`1qaz2wsx`、`123456` 这类“键盘散步”式弱密码一眼现形，并给出 0-100 走位分和四档判定（散步型→闲逛型→跳跃型→狂野飞人）。100% 本地运",
+   "full": "🔧 [2026-09-13] 每日创意小工具 #1：KEYTRACE —— 密码走位透视镜\n\n💡 一句话介绍：粘贴任意密码/PIN，在发光键盘上实时画出它的按键轨迹和热力图，让 `qwerty`、`1qaz2wsx`、`123456` 这类“键盘散步”式弱密码一眼现形，并给出 0-100 走位分和四档判定（散步型→闲逛型→跳跃型→狂野飞人）。100% 本地运行，单文件零依赖。\n\n🧠 创意来源：今天 Show HN（09-12/13）三条线索合成——\n- [Gedcom Tools](https://news.ycombinator.com/item?id=45232310)（家谱文件纯浏览器本地修复）→ 借「数据不离开标签页」的隐私优先架构\n- [Don't Hit Send](https://news.ycombinator.com/item?id=45231902)（边输入边反馈）→ 借「即输入即出结果」的实时交互\n- [EarthToPixels](https://news.ycombinator.com/item?id=45230696)（把城市变像素画）→ 借「把抽象变可见」的可视化隐喻\n\n原创点：zxcvbn 等密码强度库内部早就有“键盘 walk 检测”，但它永远是隐形的分数。KEYTRACE 把这个抽象检测做成了**看得见的路径动画**——数字轨迹、琥珀→红热力键、最长连走/变向/路程统计，还内置经典走位库直接点名。另有防偷瞄模糊模式（轨迹仍可见）、点屏幕键盘直接输入（触屏可用）、中英 UI 一键切换。与已发布仓库（游戏×4、mermaid 可视化、考勤转换器等）零重复。\n\n🛠️ 在线使用：https://xiangjianan.github.io/keytrace-20260913/ ｜ 仓库：https://github.com/xiangjianan/keytrace-20260913\n\n自检实录：node --check 通过；本地+线上 curl 200；playwright 无头双轮（本地 file:// + 线上 Pages）零 JS 报错，`1qaz2wsx`→散步型 89 分、`Tr0ub4dor&3`→狂野飞人 9 分、空输入/单字符友好提示、键盘点按输入和中英切换均实测通过；截图像素统计确认热力图渲染正常。双语 README + LICENSE + About homepage 已配置。\n\n⚖️ 今日取舍：走位分是启发式而非熵计算（对用户坦白了这点，README 写明“不是安全审计”）；轨迹和编号点在超长输入时截断前 120 步保性能；键盘布局按 ANSI 简化（无 Tab/Esc 等修饰键，只跟踪字符键）。明天可迭代：加 DVORAK/AZERTY 布局切换、对比模式（两个密码走位同屏 PK）、分享卡片图片导出。",
+   "job_id": "6ff8e716c927"
+  },
+  {
+   "name": "每日沉迷小游戏",
+   "emoji": "🎮",
+   "time": "10:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🎮 2026-09-13 每日沉迷小游戏 #5：爆线钓手 REEL RAGE\n\n💡 一句话玩法：按住=收线（鱼拉近但张力↑）、松开=泄力（张力↓但鱼偷线）——在鱼随机「暴走」前盯住 0.4 秒的「!」预兆及时松手（完美读竿），暴走后的 1.3 秒疲态窗口双倍猛拉，张力爆表就是一声「嘣」线断局终，爆线后 <1 秒自动挂下一竿。\n\n🧠 沉迷机制：今天 HN 本周",
+   "full": "🎮 2026-09-13 每日沉迷小游戏 #5：爆线钓手 REEL RAGE\n\n💡 一句话玩法：按住=收线（鱼拉近但张力↑）、松开=泄力（张力↓但鱼偷线）——在鱼随机「暴走」前盯住 0.4 秒的「!」预兆及时松手（完美读竿），暴走后的 1.3 秒疲态窗口双倍猛拉，张力爆表就是一声「嘣」线断局终，爆线后 <1 秒自动挂下一竿。\n\n🧠 沉迷机制：今天 HN 本周高分区无新休闲爆款（Hopera 昨日已用过），转向钓鱼张力类经典参考系——[Tiny Fishing](https://poki.com/en/g/tiny-fishing)（Poki 亿级播放）和[星露谷钓鱼张力条](https://www.stardewvalley.net/)：借鉴「模拟量肌肉张力」——不是离散点按而是连续拉锯，你按住屏幕时自己的手也在较劲；[Hopera](https://news.ycombinator.com/item?id=49660111)（HN 49660111）的「操作即节拍」被移植成「预兆-释放-疲态反打」读谱循环，把随机暴走变成可练技术；再叠 Flappy Bird 式即死即重开、连击倍率雪球、黄金鱼 5 倍惊喜。玩法内核（模拟量张力管理 vs 随机扰动）为原创组合，与前五期（声呐照明/crash 收手/磁索摆荡/极性双态）零重叠。\n\n🕹️ 在线试玩：https://xiangjianan.github.io/reel-rage-20260913/ ｜仓库：https://github.com/xiangjianan/reel-rage-20260913 （Pages 已生效 HTTP 200，线上无头冒烟 PASS；About 链接已设，双语 README 就位，手机触屏/鼠标/空格均可玩）\n\n⚖️ 今日取舍：砍掉了「剪线换线道具」和收线速度档位保单体量（~480 行）；数值经内置机器人实测——65 秒上岸 4 条、200 秒 9 竿连钓 8（前 30 秒赢一次 ✓）、黄金鱼正常触发、爆线→死因遥测→自动重开全回路验证、全程零 JS 报错；未调好处：机器人 200 秒没死说明前期坡度对高手偏缓（死亡墙估在 #12-20 待真人验证）、完美读竿判定只看「暴走瞬间是否按住」偏宽松、脱钩惩罚（连击清零）偏温和。小插曲：GitHub Pages 首次构建卡 building 15 分钟后转 errored（GitHub 侧瞬时故障，同期 About PATCH 也报 Server Error），补 `.nojekyll` 重推后 1 分钟内上线。本地 demo：/home/xjn/projects/reel-rage-20260913/index.html",
+   "job_id": "4e5dc8651932"
+  },
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "数据已交叉验证完毕（GitHub Search API 精确数据 + README 内容核实 + HN Show HN 交叉对照），候选项目均为 9 月 7 日后创建、且星标增速经 API 确认。以下为最终报告：\n\n---\n\n# 📡 GitHub 每日有趣新项目推送 · 2026-09-13\n\n本期候选池：过去 7 天创建的新仓库（按 star 排序前 30",
+   "full": "数据已交叉验证完毕（GitHub Search API 精确数据 + README 内容核实 + HN Show HN 交叉对照），候选项目均为 9 月 7 日后创建、且星标增速经 API 确认。以下为最终报告：\n\n---\n\n# 📡 GitHub 每日有趣新项目推送 · 2026-09-13\n\n本期候选池：过去 7 天创建的新仓库（按 star 排序前 30）+ HN Show HN 交叉验证。本周「新仓爆发力」异常强劲——前 30 名全部在一周内破 300 star。以下 5 个为精选：\n\n---\n\n### 1. openai/NavierStokesAndEuler\n> OpenAI 官方发布 Navier–Stokes 与 Euler 方程「有限时间爆破」结果的 **Lean 4 形式化证明证书**，配套论文与博客同步开源。\n\n⭐ **1,842**（5 天）| 🖥️ Lean | 创建于 2026-09-08\n\n🎯 **为什么有趣：** 千禧年七大数学难题级别的 PDE 结果，这次不是「AI 声称证明了」，而是给出了机器可验证的 Lean 形式化证书——AI for Math 从演示走向「可审计交付」的标志性一周。前沿性拉满，且 star 增速碾压同类数学仓库。\n\n🏷️ AI / 形式化验证 / 数学 / Lean\n\n---\n\n### 2. sdli1995/dlssg_for_sm86\n> 纯自研实现的 DLSS 帧生成 Mod，让「官方不支持」的 RTX 30 系显卡也能用上 DLSS-G。\n\n⭐ **2,279**（6 天，本周新仓增速第一）| 🖥️ C++/PTX | 创建于 2026-09-07\n\n🎯 **为什么有趣：** 不是简单的 DLL 换包，而是自带 SM75/SM86 PTX/Cubin、把 310.1 模型和推理图全部封装进单个 DLL 的原生重实现——硬核逆向 + 图形学工程功力，直接戳中几千万 RTX 30 用户的痛点。实用性与技术巧思兼备，中文社区出品。\n\n🏷️ 游戏 / 图形学 / 逆向工程 / 社区 Mod\n\n---\n\n### 3. Edge0-AI/Edge0\n> 开源流式 MoE 推理框架：SSD 专家卸载 + Recover-LoRA + prerouter 路由预测，附带 35B-A3B / 8B-A1B 开放权重。\n\n⭐ **1,503**（5 天）| 🖥️ Python | 创建于 2026-09-08\n\n🎯 **为什么有趣：** 主攻「把大 MoE 塞进消费级 PC」——专家按需从 SSD 流式加载 + 路由预测 prefetch，框架和模型一起开源。正是端侧大模型最缺的基础设施拼图，前沿性（MoE 稀疏推理）与实用性（家用显卡跑 35B）双高。\n\n🏷️ AI 推理 / MoE / 端侧 / 开源模型\n\n---\n\n### 4. Vincentwei1021/anything2explainer\n> 一个 Claude Code / Codex Skill：话题进，带配音、字幕和章节进度条的黑底动效讲解视频出。每一帧都用 Remotion 代码绘制。\n\n⭐ **1,121**（5 天）| 🖥️ TypeScript | 创建于 2026-09-08\n\n🎯 **为什么有趣：** 「Agent Skill」生态爆发周的代表作——不是调一次视频生成 API，而是让 agent 用代码逐帧画出确定性动画，中英双语 TTS 齐活。把「知识讲解视频」的边际成本压到一句话，创意与工程质量都在线。\n\n🏷️ AI / Agent Skills / 视频生成 / CLI\n\n---\n\n### 5. EverettFish/holo-card-studio\n> 一个 Codex Skill：一句话生成会随视角流光的 3D 全息闪卡——Four 层绘图 + Blender 工程 + 可交互 Three.js 网页一次交付。\n\n⭐ **1,484**（6 天）| 🖥️ Python | 创建于 2026-09-07\n\n🎯 **为什么有趣：** 把童年文具店门口舍不得买的闪卡变成 agent 流水线：视差、镭射、星光效果全程序化生成，还附赠可随意魔改的 Blender 源工程。给猫做「传说级」卡牌、给独立游戏批量出角色卡——玩法即传播力，本周最「好玩」的项目。\n\n🏷️ AI / Agent Skills / 3D / 创意工具\n\n---\n\n### 📝 编辑推荐\n> 本周主旋律是 **Agent Skills 生态大爆发**（一句话出视频、出闪卡、出公文 DOCX 的 Skill 扎堆出现），同时「官方下场开源」成为新常态：OpenAI 公开 Navier–Stokes 的 Lean 证明、DeepSeek 同期放出 DSA TopK CUDA kernel（DeepSelect）——前沿研究正越来越快地以可复现代码的形式直达开发者。落选惜败者：tokentab（统计 Claude Code/Codex 烧了多少钱的本地 CLI，626★）值得关注。\n\n*数据来源：GitHub Search API（创建时间、精确 star 数）+ README 逐仓核实 + HN Show HN 交叉对照，抓取于 2026-09-13。*",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

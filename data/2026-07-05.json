@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-05",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "All projects verified. Here's the report:\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐（2025.7.5）\n\n### 1. [usestrix/strix](https://github.com/usestrix/strix)\n一句话简介：开源 AI 渗透测试工具，用 AI Agent 自动发现和修复应用安",
+   "full": "All projects verified. Here's the report:\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐（2025.7.5）\n\n### 1. [usestrix/strix](https://github.com/usestrix/strix)\n一句话简介：开源 AI 渗透测试工具，用 AI Agent 自动发现和修复应用安全漏洞\n⭐ 36,435\n🎯 **为什么有趣：** 安全领域与 AI 的结合正当时。Strix 用 AI Agent 自动化渗透测试，输出 SARIF 报告可直接接入 CI 流水线。本周增长约 9,300+ star，说明社区对「AI 做安全审计」的需求非常强烈。创意在于把传统人工渗透测试的思维转化为 AI 自主决策流程。\n🏷️ AI / 安全 / Python / DevOps\n\n---\n\n### 2. [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)\n一句话简介：高性能 MCP Server，将代码库索引为持久知识图谱，毫秒级完成索引、亚毫秒级查询\n⭐ 26,364\n🎯 **为什么有趣：** MCP（Model Context Protocol）生态正在爆发，而这个项目解决了一个核心痛点——让 AI 编码 Agent 拥有**持久且高效的代码库记忆**。用 Rust 编写，索引耗时毫秒级，token 消耗比同类方案少 99%，单个静态二进制零依赖。本周增长约 9,500+ star，已成为 MCP 生态的基础设施级项目。\n🏷️ MCP / AI / Rust / 开发工具 / 代码分析\n\n---\n\n### 3. [alibaba/page-agent](https://github.com/alibaba/page-agent)\n一句话简介：JavaScript 页面内 GUI Agent，用自然语言控制 Web 界面\n⭐ 23,403\n🎯 **为什么有趣：** 阿里巴巴出品的创新方案——不同于 Playwright 等浏览器层面的自动化，Page-Agent **直接注入网页内部**运行，以「类人」方式理解和操作 Web UI。在 Web 自动化、自动化测试、无障碍辅助等场景都有巨大潜力。大厂出品 + 独特技术路径，本周增长 700+ star。\n🏷️ AI / 前端 / Web 自动化 / TypeScript\n\n---\n\n### 4. [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc)\n一句话简介：OpenAI 官方 Claude Code 插件，让 Claude Code 用户调用 Codex 做代码审查和任务委派\n⭐ 24,960\n🎯 **为什么有趣：** **OpenAI 给 Anthropic 的产品做插件**——这本身就很有故事性。提供 `/codex:review` 和 `/codex:adversarial-review` 命令，后者让一个 AI 挑战另一个 AI 的代码，形成「对抗式审查」，创意十足。这标志着 AI 编码工具从竞争走向**互操作**的新时代。\n🏷️ AI / 开发工具 / 插件 / 代码审查\n\n---\n\n### 5. [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)\n一句话简介：终端里的 Agent 多路复用器——在一个终端界面中同时管理和运行多个 AI 编码 Agent\n⭐ 11,657\n🎯 **为什么有趣：** 概念极其巧妙——把 tmux 管理终端会话的思路应用到 AI Agent 上。随着开发者同时使用 Claude Code、Codex 等多个 AI Agent 成为主流，Herdr 解决了一个正在浮现的真实工作流痛点。Rust 编写，已超过 1,000 次 commit，开发非常活跃。本周增长约 3,500+ star。\n🏷️ AI / CLI / Rust / 开发工具 / 终端\n\n---\n\n> 📝 **编辑推荐语：** 本周趋势的核心主题是 **AI Agent 基础设施**——MCP 生态工具、Agent 编排/管理、Agent 间互操作正在成为最受关注的赛道。有趣的是，工具层面正出现从「单一 Agent 独立作战」向「多 Agent 协作甚至对抗」的范式转移，这可能是下一阶段 AI 编程工具的进化方向。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

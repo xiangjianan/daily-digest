@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-07",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Now I have enough data. Let me compile the final report.\n\n---\n\n## 🔥 GitHub 本周新项目精选 (2026.7.7)\n\n---\n\n### 1. [deepseek-ai/DeepSpec](https://github.com/deepseek-ai/DeepSpec) ⭐ 6,351\n\n",
+   "full": "Now I have enough data. Let me compile the final report.\n\n---\n\n## 🔥 GitHub 本周新项目精选 (2026.7.7)\n\n---\n\n### 1. [deepseek-ai/DeepSpec](https://github.com/deepseek-ai/DeepSpec) ⭐ 6,351\n\n一句话简介：DeepSeek 推出的推测解码（Speculative Decoding）训练与评估全栈代码库。\n\n🎯 **为什么有趣**：推测解码是让 LLM 推理提速的关键技术——用小模型\"猜测\"大模型的输出，再并行验证，在不损失精度的前提下大幅降低延迟。DeepSpec 是该领域首个**完整开源的训练框架**，覆盖从数据构造、模型蒸馏到推理评估的全流程。两周内收获 6,300+ star，说明社区对 LLM 推理优化工具有强烈需求。出自 DeepSeek 之手更让人期待其工程质量。\n\n🏷️ `AI` `LLM` `推理优化` `Python`\n\n---\n\n### 2. [elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST) ⭐ 2,859\n\n一句话简介：基于多 Agent 架构的自主红队测试（Red Teaming）平台，自动化进攻性安全评估。\n\n🎯 **为什么有趣**：将安全渗透测试与多 Agent 协作深度结合——多个 AI Agent 各司其职（侦察、漏洞利用、后渗透），自动对目标应用发起模拟攻击并生成报告。5 天内近 3,000 star，增速极快。在 AI 安全越来越受重视的当下，这类\"用 AI 攻击 AI 系统\"的工具有独特的时代意义和实用价值。\n\n🏷️ `AI` `安全` `多Agent` `TypeScript`\n\n---\n\n### 3. [can1357/pon](https://github.com/can1357/pon) ⭐ 256\n\n一句话简介：用 Rust 实现的 Python 3.14 JIT & AoT 原生编译器和运行时，对标 CPython 但直接编译到机器码。\n\n🎯 **为什么有趣**：这是一个\"纯 Rust 写的 Python 编译器\"——使用 Cranelift 作为后端，同时支持 JIT 即时编译和 AoT 提前编译，内含自研 Green Tea 垃圾回收器，并与 CPython 做字节级差异测试。虽然 star 数不高，但创意炸裂：用 Rust 重新实现 Python 运行时的野心，介于 PyPy 和 RustPython 之间但走了一条完全不同的路（先编译再执行）。系统编程和语言实现爱好者必看。\n\n🏷️ `编译器` `Rust` `Python` `JIT` `系统编程`\n\n---\n\n### 4. [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) ⭐ 1,216\n\n一句话简介：将《命令与征服：将军》原版引擎通过 DXVK/MoltenVK 移植到 macOS、iPhone 和 iPad 上原生运行。\n\n🎯 **为什么有趣**：用 EA 开源的 GPL v3 源码，结合 DXVK（D3D→Vulkan 转译层）和 MoltenVK（Vulkan→Metal），硬生生把 2003 年的经典即时战略游戏搬到了 Apple 全平台。3 天内 1,200+ star，老游戏焕发新生的同时，也是 Vulkan 生态跨平台能力的精彩展示。既满足情怀，又展示工程巧思。\n\n🏷️ `游戏` `移植` `Vulkan` `Apple` `C++`\n\n---\n\n### 5. [FractalFir/crustc](https://github.com/FractalFir/crustc) ⭐ 427\n\n一句话简介：将整个 Rust 编译器（rustc）源代码翻译成等价 C 语言实现。\n\n🎯 **为什么有趣**：把一个百万行级别的 Rust 自举编译器逐行翻译成 C，堪称\"系统工程行为艺术\"。虽然本身不追求实用价值，但其意义在于验证 Rust 语义可以无损表达为 C，同时为嵌入式等不支持 Rust 的平台提供了理论上的可能性。项目极小但引发的讨论热度很高（4 天 400+ star），社区评价两极分化，正是\"有趣\"的标志。\n\n🏷️ `编译器` `Rust` `C` `系统编程` `实验性`\n\n---\n\n### ✍️ 编辑推荐\n\n> **本周关键词：编译器与 AI Agent 的共振。** 从 DeepSeek 的推测解码框架到 Rust 写的 Python 编译器、从 rustc 到 C 的极限翻译到多 Agent 红队平台——开源社区在\"AI 推理加速\"和\"底层系统创新\"两条线上同时发力。当 Agent 不再只会写 prompt 而开始自己渗透系统、编译语言，我们正进入一个让人既兴奋又警惕的新阶段。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

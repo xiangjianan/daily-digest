@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-16",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "The Aether core repo has no description, but the GUI wrapper explains it. Now I have all the data I need. Here's my report:\n\n---\n\n## 🔥 GitHub 每日有趣新项目推送 — 2026年7月16日\n\n---\n\n### 1. [x",
+   "full": "The Aether core repo has no description, but the GUI wrapper explains it. Now I have all the data I need. Here's my report:\n\n---\n\n## 🔥 GitHub 每日有趣新项目推送 — 2026年7月16日\n\n---\n\n### 1. [xai-org/grok-build](https://github.com/xai-org/grok-build) — ⭐ 8,200+\n\nSpaceXAI 开源的 AI 编码 Agent 框架和全屏 TUI 界面，支持鼠标交互、可扩展插件架构。两天前发布，一天内斩获 8000+ star，Rust 实现。\n\n🎯 **为什么有趣：** 来自 xAI 官方，2 天内 8000+ star 的爆炸式增长说明社区对「xAI 出手 coding agent 赛道」极其期待。全屏 TUI + 鼠标交互的设计思路不同于常见的 CLI agent，值得关注其对插件生态的野心。\n\n🏷️ AI Agent / Rust / TUI / 编程工具\n\n---\n\n### 2. [littledivy/mimic](https://github.com/littledivy/mimic) — ⭐ 1,100+\n\n拦截任何 iOS/macOS 应用的网络请求，然后用 AI 自动生成对应的 Python 客户端库——把任意 App 变成你的 Python SDK。\n\n🎯 **为什么有趣：** 极具创意的工具。不再手动抓包写 wrapper，而是「听」App 在说什么，AI 自动逆向生成可调用的 Python API。支持 HAR 导入作为后端，3 天内 1000+ star，实用性和技术巧思兼具。来自知名 Python 开发者 littledivy（uv/Ruff 生态贡献者）。\n\n🏷️ Python / 逆向工程 / AI / 工具\n\n---\n\n### 3. [pixel-point/aval](https://github.com/pixel-point/aval) — ⭐ 810+\n\n全新的开源 Web 交互视频格式——内置状态机、帧精确转场、packed-alpha 透明度支持。TypeScript 实现，含完整的 Playground 和 schema 定义。\n\n🎯 **为什么有趣：** 试图重新定义「网页上的交互式视频」这一基础格式，而不仅仅是另一个播放器。内置状态机的概念让视频可以像应用一样响应用户操作，思路前卫。对于一个全新格式提案来说，一周内 800+ star 的热度说明开发者社区对此有真实需求。\n\n🏷️ Web / 前端 / 视频 / 开源标准 / TypeScript\n\n---\n\n### 4. [William-Lu-stack/Flawless](https://github.com/William-Lu-stack/Flawless) — ⭐ 660+\n\n面向 Kubernetes 和云基础设施的 AI SRE AgenticOps 平台——让 LLM Agent 自主监控、诊断、修复集群问题。\n\n🎯 **为什么有趣：** 将 AI Agent 引入 SRE 运维领域的实践性项目，而非停留在概念层面。涵盖了 CMDB、可观测性、Agent 协作、一键本地部署等完整功能链，6 天内 660+ star。这是「AI + 云原生基础设施」方向上少有的完整落地项目。\n\n🏷️ AI / Kubernetes / SRE / 云原生 / DevOps\n\n---\n\n### 5. [MatinSenPai/Aether-GUI](https://github.com/MatinSenPai/Aether-GUI) — ⭐ 420+\n\nAether 翻墙工具的一键桌面 GUI，基于 Tauri v2 + React 19 + Rust 构建，零配置启动，WebGL 3D 背景加持的炫酷界面。\n\n🎯 **为什么有趣：** 技术栈前沿（Tauri v2 + React 19），将网络自由工具做成了用户体验极佳的桌面应用。结合底层的 CluvexStudio/Aether（⭐ 620，纯 Rust 隧道），两天内两个仓库合计 1000+ star，体现了社区对「好用 + 好看」工具的强烈需求。\n\n🏷️ 隐私 / 翻墙 / Tauri / Rust / 桌面应用\n\n---\n\n> 📝 **编辑推荐：** 本周的趋势可以用一个词概括——**「AI Agent 全面开花」**。从 xAI 的 coding agent 框架到 AI 自动化 SRE 运维，从 AI 辅助逆向工程到「反 AI 味」设计工具，Agent 正在渗透到开发工作流的每一个角落。与此同时，Aval 和 Aether 提醒我们：纯技术基建（新视频格式、网络自由）依然是社区最关心的事。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

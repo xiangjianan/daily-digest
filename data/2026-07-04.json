@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-04",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "# 🔥 GitHub 每周有趣新项目推荐\n\n*2026年7月4日 · 第27周*\n\n---\n\n## 1. 🦕 [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)\n> *\"why use many token when few token do trick\"* — 一个 Claud",
+   "full": "# 🔥 GitHub 每周有趣新项目推荐\n\n*2026年7月4日 · 第27周*\n\n---\n\n## 1. 🦕 [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)\n> *\"why use many token when few token do trick\"* — 一个 Claude Code 技能，通过「原始人说话」方式砍掉 65% 的 token 消耗\n\n⭐ **83,300** | 📅 创建于 2026.04\n\n🎯 **为什么有趣：** 以一个梗起家（让 LLM 用原始人语言交流），结果发现精简冗余表达确实能大幅降低 token 用量——实用性远超预期。3 个月狂揽 8 万 star，堪称年度最欢乐也最有用的 prompt engineering 创意。\n\n🏷️ `AI` `Prompt Engineering` `效率工具` `CLI`\n\n---\n\n## 2. 🎬 [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)\n> 全球首个开源智能体视频制作系统——把 AI 编程助手变成完整视频制作工作室\n\n⭐ **32,700** | 📅 创建于 2026.03 | 📈 本周 +9,200\n\n🎯 **为什么有趣：** 将视频生产重新定义为「agentic coding 任务」，12 条管线、52 个工具、500+ 技能。集成 Claude、Copilot、ElevenLabs、Stable Diffusion、Remotion，打通从脚本到成片的完整链路。本周 star 增速惊人。\n\n🏷️ `AI` `视频生成` `Agent` `多媒体`\n\n---\n\n## 3. 🔒 [usestrix/strix](https://github.com/usestrix/strix)\n> 开源 AI 渗透测试工具——自动发现并修复应用漏洞\n\n⭐ **35,200** | 📅 创建于 2025.08 | 📈 本周 +7,500\n\n🎯 **为什么有趣：** 用 LLM 驱动安全审计全流程，自动生成 SARIF 2.1.0 格式报告并集成 CI。让安全团队不再需要手动逐行 fuzzing，AI 帮你做。Apache 2.0 协议，社区活跃度极高。\n\n🏷️ `AI` `安全` `DevSecOps` `Python`\n\n---\n\n## 4. 🦈 [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)\n> 前馈式 3D 基础模型——从流式数据实时重建三维场景\n\n⭐ **9,600** | 📅 创建于 2026.04 | 📈 本周 +2,100\n\n🎯 **为什么有趣：** 用「前馈」架构替代传统的迭代优化方式来做 3D 重建，在实时性上取得突破。对机器人导航、AR/VR、自动驾驶场景理解都有潜在影响。研究前沿，但工程化程度已经不错。\n\n🏷️ `3D` `计算机视觉` `深度学习` `机器人`\n\n---\n\n## 5. 🐑 [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)\n> 终端里的 AI Agent 多路复用器——像 tmux 一样管理多个 AI 编程助手\n\n⭐ **11,000** | 📅 创建于 2026.03 | 📈 本周 +3,000\n\n🎯 **为什么有趣：** 随着大家同时用 Claude Code、Codex、Cursor 干活，统一管理多 Agent 成了真需求。Herdr 用 Rust 写成，轻量高效，精确命中了「多 Agent 时代」的开发者痛点。\n\n🏷️ `CLI` `Rust` `Agent 编排` `开发者工具`\n\n---\n\n### 💡 编辑推荐语\n\n> 本周趋势一目了然：**AI Agent 基础设施全面爆发**。从多路复用器（herdr）到跨平台协作（caveman 的 token 优化），从垂直领域（安全测试 strix、视频制作 OpenMontage）到前沿研究（3D 重建 lingbot-map），开发者工具链正围绕「Agent」进行全面重构——我们正在从「用一个 AI 助手」走向「编排一群 AI 助手」的时代。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

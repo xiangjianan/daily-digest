@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-13",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Now I have all the data I need. Let me compile the report with the best picks.\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐\n> *2026 年 7 月 7 日 – 7 月 13 日*\n\n---\n\n### 1. [ogulcancelik/herdr](https://g",
+   "full": "Now I have all the data I need. Let me compile the report with the best picks.\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐\n> *2026 年 7 月 7 日 – 7 月 13 日*\n\n---\n\n### 1. [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)\n> Agent Multiplexer — 住在你的终端里的 AI Agent 多路复用器\n\n⭐ **15,936** （本周 +3,928）| 🖥️ Rust | 创建于 2026-03-27\n\n🎯 **为什么有趣：** 在 AI Agent 爆发的时代，每个人都在造 Agent，但很少有人想到「如何同时管理多个 Agent」。herdr 把自己定位为终端里的 Agent 多路复用器——让你像管理 tmux 窗口一样管理多个并行 AI Agent（Claude Code、Codex 等）。概念极其新颖，增速惊人（3 周内破万 star），代表了 Agent 编排工具从 GUI 向 CLI 回归的趋势。\n\n🏷️ AI Agent / CLI / Rust / Agent 编排\n\n---\n\n### 2. [TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox)\n> 即时、并发、安全、轻量的 AI Agent 沙箱\n\n⭐ **9,875** （本周 +2,490）| 🖥️ Rust | 创建于 2026-04-10\n\n🎯 **为什么有趣：** 给 AI Agent 跑代码需要一个安全的沙箱，但 Docker 启动慢、资源重。CubeSandbox 用 Rust 写了一个极轻量的替代方案，专注于 AI Agent 场景的代码执行隔离——启动快、并发高、安全性好。腾讯开源的基础设施项目通常质量可靠，这个项目直击 Agent 安全执行的痛点，社区验证非常快（3 个月内近万 star）。\n\n🏷️ 安全 / AI Agent / Rust / 沙箱 / 基础设施\n\n---\n\n### 3. [bradautomates/claude-video](https://github.com/bradautomates/claude-video)\n> 让 Claude 能看视频 — /watch 命令下载、抽帧、转录后全部交给 Claude\n\n⭐ **7,933** | 🖥️ Python | 创建于 2026-04-24（**仅 3 个月前！**）\n\n🎯 **为什么有趣：** 大模型已经能读文字、看图片，但「看视频」一直是短板。claude-video 做了一个巧妙的 pipeline：下载视频 → 提取关键帧 → 转录音频 → 把所有信息打包交给 Claude 分析。不到 3 个月就拿到近 8000 star，说明「让 AI 理解视频」是社区的真实刚需。思路简单但非常实用。\n\n🏷️ AI / 视频分析 / Claude / Python / 多模态\n\n---\n\n### 4. [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard)\n> 阻止 AI Agent 执行危险的 git 和 shell 命令\n\n⭐ **3,456** （今日 +444）| 🖥️ Rust | 创建于 2026-01-07\n\n🎯 **为什么有趣：** 随着 Claude Code、Codex 等编程 Agent 越来越强大，「Agent 误删库/执行危险命令」成了真实的生产事故隐患。这个项目用 Rust 写了一个命令过滤器，拦截 `rm -rf`、`git push --force` 等高危命令。今天单日涨 444 star，说明开发者们对这个安全问题的紧迫感正在快速升温。小而精，解决的是真问题。\n\n🏷️ 安全 / AI Agent / Rust / CLI / 开发工具\n\n---\n\n### 5. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)\n> 免费 AI 网关：一个端点接入 231+ AI Provider（50+ 免费），支持 Claude Code/Codex/Cursor 等\n\n⭐ **16,433** | 🖥️ TypeScript | 创建于 2026-02-13\n\n🎯 **为什么有趣：** AI 编程工具绑死单一 provider 是个大痛点。OmniRoute 做了一个免费的 AI Gateway，一个端点统一路由到 231 个模型提供商（其中 50+ 免费），完美对接 Claude Code、Cursor、Codex 等主流工具。5 个月内破万 star，实用性和增长速度兼具。对于想在不同 LLM 间灵活切换的开发者来说，这是刚需基础设施。\n\n🏷️ AI Gateway / LLM / TypeScript / 免费工具 / Agent 工具链\n\n---\n\n### 📝 编辑推荐\n\n> 本周 GitHub 趋势可以用一句话概括：**「Agent 基础设施」全面爆发**。5 个推荐中有 4 个直接服务于 AI Agent 生态——从安全沙箱（CubeSandbox）、命令防护（destructive_command_guard）、Agent 多路复用（herdr）、到统一 AI 网关（OmniRoute）。这说明行业正从「造 Agent」阶段快速进入「管 Agent」阶段，Agent 编排、安全和路由成了开发者最关心的核心问题。另外 claude-video 代表了多模态 Agent 能力的下一个突破方向。Rust 在这些项目中高频出现也是一个有趣信号——当性能和安全同时重要时，开发者正在押注 Rust。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

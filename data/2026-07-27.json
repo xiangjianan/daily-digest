@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-27",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "The subagent approach didn't yield results. Let me search directly.",
+   "full": "The subagent approach didn't yield results. Let me search directly.",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

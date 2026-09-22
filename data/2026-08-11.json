@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-11",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Now I have comprehensive data. Let me pick the 5 most interesting projects based on the criteria and compile the report.\n\n---\n\n# 🔥 GitHub 本周有趣新项目推荐（2026.8.11）\n\n---\n\n### 1. 📱 [phone",
+   "full": "Now I have comprehensive data. Let me pick the 5 most interesting projects based on the criteria and compile the report.\n\n---\n\n# 🔥 GitHub 本周有趣新项目推荐（2026.8.11）\n\n---\n\n### 1. 📱 [phone-harness](https://github.com/ShawnPana/phone-harness) — 让 AI Agent 直接操控你的真 iPhone\n\n一句话简介：通过 Mac 的 iPhone 镜像窗口 + Vision OCR + CGEvents，让 LLM 代理直接操作真实 iPhone，无需越狱、无需 Xcode。\n\n⭐ **1,416** stars（8 月 7 日创建，一周内爆发）\n\n🎯 **为什么有趣：** 极其有创意的做法——利用 macOS 自带的 iPhone Mirroring 功能作为传输层，OCR 做「眼睛」、HID 事件做「手」，让 AI 代理能像人一样点击、滑动、阅读手机屏幕。这个思路把「Agent 操控手机」从需要复杂框架简化到了零依赖，既实用又优雅。Agent 甚至能在运行中自己编写缺失的工具。\n\n🏷️ AI Agent / 移动端 / 自动化 / Python\n\n---\n\n### 2. ✍️ [human-writing](https://github.com/KKKKhazix/human-writing) — 让 AI 写的中文像人话\n\n一句话简介：中文 AI 写作「去 AI 味」工具——通用创作与改稿 Skill，让 AI 输出的中文读起来像一个具体的人在说话。\n\n⭐ **2,355** stars（8 月 5 日创建）\n\n🎯 **为什么有趣：** 切中了一个真实痛点——AI 生成的中文内容千篇一律、充满「AI 味」。这个项目不是简单的 synonym 替换，而是从语感、节奏、个性化表达层面让 AI 文本真正「拟人化」。作为 Claude Code 的 Skill 开箱即用，实用性很强，一周内 2000+ star 说明社区需求旺盛。\n\n🏷️ AI / NLP / 中文写作 / Agent Skill\n\n---\n\n### 3. 🏯 [kage](https://github.com/MengTo/kage) — 京都山寺夜行：交互式 Three.js 叙事体验\n\n一句话简介：用 Three.js 实时渲染的五章交互式京都深山寺庙夜间漫步体验。\n\n⭐ **796** stars（8 月 8 日创建）\n\n🎯 **为什么有趣：** 技术与艺术的完美结合——在浏览器中用 WebGL 实时构建了一个沉浸式 3D 夜行体验，五章叙事、日本寺庙美学。创意编码（Creative Coding）领域的上乘之作，展示了 WebGPU/Three.js 在交互式叙事中的潜力。对于前端开发者来说是极好的学习范例。\n\n🏷️ Three.js / WebGL / 创意编码 / 交互式叙事 / 前端\n\n---\n\n### 4. 🔧 [pdf-inspector](https://github.com/firecrawl/pdf-inspector) — Rust 极速 PDF 智能检测引擎\n\n一句话简介：用 Rust 写的 PDF 检查/分类/文本提取库，能智能识别扫描件 vs 文本 PDF，自动路由到不同的处理管线。\n\n⭐ **14,505** stars（本周 +7,143）\n\n🎯 **为什么有趣：** 解决了一个「不起眼但极其常见」的问题——处理 PDF 前先判断它是扫描件还是文本版。看似简单，但在文档处理管线中是关键的第一步。本周爆发式增长 7000+ stars，说明大量开发者在生产环境中被这个问题折磨过。Rust 实现 + 速度极快，实用性与性能兼备。\n\n🏷️ Rust / PDF / 文档处理 / OCR\n\n---\n\n### 5. 🧠 [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) — AI Agent 的团队级记忆中枢\n\n一句话简介：腾讯云开源的 Agent 记忆系统，将对话、文档、代码转化为四类可复用的记忆资产（Chat Memory、Skill、LLM-Wiki、Code-Graph），跨 Agent/框架共享。\n\n⭐ **19,629** stars（本周 +7,555）\n\n🎯 **为什么有趣：** Agent 记忆是当前 AI Agent 架构的核心瓶颈之一。这个项目提出了一个系统化的记忆资产管理框架——不只是简单的向量存储，而是将知识分为四种结构化类型，支持治理、共享和跨框架复用。腾讯云出品，工程质量有保障，本周 7500+ star 的增长反映社区对 Agent 基础设施的强烈需求。\n\n🏷️ AI Agent / 记忆系统 / 知识管理 / TypeScript\n\n---\n\n> **📡 本周趋势观察：** 本周 GitHub 最火的两个方向——**AI Agent 基础设施**（记忆管理、状态内核、手机操控）和 **MiniMax H3 音频模型生态**（antirez 亲自写的 C 推理引擎 h3.c、ComfyUI 集成等）。Agent 不再只是「聊天」，开始拥有记忆、操控硬件、持久运行——真正的「数字员工」雏形正在成型。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

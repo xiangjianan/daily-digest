@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-31",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 本周新项目推荐（2026.7.31）\n\n---\n\n### 1. [block/buzz](https://github.com/block/buzz)\n一句话简介：「蜂群思维」协作通信平台——用 Rust 构建的去中心化群体智能沟通工具。\n\n⭐ 18,819 stars（本周 +12,444 ⚡）\n\n🎯 **为什么有趣**：本周增速最",
+   "full": "## 🔥 GitHub 本周新项目推荐（2026.7.31）\n\n---\n\n### 1. [block/buzz](https://github.com/block/buzz)\n一句话简介：「蜂群思维」协作通信平台——用 Rust 构建的去中心化群体智能沟通工具。\n\n⭐ 18,819 stars（本周 +12,444 ⚡）\n\n🎯 **为什么有趣**：本周增速最快的项目之一。概念非常新颖——把「蜂群思维」的理念落地为实际产品，让群体协作不再是传统的聊天室模式，而是像蜂群一样形成集体智能。Rust 实现保证了高性能，适合对去中心化协作感兴趣的开发者。\n\n🏷️ `Rust` / `通信` / `去中心化` / `协作工具`\n\n---\n\n### 2. [ruvnet/RuView](https://github.com/ruvnet/RuView)\n一句话简介：用普通 WiFi 信号实现实时空间感知、生命体征监测和人员检测——无需任何摄像头。\n\n⭐ 87,794 stars（本周 +3,008）\n\n🎯 **为什么有趣**：极其有创意。不需要摄像头、雷达或任何专用硬件，仅靠分析现有 WiFi 信号就能做空间智能——监控人体存在、呼吸心跳等生命体征。隐私友好且零硬件成本，在智能家居、安防、健康监测等场景有巨大潜力。Rust 实现，项目成熟度高。\n\n🏷️ `Rust` / `硬件` / `IoT` / `信号处理` / `隐私计算`\n\n---\n\n### 3. [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)\n一句话简介：一种全新的「无向量」文档索引方案，基于推理而非嵌入向量来实现 RAG 检索。\n\n⭐ 34,930 stars（本周 +757）\n\n🎯 **为什么有趣**：当前 RAG 领域几乎全部依赖向量嵌入 + 语义搜索，PageIndex 提出了一种完全不同的路线——直接用推理能力来做文档检索和归因。这有可能从根本上改变 RAG 的技术栈，减少对向量数据库的依赖。属于值得长期关注的基础设施级创新。\n\n🏷️ `AI` / `RAG` / `检索增强生成` / `NLP` / `Python`\n\n---\n\n### 4. [tokio-rs/topcoat](https://github.com/tokio-rs/topcoat)\n一句话简介：来自 Tokio 核心团队的「开箱即用」Rust Web 框架。\n\n⭐ 3,990 stars（本周 +1,263）\n\n🎯 **为什么有趣**：Rust Web 生态一直缺一个像 Rails/Next.js 那样「batteries-included」的框架，Topcoat 正在填补这个空白。由 Tokio 团队亲自操刀，意味着异步性能有保障。本周增速对于一个刚推出的框架来说非常亮眼（周增速超 30%），说明社区对 Rust 全栈开发的强烈需求。\n\n🏷️ `Rust` / `Web 框架` / `全栈` / `Tokio`\n\n---\n\n### 5. [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic)\n一句话简介：开源的 Webflow/Framer/WordPress 替代品——带 AI 能力的可视化 CMS，输出纯净静态页面。\n\n⭐ 6,858 stars（本周 +2,872）\n\n🎯 **为什么有趣**：把「可视化建站」和「AI 驱动」结合起来，同时保持静态输出的性能优势。不仅是个 CMS，更引入了 AI agent 辅助设计的能力。自托管、无 vendor lock-in，对厌倦 SaaS 订阅的开发者和团队很有吸引力。42% 的周增速说明市场需求旺盛。\n\n🏷️ `TypeScript` / `CMS` / `AI` / `静态站点` / `可视化编辑器`\n\n---\n\n> **📊 编辑推荐**：本周最明显的趋势是 **Rust 的全面渗透**——从通信协议到 Web 框架、从硬件感知到对象存储，Rust 正在取代 Go/Python 成为基础设施项目的首选语言。同时，**AI Agent 的安全治理和标准化**（Microsoft Agent Governance Toolkit、NVIDIA OpenShell）开始获得社区关注，这是 Agent 生态走向成熟的信号。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

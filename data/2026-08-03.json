@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-03",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "两个搜索子代理已返回结果。现在我来交叉验证并整理最终推荐。\n\n## 🔍 GitHub 每日有趣新项目推送（2026.08.03）\n\n---\n\n### 1. [yc-software/qm](https://github.com/yc-software/qm) — YC 官方「多人协作 AI Agent 框架」\n> 多 Agent 并行协作完成工作的编排框架\n",
+   "full": "两个搜索子代理已返回结果。现在我来交叉验证并整理最终推荐。\n\n## 🔍 GitHub 每日有趣新项目推送（2026.08.03）\n\n---\n\n### 1. [yc-software/qm](https://github.com/yc-software/qm) — YC 官方「多人协作 AI Agent 框架」\n> 多 Agent 并行协作完成工作的编排框架\n\n⭐ **~8,100**（5 天内） | 🖊️ TypeScript | 📅 2026-07-29 创建\n\n🎯 **为什么有趣：** Y Combinator 官方亲自下场做 AI Agent 编排工具，5 天破 8000 星，增速惊人。QM 让多个 AI Agent（如 Claude Code、OpenAI Codex）协同执行任务，支持 AWS microVM 沙箱隔离和 Slack 集成，代表了 AI 编程从「单 Agent」到「多 Agent 协同」的范式演进。\n\n🏷️ `AI` `Agent` `编排` `TypeScript`\n\n---\n\n### 2. [sqliteai/waste](https://github.com/sqliteai/waste) — 无需足够 RAM 即可跑 2.78 万亿参数模型\n> 从 NVMe SSD 流式加载激活权重，突破内存限制运行 Kimi K3\n\n⭐ **~1,300**（6 天内） | 🖊️ C | 📅 2026-07-28 创建\n\n🎯 **为什么有趣：** 来自 SQLite 核心团队的延伸项目（sqliteai），纯 C 语言、零依赖、可嵌入。通过「只从 NVMe 加载当前激活的专家权重」这一极其巧妙的 MoE 稀疏利用策略，在消费级硬件上运行 2.78T 参数的 Kimi K3 模型。Apache 2.0 开源，系统级创新的典范。\n\n🏷️ `AI推理` `系统编程` `C` `MoE`\n\n---\n\n### 3. [microsoft/skill-recorder](https://github.com/microsoft/skill-recorder) — 微软：录屏自动生成 AI 技能\n> 录制屏幕操作，用 Copilot CLI 将其重建为可复用的自动化 Skill\n\n⭐ **~1,100**（5 天内） | 🖊️ TypeScript | 📅 2026-07-29 创建\n\n🎯 **为什么有趣：** 微软官方出品的 Electron 桌面应用。你演示一遍操作流程，AI 自动将其抽象为「意图 + 有序步骤」的可复用技能，兼容 Copilot Studio 等平台。「演示学习」（Learning from Demonstration）走向工程实用化的标志性项目。\n\n🏷️ `AI` `自动化` `桌面工具` `TypeScript`\n\n---\n\n### 4. [trycompai/crm](https://github.com/trycompai/crm) — 开源「Agent-First」CRM\n> 以 AI Agent 为核心驱动力的客户关系管理系统\n\n⭐ **~2,000**（3 天内） | 🖊️ TypeScript | 📅 2026-07-31 创建\n\n🎯 **为什么有趣：** 3 天破 2000 星。「Agent-first」是 2026 年 SaaS 的新范式——不再让人操作软件界面，而是让 AI Agent 自动执行客户跟进、数据录入、销售流程编排。这是目前开源社区对「Agentic SaaS」概念最完整的落地实现之一。\n\n🏷️ `AI` `CRM` `SaaS` `TypeScript`\n\n---\n\n### 5. [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) — 纯 C99 极致量化：单 CPU 跑万亿参数\n> 利用 MoE 稀疏激活 + AVX2 SIMD + MXFP4 量化，仅需 8.24GB 内存\n\n⭐ **~550**（2 天内） | 🖊️ C99 | 📅 2026-08-01 创建\n\n🎯 **为什么有趣：** 与 waste（NVMe 流式路线）互为补充，走的是「极致 CPU 量化」路线——无 BLAS、无框架、无 GPU，纯手写 C99，配有一篇 Medium 技术博客详细讲解原理。对想深入理解 LLM 推理优化的人来说是绝佳学习素材。\n\n🏷️ `AI推理` `量化` `C` `教学`\n\n---\n\n### 📰 编辑推荐\n\n> 本周 GitHub 最鲜明的主题是 **「消费级硬件跑万亿参数模型」**——Kimi K3 开源后，社区涌现出多条推理优化路线（NVMe 流式 / CPU 极致量化），每个都极具创意。同时，**多 Agent 协作框架**（qm）和 **Agent-First SaaS**（crm）标志着 AI 正从「辅助人类」向「自主执行」进化。这两条线——底层推理效率 + 上层 Agent 自主化——共同指向一个趋势：**2026 年下半场的核心战场是「让 AI Agent 在有限资源下可靠地干活」。**",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

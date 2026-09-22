@@ -1,0 +1,35 @@
+{
+ "date": "2026-09-21",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-09-21] 每日创意小工具 #9：DALTON（色觉障碍视觉模拟器）\n\n💡 一句话介绍：拖入/粘贴一张图，立刻看到它在 8 类色觉障碍者眼中的样子——严重度 0–100% 连续可调、左右对比、一键导出 PNG，全部像素在你浏览器本地变换，零上传。\n\n🧠 创意来源：今天 HN Show HN 上客户端小工具合集扎堆（[DH Tools — 4",
+   "full": "🔧 [2026-09-21] 每日创意小工具 #9：DALTON（色觉障碍视觉模拟器）\n\n💡 一句话介绍：拖入/粘贴一张图，立刻看到它在 8 类色觉障碍者眼中的样子——严重度 0–100% 连续可调、左右对比、一键导出 PNG，全部像素在你浏览器本地变换，零上传。\n\n🧠 创意来源：今天 HN Show HN 上客户端小工具合集扎堆（[DH Tools — 40 client-side tools](https://news.ycombinator.com/item?id=49771053)、[Web Tools List](https://news.ycombinator.com/item?id=49773111)），加上 [Peelaway](https://news.ycombinator.com/item?id=49758906) 这类\"图像→另一种眼睛\"的变换产品。原创点在于：现有色盲模拟器基本是\"传图到服务器\"的在线服务，我把三层东西压进一个单文件——①粘贴即见（截图 Ctrl+V 直接判）；②严重度是连续光谱而非只有开/关的二色视（异常三色视是最常见的一类，却几乎没有工具让你\"扫\"它）；③线性 RGB 空间的 Viénot/Brettel 矩阵 + 完整 sRGB gamma 往返，纯本地。工具名致敬 1794 年写下首篇色盲论文的 John Dalton。内置 demo 是一张程序生成的\"踩雷配色\"仪表盘（红/绿卡片、黄/橙 banner、6 色状态点），一眼看懂设计师为什么要自查。\n\n🛠️ 在线使用：https://xiangjianan.github.io/dalton-20260921/ ｜仓库：https://github.com/xiangjianan/dalton-20260921\n\n⚖️ 今日取舍：\n- 简化了：异常三色视用\"向二色视矩阵插值\"近似（学术上 Machado 2009 的 10 组严重度矩阵更准，但体积翻倍，README 已如实注明这是设计辅助而非医学模拟）；对比视图用左右并排而非拖拽分割线。\n- 没打磨好的：大图限长边 1400px 换即时响应，超大图会先被缩放。\n- 自检实录：纯函数仿真 8/8（红绿盲签名=红像素 R/G 通道从差 155 收敛到 <30；蓝黄盲 B 通道差从 71 塌到 ≤25）、playwright 无头 10/10 零 JS 报错、线上复验通过。冒烟还真抓出 2 个 bug：CSS `display:flex` 覆盖了 `hidden` 属性导致 Clear 后面板藏不住；demo 按钮初始不可达——都已修复。\n- 明天可迭代：拖拽分割线对比、从图片提取\"色盲碰撞对\"警告清单（自动指出哪些颜色对在该类型下不可区分）。",
+   "job_id": "6ff8e716c927"
+  },
+  {
+   "name": "每日沉迷小游戏",
+   "emoji": "🎮",
+   "time": "10:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🎮 [2026-09-21] 每日沉迷小游戏 #13：FLATLINE（心跳节拍）\n\n💡 一句话玩法：光环向中心心脏收缩，贴合瞬间点击——**你的点击时刻就是你的心率**，每拍自动加速 2.5%，BPM 从 75 爬向 187，慌一下节奏就崩，错 3 次心电归平。\n\n🧠 沉迷机制：HN Algolia 连续第 7 天无新爆火休闲游戏，但今日热帖[「在线赌博成",
+   "full": "🎮 [2026-09-21] 每日沉迷小游戏 #13：FLATLINE（心跳节拍）\n\n💡 一句话玩法：光环向中心心脏收缩，贴合瞬间点击——**你的点击时刻就是你的心率**，每拍自动加速 2.5%，BPM 从 75 爬向 187，慌一下节奏就崩，错 3 次心电归平。\n\n🧠 沉迷机制：HN Algolia 连续第 7 天无新爆火休闲游戏，但今日热帖[「在线赌博成瘾：像 80 年代的快克」](https://news.ycombinator.com/item?id=49781194)正好佐证本作钩子——**紧张感递增与自设节奏的失控感**。借鉴 osu 缩圈的视觉判定语言 + pop-the-lock 的时间窗，核心差异：游戏不发放节拍，它测量*你在压力下能不能不抢拍*——人类越急越快，这正是死亡区。叠加：3 秒上手 / 单局 30-90 秒 / ECG 走线把你的表现画成心电图（技术可见化）/ 连击 ×5 倍率 / 亚秒重开 + 最高分攀比。动词族启用「时间窗节奏」（前 12 期未用）。\n\n🕹️ 在线试玩：https://xiangjianan.github.io/flatline-20260921/ ｜ 仓库：https://github.com/xiangjianan/flatline-20260921\n\n⚖️ 今日取舍：① 判定只保留 PERFECT/GOOD 两档（砍掉 MISS 弹字）保持画面干净；② 完美 bot 22 秒 45 拍全中 0 失误——机器无压力是预期，人类死亡区在 120 BPM+ 的抢拍倾向；若实测太难，明天可把衰减降到 0.978 或宽限窗延至前 15 拍；③ TACHY/BRADY 心律失常事件目前只影响单拍，可迭代成持续 3 拍的「发作」增加混乱感；④ 遗留一处无害冗余变量待清理。自检全绿：语法 ✓ / 无头 Playwright 冒烟（45 连击、死亡→重开回路、0 报错）✓ / 线上 Pages 实测可玩 0 报错 ✓。本地路径：`/home/xjn/projects/flatline-20260921/`。",
+   "job_id": "4e5dc8651932"
+  },
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "信息已足够充分，交叉验证完成。HN 1930 分的 Jev 原帖 + 各仓库 API 数据 + README 全部核实。整理最终报告。\n\n---\n\n# 📡 GitHub 每日有趣新项目推送 · 2026-09-21\n\n### 1. [browser-use/jev-ultrafast](https://github.com/browser-use/jev-u",
+   "full": "信息已足够充分，交叉验证完成。HN 1930 分的 Jev 原帖 + 各仓库 API 数据 + README 全部核实。整理最终报告。\n\n---\n\n# 📡 GitHub 每日有趣新项目推送 · 2026-09-21\n\n### 1. [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)\n> 给浏览器 Agent 换上「动态索引动作空间」：Jev 直接选出操作和元素，小 LLM 只在需要打字时才生成文本——在 Google Flights 上 7.1 秒订好苏黎世→伦敦的机票。\n\n⭐ **13,611**（5 天，约 2,700/天）| 🖥️ Python | 创建于 2026-09-16\n\n🎯 **为什么有趣：** 本周 GitHub 最大事件的旗舰之作。TypeSafe AI 上周发布「System One 模型 Jev」（HN 一举拿下 **1930 分**：用一次前向传播直接输出类型化决策，替代 LLM 逐 token 生成），一周内在 GitHub 上长出 20+ 衍生项目，而 browser-use 这个把 Jev 用在浏览器自动化上的 demo 是其中最炸眼的——速度从「分钟级」压缩到「秒级」，创意、增速、前沿性三项全占。\n\n🏷️ AI / Agent / 前沿模型\n\n---\n\n### 2. [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)\n> 完全开源的多语言「System 1 决策引擎」：对 100+ 语言的类型化问题（选择/打分）单次前向 33ms 给出答案，权重在 HuggingFace、包在 PyPI。\n\n⭐ **6,403**（3 天，约 2,100/天）| 🖥️ Python | 创建于 2026-09-18\n\n🎯 **为什么有趣：** Jev 是闭源服务，而 laya 是社区对这一范式的开源回答——非自回归、单前向、无文本生成，甚至有第三方移植到 Apple MLX / Core ML（`laya-mlx` 在 M3 Max 上跑出 7–14ms 短决策）。同一生态里还有 3090 本地复现版 [SemIf](https://github.com/TheoLeeCJ/SemIf)（2.7K⭐）、给 Claude Code 做「逐字保留式」上下文压缩的 [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)（5.7K⭐）——一周内自发形成完整生态，像极了当年的 llama.cpp 时刻。\n\n🏷️ AI / 开源模型 / 端侧推理\n\n---\n\n### 3. [zai-org/ZCode](https://github.com/zai-org/ZCode)\n> Z.ai（智谱）开源的全套 AI 编程工作台：Electron 桌面端 + 浏览器工作台 + 终端 Agent CLI，客户端、后端、Agent 运行时源码全部公开。\n\n⭐ **4,541**（仅 1 天！）| 🖥️ TypeScript | 创建于 2026-09-20\n\n🎯 **为什么有趣：** 本周 star 增速最快的仓库——上线一天破 4.5K。在 Claude Code、Codex 垄断话题的编程 Agent 赛道，Z.ai 直接把整条产品线（桌面应用+Web+CLI+运行时）开源，对国内开发者尤其值得关注：文档中英双语、可以完整自部署和二次开发。实用性拉满，也是「编程 Agent 桌面化」趋势的最新信号。\n\n🏷️ AI / 编程工具 / 开源\n\n---\n\n### 4. [robbietilton/Compositor](https://github.com/robbietilton/Compositor)\n> Mac 原生 Swift 写的全功能 Photoshop 替代品：图层、蒙版、混合模式、曲线/色阶/渐变映射调整层，完全免费开源。\n\n⭐ **3,974**（5 天）| 🖥️ Swift | 创建于 2026-09-16\n\n🎯 **为什么有趣：** 独立开发者对「Photoshop 太贵、GIMP 不顺手」的直接回击——用原生 Swift 从零写出图层合成、剪贴蒙版、调整层这些 PS 核心能力，且源码开放可魔改。创作工具赛道鲜有人敢碰的硬骨头，实用性与创新性兼具，5 天近 4K star 说明痛点真实存在。\n\n🏷️ 桌面应用 / 创意工具 / macOS\n\n---\n\n### 5. [theoephraim/awesome-cloudflare-selfhosted](https://github.com/theoephraim/awesome-cloudflare-selfhosted)\n> 「把自托管搬进你的 Cloudflare 账号」精选清单：一个 Worker + D1 + R2 就能替代 Calendly、Canny、Google Workspace 等 SaaS 订阅。\n\n⭐ **750**（6 天）| 🖥️ JavaScript | 创建于 2026-09-15\n\n🎯 **为什么有趣：** 找到了 self-hosted 清单的新大陆——不需要 VPS、不需要月账单，`wrangler deploy` 一发入魂。作者不做甩手掌柜：每个条目都实际读取项目许可证文件和部署配置做审计，而非照抄项目自述。「免服务器自托管」这个切口既有巧思又解决真实问题（SaaS 订阅疲劳），增速在 awesome 类项目里相当快。\n\n🏷️ 工具 / 自托管 / Cloudflare / 清单\n\n---\n\n### 📝 编辑推荐\n> 本周关键词毫无悬念是 **「System One / 类型化决策」范式爆发**：TypeSafe 的 Jev 在 HN 拿 1930 分后，一周内 GitHub 自发长出 20+ 衍生项目——云端 Agent、开源复现、端侧 MLX 运行时、上下文压缩插件应有尽有，生态成型速度堪比当年 llama.cpp；与此同时编程 Agent 工具链仍在白热化内卷（ZCode 一天 4.5K star）。彩蛋：想轻松一下可以看看 [window-sweaters](https://github.com/saragordic/window-sweaters)——给 Mac 窗口边缘织毛衣的菜单栏小应用（641⭐）🧶",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

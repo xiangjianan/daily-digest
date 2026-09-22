@@ -1,0 +1,35 @@
+{
+ "date": "2026-09-19",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-09-19] 每日创意小工具 #7：ENVPORT\n\n💡 一句话介绍：粘贴一份 .env，瞬间移植成 shell export / docker run / Dockerfile / JSON / YAML / TS interface / 整理版 .env 七种形态，同时实时体检出重复键、未引号含空格值、小写键、未闭合引号等隐患，还自带类型",
+   "full": "🔧 [2026-09-19] 每日创意小工具 #7：ENVPORT\n\n💡 一句话介绍：粘贴一份 .env，瞬间移植成 shell export / docker run / Dockerfile / JSON / YAML / TS interface / 整理版 .env 七种形态，同时实时体检出重复键、未引号含空格值、小写键、未闭合引号等隐患，还自带类型推断（`PORT=8080`→number，`DEBUG=false`→boolean）。\n\n🧠 创意来源：今天在 HN Show HN 看到「QuickTiny — paste anything」（paste-first 的单一交互范式）和「Jinx — link shortener hosted free on GitHub Pages」（零后端 + Pages 的实用主义发布方式）。原创点在于把「语法移植」和「隐患体检」合成一次粘贴：市面没有轻量的 .env 移植单文件工具，复制粘贴 env 到不同目标环境是每个开发者的真实高频痛点，ENVPORT 做到边打字边出结果、警告带行号定位、七格式一键复制，且密钥永不上传。\n\n🛠️ 在线使用：https://xiangjianan.github.io/envport-20260919/ ｜ 仓库：https://github.com/xiangjianan/envport-20260919\n\n✅ 质量验证：逻辑仿真 28/28 断言通过（引号剥离、行内注释、类型推断、shell 转义、坏输入恢复、多行值、合法输入零误报）；playwright 无头冒烟本地 + 线上各一轮，14 项交互全过、0 JS 报错；移动端单列布局确认；单文件 400 行、零依赖零构建、双击即用。README 双语 + MIT License 已就位。\n\n⚖️ 今日取舍：① JSON/YAML 的数值推断会把「其实是字符串的纯数字」（版本号、区号）也转成 number——作为可接受默认，README 注明可手调；② 未做 .env 文件拖拽上传（粘贴已覆盖核心场景）；③ docker run 输出尾部镜像名是占位符需手改。明天可迭代：变量引用检测（`KEY=${OTHER}` 高亮依赖关系）、.env.example 对比找缺失项。\n\n📄 期数摘要已归档：`~/.hermes/cron/output/daily-creative-tool/2026-09-19_issue07_envport.md`（第 7 期，明天第 8 期）。",
+   "job_id": "6ff8e716c927"
+  },
+  {
+   "name": "每日沉迷小游戏",
+   "emoji": "🎮",
+   "time": "10:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🎮 [2026-09-19] 每日沉迷小游戏 #11：**BOOMER（回旋果园）**\n💡 一句话玩法：一指甩出回旋镖在弧线上切果得分，镖必然折返但**必须接住才能再掷**——轻甩稳稳回旋，全力一掷直接飞出屏（丢镖扣命），3 命耗尽即终，点一下秒重开。\n🧠 沉迷机制：HN 当日无新爆火休闲款（连续第 5 天，仅 Valve 开源 Lepton https:/",
+   "full": "🎮 [2026-09-19] 每日沉迷小游戏 #11：**BOOMER（回旋果园）**\n💡 一句话玩法：一指甩出回旋镖在弧线上切果得分，镖必然折返但**必须接住才能再掷**——轻甩稳稳回旋，全力一掷直接飞出屏（丢镖扣命），3 命耗尽即终，点一下秒重开。\n🧠 沉迷机制：HN 当日无新爆火休闲款（连续第 5 天，仅 Valve 开源 Lepton https://github.com/niceman35/lepton 供安卓游戏上 Steam），参考系回经典——Fruit Ninja 的滑动切割爽感、Flappy Bird 的即死秒重开、Peggle 的「等待回旋」期待感。借鉴钩子：①一个动词 3 秒上手；②**力度即风险旋钮**（高处的果要狠甩、狠甩近丢镖，每掷皆小赌注）；③回程自带「它回得来吗」悬念+接住音效双反馈；④单局 30–90s + 死亡→防误触→一键重开；⑤连切 ×5 滚雪球；⑥果实保底刷在中力可达带，永无死局。\n🕹️ 在线试玩：https://xiangjianan.github.io/boomer-20260919/ ｜ 仓库：https://github.com/xiangjianan/boomer-20260919\n⚖️ 今日取舍：物理调了三轮——初版追踪力 1750 让镖永远飞不出去（丢镖机制失效，自杀 bot 都死不了），改距离门控后强区数学仍不成立（近手区速度直接归零），最终定稿恒定弱追踪 460+drag 0.22，让初速决定命运，双 bot 交叉验证才收敛（满配 bot 25s 130 分 0 死；自杀 bot 稳定丢镖扣命走通重开回路）。数值遗憾：bot 只会直线瞄准不考虑弧线弯曲，得分偏低，人类实际可打出更高连切；若实测偏易，明天可把切割半径 34→30 或炸弹起始 22s→18s。明天候选：双指/多点、时间窗节奏、画圈手势。",
+   "job_id": "4e5dc8651932"
+  },
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "三个数据源交叉验证完毕（GitHub Search API 按创建时间过滤 + Trending 周榜 + HN Algolia），关键项目的 README 都已核实。本周故事线非常清晰，整理最终报告。\n\n---\n\n# 📡 GitHub 每日有趣新项目推送 · 2026-09-19\n\n## 1. Jev Ultrafast — \"Jev 生态”本周大爆发\n*",
+   "full": "三个数据源交叉验证完毕（GitHub Search API 按创建时间过滤 + Trending 周榜 + HN Algolia），关键项目的 README 都已核实。本周故事线非常清晰，整理最终报告。\n\n---\n\n# 📡 GitHub 每日有趣新项目推送 · 2026-09-19\n\n## 1. Jev Ultrafast — \"Jev 生态”本周大爆发\n**[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast)**\n\n> ChatGPT/RLHF 发明者本周发布 TypeSafe.ai 及其「小决策模型」Jev 后，GitHub 三天内涌出十几个衍生项目；这是其中最猛的旗舰 Demo：浏览器 Agent 把动作空间做成动态索引表，由 Jev 直接「选操作+选元素」，只有需要打字时才调用小 LLM 生成文本\n\n⭐ **6,304**（创建 3 天，9-16） | 🖥️ Python\n\n🎯 **为什么有趣：** 这是本周最热的范式转向——不做「生成文本再解析成 if」，而是让模型直接输出决策（社区称为 \"semantic if\"）。效果是恐怖的效率：Demo 里一句自然语言目标让 Google Flights 完成苏黎世→伦敦搜索只需 7.1 秒。衍生生态一天一个：[fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction)（3,628★，用 Jev 决策替代 Claude Code 有损压缩摘要）、[SemIf](https://github.com/TheoLeeCJ/SemIf)（1,686★，开源复刻版，消费级 3090 本地跑）、还有 jev-trader、NanoJev 等。一条新赛道在 72 小时内成形，极具观察价值\n\n🏷️ AI Agent / 推理效率 / 浏览器自动化\n\n## 2. OpenAI Navier–Stokes & Euler 形式化证明\n**[openai/NavierStokesAndEuler](https://github.com/openai/NavierStokesAndEuler)**\n\n> OpenAI 发布 Navier–Stokes 与 Euler 方程「有限时间爆破」结果的论文及配套 Lean 4 机器可验证证明\n\n⭐ **1,953**（创建 9-08） | 🖥️ Lean\n\n🎯 **为什么有趣：** 前沿性拉满的一条。AI for Math 从「辅助解题」走到「交付形式化证书」：仓库内是完整 Lean 4 公式化，论文 PDF + 官方博客同时公开，正面对准千禧年难题级别的流体力学正则性问题（构造光滑初值使解在有限时间内爆破）。无论你对结果怎么看，「AI 产出、Lean 验证」的科研闭环已经跑通，这是本周科学界级别的新闻\n\n🏷️ AI for Math / 形式化验证 / Lean\n\n## 3. DLSSG for SM86 — 给 RTX 30/20 系显卡「解锁」DLSS 帧生成\n**[sdli1995/dlssg_for_sm86](https://github.com/sdli1995/dlssg_for_sm86)**\n\n> 通过改写显卡架构上报 + 重写推理内核，在 RTX 30（SM86）和 RTX 20（SM75）上启用原本被 NVIDIA 锁死的 DLSS 帧生成，画面与官方逐位一致\n\n⭐ **3,464**（创建 9-07） | 🖥️ C++（Windows x64 / D3D12）\n\n🎯 **为什么有趣：** 实用性与技术巧思双满分的逆向工程之作：把向 Streamline 上报的架构改成 RTX 50 以绕过启动检查，同时确保 NVIDIA 自家组件拿到真实架构避免驱动崩溃（0.3.4 修的正是这个坑），并重写了推理内核做到「3080 Ti 输出与 RTX 5070 逐位相同」。数千万上不了 RTX 40/50 的老卡用户直接受益，本周更新极活跃，中文开发者作品\n\n🏷️ 游戏硬件 / 逆向工程 / 驱动黑魔法\n\n## 4. fugleramme — 会听鸟叫的电子墨水屏画框\n**[arnegiacomo/fugleramme](https://github.com/arnegiacomo/fugleramme)**\n\n> 树莓派 + 墨水屏相框：BirdNET 本地声学识别窗外的鸟，再把「此刻听到的鸟」渲染成 19 世纪手绘雕版风格的插画显示在框里\n\n⭐ **3,068**（本周 HN Show HN 榜首，2,329 分） | 🖥️ Python / 硬件\n\n🎯 **为什么有趣：** 本周 Hacker News 全站冠军。它是「全链路本地 AI + 实体硬件 + 审美」的教科书示范：识别、推理全离线，输出不是冷冰冰的列表而是维护得极讲究的历史博物画风格卡片，作者挪威的厨房窗户就是活的 demo 页。爆火发生在过去 7 天内，完美命中「创意 + 爆火增长」双标准\n\n🏷️ 硬件 / 本地 AI / 树莓派 / 创意\n\n## 5. 青简 Qingjian — 边打字边学语言的输入法\n**[qingjian-team/qingjian](https://github.com/qingjian-team/qingjian)**\n\n> 用 Rust 写的拼音输入法，独特点在：候选词旁边永远多一条你正在学的外语的译词，打字即沉浸式复习\n\n⭐ **1,444**（创建 9-07） | 🖥️ Rust\n\n🎯 **为什么有趣：** 把两个高频行为（打中文 + 背单词）焊接在一起的巧思，12 天 1,444 星说明切中了真实痛点。不做 chatbot 不做套壳，而是从输入法这个最日常的入口做语言学习，属「成熟品类里长出新角度」的典型；Rust 实现 + 官网完备，工程质量也在同批量新项目里拔尖\n\n🏷️ 输入法 / Rust / 语言学习 / 效率\n\n---\n\n**📝 编辑推荐：** 本周的主旋律是「决策替代生成」——TypeSafe 的 Jev 在 72 小时内催生一整条赛道，预示 Agent 的下一步竞争在单位决策成本而非模型参数；与此同时 OpenAI 把 Lean 形式化证明交付成公共仓库、逆向工程和本地 AI 硬件持续爆发，「小而快 + 可验证 + 本地化」正在成为新项目集体的审美。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

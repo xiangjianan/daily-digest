@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-15",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "All verified. Here's the final report:\n\n---\n\n# 🔥 GitHub 每周新项目推荐 | 2026.07.15\n\n---\n\n### 1. [Orca](https://github.com/stablyai/orca) — AI Agent 并行开发环境\n> Agent Development Environment",
+   "full": "All verified. Here's the final report:\n\n---\n\n# 🔥 GitHub 每周新项目推荐 | 2026.07.15\n\n---\n\n### 1. [Orca](https://github.com/stablyai/orca) — AI Agent 并行开发环境\n> Agent Development Environment (ADE)：在桌面和手机上同时运行多个 AI 编码 Agent（Claude Code、Codex 等），统一管理工作树和终端。\n\n⭐ **19.5k stars** | 📈 本周 +5,700+ | TypeScript | 6,658 commits\n\n🎯 **为什么有趣**：概念非常超前——把 IDE 的概念从「人类写代码」升级为「调度一群 AI Agent 写代码」。自带终端多路复用、工作树管理和 Agent 协调机制，支持桌面和移动端。YC 背景的项目，3 分钟前还有新 commit，活跃度极高。它是当前「多 Agent 编程」趋势中最完整的产品化方案。\n\n🏷️ `AI` `多Agent` `IDE` `开发工具` `跨平台`\n\n---\n\n### 2. [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — AI Agent 的极速安全沙箱\n> 为 AI Agent 提供即时、并发、安全、轻量的代码执行沙箱，基于 WebAssembly + 轻量 VM 实现，启动速度比 Docker 快约 10 倍。\n\n⭐ **10.2k stars** | 📈 本周 +1,900+ | Rust | 腾讯云出品\n\n🎯 **为什么有趣**：解决了一个真实而紧迫的基建难题——AI Agent 需要安全地执行代码，但 Docker 启动太慢。CubeSandbox 用自研 CubeVM 轻量虚拟机替代容器，配合 CubeNet 网络隔离和 CubeMaster 调度，形成完整方案。Rust 实现、架构清晰、模块化设计（CubeAPI/CubeNet/CubeMaster/CubeProxy），是 Agent 基础设施领域少见的重工程投入。\n\n🏷️ `AI Agent` `安全沙箱` `Rust` `WebAssembly` `基础设施`\n\n---\n\n### 3. [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) — AI Agent 本地长期记忆\n> 通过 4 层渐进式管道为 AI Agent 提供完全本地化的长期记忆能力，零外部 API 依赖。\n\n⭐ **8.9k stars** | 📈 本周 +1,800+ | TypeScript | 腾讯云出品\n\n🎯 **为什么有趣**：「长期记忆」是当前 AI Agent 最大的未解问题之一。这个项目创新性地提出了 4 层渐进式记忆管道（progressive pipeline），完全本地运行无需云 API，解决了隐私和成本问题。Agent 能记住上下文、学习偏好、积累经验——这是 Agent 从「工具」走向「助手」的关键缺失拼图。\n\n🏷️ `AI Agent` `长期记忆` `本地化` `Agent基础设施`\n\n---\n\n### 4. [OmniRoute](https://github.com/diegosouzapw/OmniRoute) — 免费 AI 网关 + Token 压缩\n> 一个端点接入 231+ 个 AI 提供商（50+ 免费），支持 Claude Code / Codex / Cursor / Cline 等工具。独创 RTK+Caveman 堆叠压缩，节省 15-95% 的 Token。\n\n⭐ **17.5k stars** | 📈 本周 +4,300+ | TypeScript\n\n🎯 **为什么有趣**：两个亮点——(1) Token 压缩方案「RTK+Caveman 堆叠压缩」非常新颖，最高节省 95% API 成本，直击 LLM 使用中的费用痛点；(2) 统一网关聚合 231 个提供商，一个端点搞定所有。对于需要同时使用多个 Agent 工具的开发者来说，这是极其实用的基础设施。\n\n🏷️ `AI` `API网关` `Token压缩` `成本优化` `开发者工具`\n\n---\n\n### 5. [Hallmark](https://github.com/Nutlope/hallmark) — 反 AI-Slop 设计系统\n> 专为 Claude Code、Cursor 和 Codex 打造的「反 AI 审美」设计技能，让 AI 生成高质量、有品味的前端设计，告别千篇一律的 AI 风格。\n\n⭐ **6.5k stars** | 📈 本周 +2,200+（单日最高 +1,015）| CSS\n\n🎯 **为什么有趣**：AI 生成的 UI 往往带着一种「AI 味」——渐变紫色、圆角卡片、千篇一律的布局。Hallmark 直接针对这个问题，通过设计语言/技能注入的方式，让 AI 编码助手生成真正有设计感的界面。思路巧妙：不是改进 AI，而是给 AI 一套「品味」。一周暴涨 2,200+ stars 说明开发者们深有共鸣。\n\n🏷️ `设计系统` `AI辅助开发` `CSS` `前端` `审美`\n\n---\n\n> 📝 **编辑推荐语**：本周 GitHub 的关键词是 **「AI Agent 基础设施成熟期」**。从并行 Agent 编排（Orca）、安全沙箱（CubeSandbox）、长期记忆（TencentDB Agent Memory）到统一网关（OmniRoute），整个生态正在快速补齐 Agent 运行所需的每一块基础设施。与此同时，Hallmark 代表了另一个有趣方向：当 AI 越来越多地生成代码和界面，如何让它输出的东西「有品味」也成了一个正经的工程问题。2026 年的 AI Agent 生态，正在从「能用」走向「好用」。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

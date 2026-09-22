@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-18",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Now I have all the data. Let me compile the best 4-5 picks focusing on genuinely interesting, novel, and trending projects:\n\n## 🔥 GitHub 本周有趣新项目推荐（2026.08.18）\n\n---\n\n### 1. [cactus-",
+   "full": "Now I have all the data. Let me compile the best 4-5 picks focusing on genuinely interesting, novel, and trending projects:\n\n## 🔥 GitHub 本周有趣新项目推荐（2026.08.18）\n\n---\n\n### 1. [cactus-compute/needle](https://github.com/cactus-compute/needle)\n**14MB 的端侧基础模型，能在手机、手表、智能家居和机器人上运行**\n\n⭐ 7,284（本周 +3,627）\n\n🎯 **为什么有趣：** 这是一个 45M 参数的超微型语言模型，压缩后仅 14MB，运行时内存占用约 28MB——这意味着它能在几乎所有 IoT 设备上跑。采用了\"简单注意力网络\"架构（Hadamard MLP + GQA 注意力 + engram KV 记忆），量化到 CQ2-bit，居然能在多项基准上与比自己大 5–70 倍的模型性能相当。这是端侧 AI 的真正突破方向，不是又一个 LLaMA 换皮。\n\n🏷️ AI / 端侧推理 / 嵌入式 / IoT\n\n---\n\n### 2. [semantica-agi/semantica](https://github.com/semantica-agi/semantica)\n**开源版 Palantir——面向 AI Agent 的图原生上下文基础设施**\n\n⭐ 8,772（本周 +4,746）\n\n🎯 **为什么有趣：** 号称\"开源 Palantir\"，用知识图谱和因果推理为企业级 AI Agent 提供结构化上下文。它能摄取企业数据，自动构建上下文图，支持因果分析、决策溯源和本体管理。在 AI Agent 大爆发的当下，如何给 Agent 提供可靠的、可追溯的结构化知识是一个关键难题，Semantica 的图方案比纯向量 RAG 更有说服力。\n\n🏷️ AI / 知识图谱 / Agent 基础设施 / 企业工具\n\n---\n\n### 3. [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)\n**自改进的 RLM Agent，专为长时自主编码任务设计**\n\n⭐ 17,030（本周 +4,328）\n\n🎯 **为什么有趣：** 这是一个\"自我改进\"的 AI 编码代理——不是简单的 prompt 循环，而是基于强化学习（RLM = Reinforcement Learning from Models）让 Agent 在执行编码任务时持续学习和优化自身。配合 Prime Intellect 的 Verifiers 和 PRIME-RL 生态，代表了 Agent 从\"工具\"到\"自主工作者\"的范式转移。一周 4k+ star 的增速说明社区对自主 Agent 趋势的高度关注。\n\n🏷️ AI / Agent / 自主编码 / 强化学习\n\n---\n\n### 4. [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag)\n**用知识图谱 + Tree-sitter 对 monorepo 做代码 RAG，支持 AI 代码编辑**\n\n⭐ 4,579（本周 +1,135）\n\n🎯 **为什么有趣：** 用 Tree-sitter 解析多语言代码 AST，结合 Memgraph 图数据库构建代码知识图谱，然后做语义检索增强生成。作为 MCP Server 直接嵌入 Claude Code 等编码工具。解决了一个真实痛点：大型 monorepo 中 AI 编码助手经常\"看不全\"代码上下文，图结构 RAG 比平铺的文件切片有效得多。\n\n🏷️ AI / 代码分析 / RAG / MCP / 开发工具\n\n---\n\n### 5. [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)\n**27 种专为 Claude Code 设计的编辑级图表模板，纯 HTML+SVG**\n\n⭐ 21,147（本周 +16,260 🔥）\n\n🎯 **为什么有趣：** 本周最大黑马，一周狂涨 1.6 万 star。它的创意点在于：不是又一个 Mermaid/PlantUML，而是为 AI 编码 Agent 精心优化的 27 种图表类型（架构图、流程图、时序图等），纯 HTML+SVG 自包含，无阴影、无冗余，直接由 Claude Code 生成高质量技术文档图表。代表了「AI-first 设计资源」这个新品类——不是给人用的工具，而是给 AI Agent 用的\"画笔\"。\n\n🏷️ AI 工具链 / 可视化 / 文档 / 前端\n\n---\n\n> 📝 **编辑推荐：** 本周趋势可以用两个词概括——**\"Agent 基础设施\"和\"端侧 AI\"**。从自主编码 Agent（prime-agent）到 Agent 的知识图谱底座（semantica），从代码级 RAG（code-graph-rag）到 AI 原生设计资源（diagram-design），整个社区都在疯狂建设让 AI Agent 更聪明、更自主、更实用的基础设施层。而 Needle 的 14MB 端侧模型则提醒我们：AI 的下一个战场不在云端，在你的手腕上。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-23",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "数据收集完成，让我对结果进行筛选，聚焦真正**新的**和**有趣的**项目：\n\n---\n\n## 🔥 GitHub 每日有趣新项目推送 — 2026.08.23\n\n---\n\n### 1. [firecrawl/anydoc](https://github.com/firecrawl/anydoc) — 万物皆 Markdown\n> 把 Word、PPT、Exc",
+   "full": "数据收集完成，让我对结果进行筛选，聚焦真正**新的**和**有趣的**项目：\n\n---\n\n## 🔥 GitHub 每日有趣新项目推送 — 2026.08.23\n\n---\n\n### 1. [firecrawl/anydoc](https://github.com/firecrawl/anydoc) — 万物皆 Markdown\n> 把 Word、PPT、Excel、PDF、EPUB、RTF 等十余种文档格式一键转成干净的 Markdown。\n\n⭐ **17,991**（8月3日创建，20天内）\n\n🎯 **为什么有趣：** Firecrawl 团队出品，用 Rust 写的文档解析引擎，支持 Node.js/Python 绑定。RAG 和 AI 工作流中「文档→Markdown」是最基础的管线步骤，但此前没有一个统一的、高质量的解决方案。anydoc 用 Rust 的性能 + 多语言绑定 + 极简 API 填补了这个空白，爆发式增长说明社区早就在等这个工具。\n\n🏷️ `AI工具链` / `RAG` / `Rust` / `文档处理`\n\n---\n\n### 2. [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) — AI 水印橡皮擦\n> 一键剥离多厂商的 AI 溯源水印：C2PA 元数据、SynthID 统计标记、Unicode 文本指纹等，覆盖 PNG/JPEG/SVG/PDF/DOCX/HTML/MD。\n\n⭐ **17,190**（8月11日创建，12天内）\n\n🎯 **为什么有趣：** 伴随着 AI 生成内容溯源技术的推进（Google SynthID、C2PA 标准），这个项目做了完全相反的事——移除它们。技术上涉及 Unicode 文本清洗、统计重写钩子、元数据剥离等多个层面。12天近 1.7 万星的增长速度极为惊人，也引发了关于 AI 内容溯源有效性的广泛讨论。极具争议性，也极具技术含量。\n\n🏷️ `AI伦理` / `安全` / `Python` / `工具`\n\n---\n\n### 3. [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) — 编码 Agent 的长期记忆\n> 用 Rust 实现的 AI 编码 Agent 长期记忆方案，支持在不同 Agent 厂商（Claude Code、Codex 等）之间传递上下文。\n\n⭐ **4,152**（本周新增 2,575 星，增长 62%）\n\n🎯 **为什么有趣：** 当前的 AI 编码 Agent（Claude Code、Codex、Cline）每次会话都是\"失忆\"的，上下文无法跨会话、跨工具保留。这个项目用 Rust 构建了一个持久化记忆层，让 Agent 能记住之前的决策、架构选择和代码约定。本周 62% 的星都是新增的，说明社区对「Agent 记忆」这个问题的关注度正在急速上升。\n\n🏷️ `AI Agent` / `Rust` / `开发者工具` / `记忆系统`\n\n---\n\n### 4. [eneskirca/nodeterm](https://github.com/eneskirca/nodeterm) — 节点式终端管理器\n> 基于 tmux 的可视化终端管理器，用无限画布 + 节点图的方式组织 AI 编码 Agent 的多终端会话，支持无限缩放和平移。\n\n⭐ **1,077**（6月创建，本周增长 39%）\n\n🎯 **为什么有趣：** 用 AI Agent 写代码时经常需要同时管理十几个终端窗口（服务器、测试、构建、日志……），传统的 tmux 窗格管理很痛苦。nodeterm 把终端变成了类似 Figma/Excalidraw 的无限画布上的节点，可以自由拖拽、缩放、分组。思路新颖，视觉化程度高，是目前看到的终端管理领域最有创意的方向。\n\n🏷️ `终端工具` / `AI Agent` / `TypeScript` / `可视化`\n\n---\n\n### 5. [cordiverse/cordis](https://github.com/cordiverse/cordis) — 时空可组合元框架\n> 一个「Meta-Framework of Spatiotemporal Composability」——为 AI Agent 插件生态提供可组合的运行时框架，DeepSeek Harness 的底层引擎。\n\n⭐ **7,168**（本周新增 3,364 星，增长 47%）\n\n🎯 **为什么有趣：** 这个项目本周因 DeepSeek Harness 的爆火而被带起。它提出的\"Spatiotemporal Composability\"（时空可组合性）概念很超前——让不同时间、不同来源的功能模块可以像乐高一样自由组合。作为新兴的 Agent 基础设施，它的设计理念不同于 LangChain 的链式调用，而是更接近操作系统的微内核架构。\n\n🏷️ `AI Agent` / `TypeScript` / `框架` / `插件系统`\n\n---\n\n> 📝 **编辑推荐语：** 本周 GitHub 趋势的信号非常清晰——**AI Agent 的\"基础设施层\"正在快速成型**。从长期记忆（ai-memory）、到插件框架、到终端管理、再到文档处理管线（anydoc），开发者们正在疯狂填补让 AI Agent 从\"玩具\"变成\"生产工具\"所需的那一层层缺失的基础设施。与此同时，watermarks-remover 的爆火则提醒我们：AI 信任与溯源的攻防战才刚刚开始。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

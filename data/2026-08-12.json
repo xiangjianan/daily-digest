@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-12",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 每日有趣新项目推送 — 2026.08.12\n\n---\n\n### 1. [firecrawl/anydoc](https://github.com/firecrawl/anydoc) — ⭐ 14,748\n> 用 Rust 编写的万能文档转 Markdown 工具，支持 Word、PPT、Excel、ODF、RTF、EPUB、CSV、",
+   "full": "## 🔥 GitHub 每日有趣新项目推送 — 2026.08.12\n\n---\n\n### 1. [firecrawl/anydoc](https://github.com/firecrawl/anydoc) — ⭐ 14,748\n> 用 Rust 编写的万能文档转 Markdown 工具，支持 Word、PPT、Excel、ODF、RTF、EPUB、CSV、PDF 等所有主流格式\n\n🎯 **为什么有趣：** 9 天内斩获近 1.5 万 star，增速惊人。Firecrawl 团队在 Rust 中打造了一个真正「万能」的文档解析器，将任意格式文档统一转为干净的 Markdown。对于 RAG / AI Agent 数据管线来说，这是刚需基础设施，但之前缺少一个高质量的开源统一方案。\n\n🏷️ `AI基础设施` / `Rust` / `文档处理`\n\n---\n\n### 2. [cloudflare/computer](https://github.com/cloudflare/computer) — ⭐ 7,680（本周 +6,775）\n> 运行在 Cloudflare Durable Object 里的虚拟「电脑」——AI Agent 可以获得持久化的 Bash shell、浏览器和文件系统\n\n🎯 **为什么有趣：** 本周 GitHub trending 第一名。Cloudflare 的创意在于：把 Durable Object + SQLite + V8 拼成一台「云电脑」，让 AI Agent 拥有持久的计算环境。88% 的 star 都在本周获得，说明这个想法精准击中了「给 Agent 一台电脑」的行业痛点，且用边缘计算的方式非常巧妙。\n\n🏷️ `AI Agent` / `云计算` / `TypeScript`\n\n---\n\n### 3. [antirez/h3.c](https://github.com/antirez/h3.c) — ⭐ 1,436（3 天前创建）\n> Redis 作者 antirez 用纯 C 写的 MiniMax H3 视频生成模型推理引擎，专为 Mac 优化\n\n🎯 **为什么有趣：** antirez（Redis 之父）亲自下场写 LLM 视频生成推理！用纯 C 实现，面向 Mac 本地运行——把「大模型视频生成」从云端搬到了个人电脑。仅 3 天就破千星，创作者光环 + 极简 C 实现 + 视频生成前沿方向的组合非常有冲击力。\n\n🏷️ `视频生成` / `C语言` / `本地推理`\n\n---\n\n### 4. [ShawnPana/phone-harness](https://github.com/ShawnPana/phone-harness) — ⭐ 1,563（5 天前创建）\n> 让 AI Agent 直接操控你的手机\n\n🎯 **为什么有趣：** 与 cloudflare/computer 形成呼应——如果说 Computer 给 Agent 一台「云电脑」，phone-harness 则让 Agent 拿到真实手机的控制权。5 天拿 1.5K star，代表了当前 AI Agent 从「对话式」向「具身操控式」演进的明显趋势。\n\n🏷️ `AI Agent` / `移动端` / `自动化`\n\n---\n\n### 5. [leonickson1/Swiftlet](https://github.com/leonickson1/Swiftlet) — ⭐ 492（9 天前创建）\n> Swift + Metal 运行时，在 iPhone 上本地运行大型 Qwen MoE 模型（35B/80B），通过流式加载专家权重突破内存限制\n\n🎯 **为什么有趣：** 在手机上跑 800 亿参数模型？Swiftlet 用了一个巧妙的策略：MoE 模型每次只激活部分专家，所以不需要把全部权重加载到内存，而是按需从存储流式读取。这让 iPhone 也能跑超大模型。方向新颖，方案务实。\n\n🏷️ `移动端AI` / `Swift` / `模型推理` / `Apple`\n\n---\n\n> ✍️ **编辑推荐：** 本周的主题是 **「给 Agent 一台电脑」**。从 Cloudflare 的虚拟云电脑、phone-harness 的手机操控、到 Swiftlet 把 80B 模型塞进 iPhone，再到 anydoc 统一文档格式为 Agent 喂数据——整个生态都在加速从「对话式 AI」向「自主操控式 Agent」演进。底层推理也在走向本地化和极简化（antirez 用纯 C 写视频推理）。**Agent 基础设施的寒武纪大爆发**正在发生。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

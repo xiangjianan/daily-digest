@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-12",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "I now have all the data I need. Let me compile the report.\n\n---\n\n## 🔥 GitHub 每周有趣新项目推荐\n\n> 2026 年 7 月 12 日 · 本周趋势速览\n\n---\n\n### 1. [JuliusBrussee/caveman](https://github.com/JuliusBru",
+   "full": "I now have all the data I need. Let me compile the report.\n\n---\n\n## 🔥 GitHub 每周有趣新项目推荐\n\n> 2026 年 7 月 12 日 · 本周趋势速览\n\n---\n\n### 1. [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)\n> 🪨 \"why use many token when few token do trick\"\n\n一句话简介：Claude Code 技能插件，通过让 AI 用\"原始人语言\"交流，将 token 用量砍掉 65%。\n\n⭐ **88,282** stars（本周 +4,696）\n\n🎯 **为什么有趣**：这个项目简直是 2026 年最有\"梗\"也最实用的创意之一。它发现 LLM Agent 最大的成本瓶颈是 token 消耗，而解决方式出人意料——让 Claude Code 用极度简化的\"caveman speak\"（原始人语言）输出，大幅压缩 token。想法荒诞但有效，一周增长近 5k star 完全不意外，属于\"笑完之后发现真香\"的典范。\n\n🏷️ AI / CLI / Token优化 / 创意工具\n\n---\n\n### 2. [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)\n> 终端里的 AI Agent 多路复用器\n\n一句话简介：一个住在终端里的 agent multiplexer，让你同时管理和切换多个 AI Agent。\n\n⭐ **15,598** stars（本周 +4,349）\n\n🎯 **为什么有趣**：随着 AI coding agent（Claude Code、Codex 等）越来越多，开发者经常需要同时跑多个 agent 处理不同任务。herdr 用 Rust 构建，在终端里提供多 agent 的统一管理和调度，概念新颖且直击痛点。一周 4k+ star 说明社区对\"agent 编排\"这个新范式有强烈需求。\n\n🏷️ AI / CLI / Agent编排 / Rust\n\n---\n\n### 3. [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)\n> 第一个专为 AI Agent 设计的 Office 套件\n\n一句话简介：无需安装 Microsoft Office，AI Agent 就能直接读取、编辑和自动化 Word/Excel/PowerPoint 文件，单个二进制文件搞定一切。\n\n⭐ **15,216** stars（本周 +6,549）\n\n🎯 **为什么有趣**：反向思路的典范——不是让 AI 帮人类用 Office，而是专门为 AI Agent 重新设计了 Office 文件操作接口。C# 单二进制、零依赖、完全开源，本周增长 6.5k star 是全榜增速最快的项目之一。在 AI Agent 自主执行办公任务这个场景中，这是基础设施级的项目。\n\n🏷️ AI / Office / CLI / Agent工具\n\n---\n\n### 4. [TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox)\n> 为 AI Agent 打造的即时安全沙箱\n\n一句话简介：轻量级、高并发、安全的沙箱环境，专为 AI Agent 执行代码而设计。\n\n⭐ **9,732** stars（本周 +2,416）\n\n🎯 **为什么有趣**：腾讯云开源的 Agent 沙箱方案，解决的是 AI Agent 执行不可信代码时的安全问题。轻量级 + 高并发的设计非常适合大规模 Agent 部署场景。作为大厂基础设施项目开源，代码质量有保障，对构建 Agent 平台的团队非常有参考价值。\n\n🏷️ AI / 安全 / 沙箱 / 基础设施 / Rust\n\n---\n\n### 5. [bradautomates/claude-video](https://github.com/bradautomates/claude-video)\n> 让 Claude \"看见\"视频\n\n一句话简介：Claude Code 插件，下载视频、提取帧、转录音频，将所有信息交给 Claude 进行视频理解和分析。\n\n⭐ **7,663** stars（本周 +4,399）\n\n🎯 **为什么有趣**：多模态 Agent 的关键拼图。当前大多数 coding agent 只能处理文本和代码，claude-video 通过帧提取 + 音频转录的组合拳，让 Claude 获得视频理解能力。实现简洁优雅，一周 4.4k star 说明社区对\"Agent 多模态化\"有强烈期待。\n\n🏷️ AI / 多模态 / 视频分析 / Claude\n\n---\n\n### 📝 编辑推荐语\n\n> 本周 GitHub 趋势清晰地呈现了一个方向：**AI Agent 正在从\"玩具\"走向\"操作系统级\"**。caveman 玩的是 token 成本优化，herdr 和 orca 解决的是多 Agent 协作编排，OfficeCLI 和 CubeSandbox 则在补齐 Agent 执行层的基础设施。开发者们已经不再满足于让单个 Agent 写代码，而是在构建一套完整的 Agent 生态——从安全沙箱、到文件操作、到视频理解、到成本控制。**Agent 基础设施元年，已经到了。**",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

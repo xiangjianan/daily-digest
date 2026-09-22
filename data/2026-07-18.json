@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-18",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 本周有趣新项目推荐（2026.7.11 – 7.18）\n\n---\n\n### 1. xai-org/grok-build — xAI 开源 Grok 编码代理框架\n**🔗** https://github.com/xai-org/grok-build\n**📝** SpaceXAI 的编码代理 TUI，全屏、鼠标交互、可扩展\n**⭐** ",
+   "full": "## 🔥 GitHub 本周有趣新项目推荐（2026.7.11 – 7.18）\n\n---\n\n### 1. xai-org/grok-build — xAI 开源 Grok 编码代理框架\n**🔗** https://github.com/xai-org/grok-build\n**📝** SpaceXAI 的编码代理 TUI，全屏、鼠标交互、可扩展\n**⭐** 17,420 | **🔧** Rust | **📅** 创建于 7 月 14 日（仅 4 天！）\n\n**🎯 为什么有趣：** 本周爆发力最强的项目 — 4 天内斩获 17,420 颗星，来自 xAI（Elon Musk 的 AI 公司）。用 Rust 编写的 AI 编码代理框架，直接对标 Claude Code、Codex 等竞品。xAI 正式杀入 AI 编码赛道，开源策略值得关注。\n**🏷️ 标签：** AI / Rust / 编码代理 / 开源\n\n---\n\n### 2. Nutlope/hallmark — 反 AI-Slop 设计插件\n**🔗** https://github.com/Nutlope/hallmark\n**📝** 给 Claude Code、Cursor 和 Codex 装上的「反 AI 模板化设计」技能\n**⭐** 12,396（本周新增 8,075，占总量 65%）| **🔧** CSS\n\n**🎯 为什么有趣：** 本周增速最快的项目之一。它直面 AI 编码时代的痛点 — AI 生成的界面千篇一律的\"slop\"问题。作为 Claude Code / Cursor / Codex 的设计插件，让 AI 输出的界面不再像流水线产品，而拥有真正的人类设计感。一个解决真实问题的\"元工具\"。\n**🏷️ 标签：** AI / 设计 / 插件 / CSS\n\n---\n\n### 3. littledivy/mimic — 把任何 App 变成 Python 库\n**🔗** https://github.com/littledivy/mimic\n**📝** 拦截任意应用的流量，然后像调用库一样从 Python 调用它\n**⭐** 1,151 | **🔧** Python | **📅** 创建于 7 月 13 日（5 天前）\n\n**🎯 为什么有趣：** 极其创意的思路 — 通过 mitmproxy 捕获真实应用的流量，提取认证和会话数据，再用 Claude 自动生成 Python 客户端库。理论上你可以用 Python 以 API 的方式操控任何 App（社交媒体、约会软件等）。仅 8 个 commit 就拿到 1,151 颗星，社区对这种\"逆向工程自动化\"方案非常兴奋。\n**🏷️ 标签：** Python / 网络抓包 / 自动化 / AI\n\n---\n\n### 4. pixel-point/aval — 全新的交互式 Web 视频格式\n**🔗** https://github.com/pixel-point/aval\n**📝** 面向 Web 的新一代交互式视频格式，内置状态机、帧精准过渡和 packed-alpha 透明度\n**⭐** 1,180 | **🔧** TypeScript | **📅** 创建于 7 月 13 日（5 天前）\n\n**🎯 为什么有趣：** 不是又一个视频播放器，而是提出了一个全新的视频格式标准。内置状态机让视频可以像 App 一样有交互逻辑，帧精准过渡保证动画质量，packed-alpha 透明度让视频可以无缝融入网页。如果被广泛采用，将重新定义 Web 交互式视频的范式。\n**🏷️ 标签：** Web / 视频格式 / TypeScript / 创新\n\n---\n\n### 5. tirth8205/code-review-graph — AI 编码的代码知识图谱\n**🔗** https://github.com/tirth8205/code-review-graph\n**📝** 面向 MCP 和 CLI 的本地优先代码智能图谱，让 AI 编码工具只读取相关代码\n**⭐** 19,905 | **🔧** Python | **创建于 5 个月前，本周持续爆发**\n\n**🎯 为什么有趣：** 5 个月累积近 2 万星，增长曲线异常陡峭。它为代码库构建持久化的知识图谱，AI 编码工具可以查询图谱而非暴力扫描全部文件，大幅减少上下文窗口消耗。用 tree-sitter 解析语法，支持增量更新。直击 AI 编码代理在大型项目中的核心瓶颈。\n**🏷️ 标签：** AI / 代码分析 / MCP / 开发者工具\n\n---\n\n### 📰 编辑推荐语\n\n> **本周趋势一句话：AI 编码生态全面爆发，\"围绕 AI 编码工具的工具\"成为新的创新主战场。** 从 xAI 开源 Grok 编码框架（grok-build）到反 AI 模板化设计（hallmark），从自动生成应用客户端库（mimic）到为 AI 编码优化的代码图谱（code-review-graph），开发者们正在构建一整套围绕 AI 编码代理的\"元工具链\"。与此同时，aval 这种跳出 AI 赛道、在 Web 视频格式上做底层创新的项目，提醒我们技术世界的有趣之处从来不只在一个方向上。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-10",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "---\n\n# 🔥 GitHub 每周有趣新项目推荐（2026.08.10）\n\n---\n\n### 1. [TencentCloud / TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)\n> ⭐ **19,082** stars（本周 +8,003）| ",
+   "full": "---\n\n# 🔥 GitHub 每周有趣新项目推荐（2026.08.10）\n\n---\n\n### 1. [TencentCloud / TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)\n> ⭐ **19,082** stars（本周 +8,003）| TypeScript\n\n**一句话简介：** 团队级 AI Agent 记忆中枢——将对话、文档、代码转化为四类可复用记忆资产，跨 Agent 共享与治理。\n\n🎯 **为什么有趣：** AI Agent 的记忆问题正在成为行业核心痛点。这个项目不是简单的 chat history 存储，而是把记忆抽象为 Chat Memory、Skill、LLM-Wiki、Code-Graph 四种资产类型，支持跨框架共享（不绑定 Claude/GPT 任何一家）。腾讯出品但架构开放，一周涨 8000 star 说明开发者社区对这个方向有强烈需求。\n\n🏷️ `AI` `Agent` `记忆系统` `TypeScript`\n\n---\n\n### 2. [PrimeIntellect-ai / prime-agent](https://github.com/PrimeIntellect-ai/prime-agent)\n> ⭐ **12,203** stars（今日 +2,356）| TypeScript\n\n**一句话简介：** 一个能自我改进的 RLM（Reasoning Language Model）Agent，专攻代码工作流和长时间自主任务。\n\n🎯 **为什么有趣：** 单日涨 2,356 star 的爆发式增长非常罕见。核心亮点是\"自我改进\"——Agent 不仅完成任务，还会从执行过程中学习和进化推理策略。在 coding agent 赛道已经卷到白热化的当下，这个差异化定位抓住了社区眼球。\n\n🏷️ `AI` `Agent` `自主编程` `RLM`\n\n---\n\n### 3. [firecrawl / pdf-inspector](https://github.com/firecrawl/pdf-inspector)\n> ⭐ **14,117** stars（本周 +8,641）| Rust\n\n**一句话简介：** 极快的 Rust PDF 检查库——智能识别扫描版 vs 文字版 PDF，为后续处理提供路由决策。\n\n🎯 **为什么有趣：** 处理 PDF 是 LLM 时代最常见的痛点之一，但大多数方案用一个\"万能\"管线对付所有 PDF，效率极低。这个项目的巧思在于先做\"分流\"——用 Rust 实现毫秒级判断 PDF 类型，再路由到合适的处理管线。来自知名项目 Firecrawl 团队，工程品质有保证，一周涨 8,600+ star 足以证明其实用价值。\n\n🏷️ `Rust` `PDF` `文档处理` `工具库`\n\n---\n\n### 4. [pranshuparmar / witr](https://github.com/pranshuparmar/witr)\n> ⭐ **21,075** stars（今日 +210）| Go\n\n**一句话简介：** \"这东西为什么在跑？\"——追踪任何进程、端口、容器或文件，找出是什么启动了它。CLI + TUI。\n\n🎯 **为什么有趣：** 2.1 万 star，解决的是每个开发者都遇到过的真实痛点：生产环境里一个神秘进程在跑，你不知道是谁、为什么启动的。witr 用 Go 写了一个精美的 CLI/TUI 工具，逆推进程的启动链路。名字 witr = \"Why Is This Running?\"，简洁有力，实用性与趣味性兼备。\n\n🏷️ `CLI` `TUI` `系统工具` `Go`\n\n---\n\n### 5. [arman-bd / guppylm](https://github.com/arman-bd/guppylm)\n> ⭐ **3,313** stars | 创建于 2026.03\n\n**一句话简介：** 一个约 9M 参数的超微型 LLM，说话风格像一条小鱼。\n\n🎯 **为什么有趣：** 在大模型卷参数量的时代，这个项目反其道行之——9M 参数（不到 GPT-4 的万分之一），训练它\"像鱼一样说话\"。虽然是个 toy project，但它触及了几个前沿问题：极小模型的性格塑形、语言风格的可控性、以及 LLM 微型化的极限在哪。三千多 star 说明社区对\"反潮流\"项目有天然好奇心。\n\n🏷️ `AI` `微型模型` `趣味项目` `LLM`\n\n---\n\n> 📝 **编辑推荐：** 本周 GitHub 的趋势非常明确——**AI Agent 基础设施全面爆发**。记忆系统（TencentDB-Agent-Memory）、自进化 Agent（prime-agent）、AI 代码技能路由（book-to-skill, reverse-skill）占据了 Trending 半壁江山。开发者社区正从\"用 Agent 做事\"转向\"帮 Agent 变得更强\"。如果你只关注一个方向，Agent Memory 是这个月最值得深入的主题。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

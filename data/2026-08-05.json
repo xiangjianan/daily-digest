@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-05",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Now I have all the data I need. Here's my curated report:\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐\n\n> 2025 年 8 月 5 日 · 数据来源：GitHub Trending (Weekly)\n\n---\n\n### 1. [block/buzz](https://github.com",
+   "full": "Now I have all the data I need. Here's my curated report:\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐\n\n> 2025 年 8 月 5 日 · 数据来源：GitHub Trending (Weekly)\n\n---\n\n### 1. [block/buzz](https://github.com/block/buzz) — ⭐ 22,723（本周 +7,262）\n\n> A hive mind communication platform.\n\nRust 编写的「蜂巢思维」协作平台，人和 AI Agent 在同一个工作空间中通过 relay 协同构建。支持 Claude、Codex、Goose 等技能集成，理念很超前——把分布式 AI Agent 的协作具象化为一个可视化的蜂巢网络。\n\n🎯 **为什么有趣**：概念极具创意，「蜂巢思维」协作模型在 AI Agent 领域很少见；一周内暴涨 7k+ star，增长势头碾压其他项目；Rust 实现，强调性能与可靠性。\n\n🏷️ AI Agent / 协作平台 / Rust\n\n---\n\n### 2. [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — ⭐ 16,629（本周 +5,420）\n\n> Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.\n\n把任意技术书籍 PDF 自动转化为 Claude Code 可用的 skill，边写代码边查书。等于给 AI 编程助手装上了一个「随时翻阅的图书馆」。\n\n🎯 **为什么有趣**：把「读书」和「写代码」两个场景打通，巧思十足；一周 5k+ star 说明开发者痛点精准；实用性极高——谁没在编码时想快速查某本书的某个章节？\n\n🏷️ AI / 开发工具 / 文档处理\n\n---\n\n### 3. [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) — ⭐ 14,400+\n\n> Team-level memory hub for AI Agents.\n\n腾讯开源的 AI Agent 团队级记忆中心。将对话、文档、代码转化为可复用的记忆资产（Chat Memory、Skill、LLM-Wiki、Code-Graph），在多个 Agent 之间共享。相当于给 Agent 们搭建了一个「团队知识库」。\n\n🎯 **为什么有趣**：Agent 记忆共享是当前 AI 工程的核心难题之一，腾讯以数据库团队的技术积累切入这个方向有独特优势；大厂背书 + 开源，值得关注演进；解决了多 Agent 协作中「遗忘」的真实痛点。\n\n🏷️ AI Agent / 知识管理 / 企业级\n\n---\n\n### 4. [1jehuang/jcode](https://github.com/1jehuang/jcode) — ⭐ 15,957（本周 +3,294）\n\n> The most RAM efficient harness.\n\n号称「最省内存」的 AI 编码代理 TUI 工具，支持 Claude、OpenAI、MCP 等多种后端。在资源受限的环境（比如树莓派）上也能流畅运行 AI 编码助手。\n\n🎯 **为什么有趣**：切入点独特——当所有 AI 编码工具都在堆功能时，这个项目专注于极致的内存效率；对嵌入式和边缘计算场景极具实用价值；Rust 实现，一周 3k+ star 说明社区对这个方向有真实需求。\n\n🏷️ CLI / AI 编码 / 系统优化 / Rust\n\n---\n\n### 5. [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) — ⭐ 18,588（本周 +8,386）\n\n> AI-powered reverse engineering / penetration testing skill router pack.\n\nAI 驱动的逆向工程与渗透测试技能路由包。自动识别任务类型，按需加载对应工具链，并构建自进化经验库。支持 Claude Code、Cursor、Cline 等多种 AI 编码客户端。\n\n🎯 **为什么有趣**：将 AI Agent 的能力延伸到安全研究领域，自动化程度高（自动路由 + 自动进化知识库）；一周 8.4k star 是本周增速最快的项目之一；在 AI + 安全的交叉领域提供了实用工具链，而非概念验证。\n\n🏷️ 安全 / AI / 渗透测试 / 自动化\n\n---\n\n### ✍️ 编辑推荐\n\n**本周趋势关键词：AI Agent 生态爆发。** 五个上榜项目中有四个围绕 AI Agent 展开——从协作模式（buzz）、记忆管理（TencentDB-Agent-Memory）、到技能增强（book-to-skill、reverse-skill）、再到基础设施（jcode），整条 Agent 工具链正在快速成熟。开发者社区正在从「用 AI 写代码」进化到「构建 AI Agent 的整个工作流」，这是一个值得持续关注的方向。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

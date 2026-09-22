@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-30",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "好的，我现在已经验证了所有数据。让我来编写最终报告。\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐（2026.7.23 — 7.30）\n\n---\n\n### 1. [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3)\n> **一句话简介：** 月之暗面开源的 2.8T 参数前沿多模态 ",
+   "full": "好的，我现在已经验证了所有数据。让我来编写最终报告。\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐（2026.7.23 — 7.30）\n\n---\n\n### 1. [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3)\n> **一句话简介：** 月之暗面开源的 2.8T 参数前沿多模态 Agentic 模型，支持百万 token 上下文\n\n⭐ **7,000+ stars**（创建仅 3 天）\n\n🎯 **为什么有趣：** 全球首个开源 3T 级模型！基于创新的 Kimi Delta Attention (KDA) 和 Stable LatentMoE 架构，从 896 个专家中激活 16 个，比 Kimi K2 的缩放效率提升约 2.5 倍。百万 token 上下文窗口 + 原生视觉能力，专为长周期编码和推理设计。三天 7k star，开源 AI 模型社区的又一次地震。\n\n🏷️ `AI` / `大模型` / `MoE` / `开源模型`\n\n---\n\n### 2. [block/buzz](https://github.com/block/buzz)\n> **一句话简介：** 基于 Nostr 协议的\"蜂群思维\"通讯平台，Rust 构建\n\n⭐ **17,600+ stars**（本周暴增 13,300+，占总星数 75%）\n\n🎯 **为什么有趣：** 本周 GitHub 绝对霸主。Buzz 把 Nostr 去中心化协议变成了一个实时通讯平台，融合了 AI Agent 技能系统（`.agents/skills`、`.claude/skills` 等多目录支持），让 AI Agent 也能参与社交通信。Rust 实现、1983 次提交、534 个分支——说明这个项目已经过了原型阶段，进入了快速迭代期。本周星标增速令人咋舌。\n\n🏷️ `去中心化` / `通讯` / `Rust` / `AI Agent` / `Nostr`\n\n---\n\n### 3. [kvcache-ai/AgentENV](https://github.com/kvcache-ai/AgentENV)\n> **一句话简介：** 分布式 AI Agent 环境运行平台，支持大规模并行执行\n\n⭐ **2,400+ stars**（创建仅 5 天）\n\n🎯 **为什么有趣：** AI Agent 已经从\"能跑 Demo\"进化到\"需要大规模基础设施\"的阶段。AgentENV 用 Rust 构建了一个分布式 Agent 环境执行平台，解决了 Agent 需要沙箱化、并行化运行的底层问题。一周内活跃开发（27 commits），有完整的 CI/CD、测试和文档体系，显然是一个严肃的工程化项目，而非概念验证。\n\n🏷️ `AI Agent` / `基础设施` / `Rust` / `分布式系统`\n\n---\n\n### 4. [mshumer/Claude-of-Duty](https://github.com/mshumer/Claude-of-Duty)\n> **一句话简介：** 一个 prompt 生成、完全程序化的 Call of Duty 级 FPS 游戏\n\n⭐ **2,300+ stars**（创建仅 5 天，335 forks）\n\n🎯 **为什么有趣：** 纯粹用 AI Agent 编排生成，55k 行代码覆盖 11 个子系统——HDR 渲染管线、级联阴影贴图、程序化材质生成、大气散射、物理系统、武器系统……**零美术资产**，所有纹理、网格、动画、音效全部运行时代码生成。这不仅是\"AI 写了个游戏\"，而是展示了 AI 编码能力的新上限：一个 prompt → 一款完整可玩的 FPS。极具病毒传播性。\n\n🏷️ `AI 生成` / `游戏` / `Three.js` / `WebGL` / `创意`\n\n---\n\n### 5. [VictorTaelin/OptMem](https://github.com/VictorTaelin/OptMem)\n> **一句话简介：** 仅 426 token prompt + 一个脚本，为 AI Agent 赋予永久记忆\n\n⭐ **891 stars**（创建仅 5 天，40 commits）\n\n🎯 **为什么有趣：** 极简主义的极致体现——解决了一个真实痛点（Agent 会话丢失上下文），但方式极其优雅。只需一行命令安装，粘贴生成的 code block 到你的 CLAUDE.md，就搞定了。来自 Kindelia 语言的作者 Victor Taelin，最新 commit 将记忆上下文压缩到仅 ~8k token、96 行代码。实用 + 创意的完美结合，是本周\"小而美\"的代表。\n\n🏷️ `AI Agent` / `工具` / `极简主义` / `记忆系统`\n\n---\n\n### 📝 编辑推荐\n\n> 本周 GitHub 的主题可以概括为：**AI Agent 基础设施全面爆发**。从分布式运行环境（AgentENV）到持久化记忆（OptMem），从 Agent 社交通信（Buzz）到 Agent 编码能力的极限展示（Claude-of-Duty），再到 3T 级开源模型（Kimi-K3）——整个生态正在从\"让 Agent 动起来\"快速演进到\"让 Agent 规模化运行\"。Rust 成为 Agent 基础设施的首选语言，而\"极简 prompt 即服务\"的理念正在兴起。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

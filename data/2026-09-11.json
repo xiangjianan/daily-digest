@@ -1,0 +1,15 @@
+{
+ "date": "2026-09-11",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "📅 GitHub 每日有趣新项目推送（2026-09-11，覆盖 09-04 ~ 09-11 新建仓库）\n\n数据来源：GitHub Search API（created:>2026-09-04 按 star 排序）× Weekly Trending × HN Show HN 交叉验证，已核查 fork 比例与提交活跃度，排除刷 star 项目。\n\n---\n\n",
+   "full": "📅 GitHub 每日有趣新项目推送（2026-09-11，覆盖 09-04 ~ 09-11 新建仓库）\n\n数据来源：GitHub Search API（created:>2026-09-04 按 star 排序）× Weekly Trending × HN Show HN 交叉验证，已核查 fork 比例与提交活跃度，排除刷 star 项目。\n\n---\n\n### 1. [openai/NavierStokesAndEuler](https://github.com/openai/NavierStokesAndEuler)\n> OpenAI 发布 Navier–Stokes 与 Euler 方程「有限时间爆破」结果的 Lean 4 形式化证明证书\n\n⭐ **1,748**（3 天，Lean 仓库这个增速极罕见）| 🖥️ Lean | 创建于 2026-09-08\n\n🎯 **为什么有趣：** 前沿性拉满——纳维-斯托克斯爆破是千禧年奖级别的问题，OpenAI 把论文结论交给 Lean 4 逐行机器验证，这是「AI 生成数学 + 形式化证明兜底」工作流第一次以这种方式公开落地。对 AI for Math 赛道来说，这个仓库本身就是范式宣言：结论可以错，证书不会骗人。\n\n🏷️ AI for Math / 形式化验证 / 前沿研究\n\n### 2. [ashemag/human-atlas](https://github.com/ashemag/human-atlas)\n> 开源 3D 人体解剖探索器：2,234 个可独立点选的网格、15 大系统分层、爆炸视图\n\n⭐ **3,156**（6 天，本周新仓库 star 榜第一）| 🖥️ TypeScript | 创建于 2026-09-05\n\n🎯 **为什么有趣：** 把公共数据集 BodyParts3D 做成了「解剖学版 Google Earth」——React + Three.js 实现 3,432 个解剖概念的搜索、逐层剥离和 exploded view，医学教育价值直接可感。一周 3K+ star、764 fork，说明「把沉睡的公共数据集做成极致交互体验」仍是流量密码。\n\n🏷️ 3D 可视化 / 医学教育 / Web 前端\n\n### 3. [sdli1995/dlssg_for_sm86](https://github.com/sdli1995/dlssg_for_sm86)\n> 给 RTX 30 系显卡「解锁」DLSS 帧生成：自带 C++ 封装、SM86 PTX/Cubin 与推理图，完全不碰原厂 DLL\n\n⭐ **1,593**（4 天）| 🖥️ C++/PTX | 创建于 2026-09-07\n\n🎯 **为什么有趣：** 硬件社区的硬核逆袭——作者逆向了 NVIDIA 只给 40/50 系的帧生成技术，用自研 PTX kernel + 310.1 模型在 SM86 上重跑推理，运行时不加载任何原厂组件。中文开发者的项目，README 中英双语，4 天 1.6K star，是「老硬件榨出新性能」这条永恒叙事的最新篇章。\n\n🏷️ GPU / 游戏硬件 / 逆向工程\n\n### 4. [vinzdg/codenotch](https://github.com/vinzdg/codenotch)\n> macOS 菜单栏小工具：把 Claude Code、Cursor、Codex、Antigravity 的用量限额钉在屏幕边缘\n\n⭐ **1,417**（6 天）| 🖥️ Swift | 创建于 2026-09-05\n\n🎯 **为什么有趣：** 实用性 + 创新性兼备的典型——2026 年每个重度 AI 编程用户都被「配额还剩多少」焦虑过，但没人想到把它做成常驻屏幕边缘的一条细带。原生 Swift、6 天 1.4K star，验证了「AI 编程工具生态的配套基建」是当前最确定的独立开发机会之一。\n\n🏷️ 开发者工具 / macOS / AI 编程生态\n\n### 5. [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0)\n> 开源流式 MoE 推理框架：SSD 专家卸载 + Recover-LoRA + prerouter 路由预测\n\n⭐ **1,145**（3 天）| 🖥️ Python | 创建于 2026-09-08\n\n🎯 **为什么有趣：** 前沿推理基建——把 MoE 的冷门专家权重流式存放在消费级 SSD 上、按需换入显存，再用轻量 LoRA 修正路由误差，让超大参数 MoE 模型在消费级硬件上跑起来。3 天 1.1K star + 已挂 HuggingFace 资源，说明「显存不够、存储来凑」正从论文走向可用工程。\n\n🏷️ LLM 推理 / MoE / 边缘计算\n\n---\n\n**值得一提（未进前五）：** [EverettFish/holo-card-studio](https://github.com/EverettFish/holo-card-studio)（★1,390，一句话生成可把玩的 3D 全息闪卡 + Blender 工程，Codex Skill 玩法新高度）；DeepSeek 本周四连发基建仓库（[DeepSelect](https://github.com/deepseek-ai/DeepSelect) CUDA TopK 核比 `torch.topk` 快 2~20 倍、[DeepJIT](https://github.com/deepseek-ai/DeepJIT) CUDA+昇腾双后端 JIT、deepseek-recipe）；[kevinzakka/mjbatch](https://github.com/kevinzakka/mjbatch)（CPU 并行跑数千个 MuJoCo 仿真）。\n\n### 📝 编辑推荐\n> 本周的主旋律是「验证与压榨」：一边是 OpenAI 用 Lean 把 AI 生成的数学结论钉死在机器检查上，另一边是社区把旧显卡、消费级 SSD、屏幕边缘这些边角资源榨出新价值——AI 不只在生成内容，也在生成「可证明的确定性」和「省钱的方法」。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

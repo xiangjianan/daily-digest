@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-21",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Now I have good data. Let me select the 5 most interesting and genuinely new projects and compile the report.\n\n## 🔥 GitHub 每周有趣新项目推荐（2026.08.21）\n\n---\n\n### 1. [cactus-compute/needle",
+   "full": "Now I have good data. Let me select the 5 most interesting and genuinely new projects and compile the report.\n\n## 🔥 GitHub 每周有趣新项目推荐（2026.08.21）\n\n---\n\n### 1. [cactus-compute/needle](https://github.com/cactus-compute/needle)\n一句话简介：仅 14MB 的超微型基础模型，专为手机、可穿戴设备、智能家居和机器人等端侧设备打造。\n\n⭐ 8,214（本周 +3,409）\n\n🎯 为什么有趣：把大模型做到 14MB — 这比一张手机壁纸还小。在端侧 AI 概念火热但大多停留在论文阶段时，Needle 直接给出了一个可用的超小模型方案。本周 star 翻了将近 1.5 倍，说明社区对\"真正能跑在手表上的 AI\"有着强烈期待。\n\n🏷️ AI / 端侧推理 / 嵌入式 / 极小模型\n\n---\n\n### 2. [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard)\n一句话简介：NVIDIA 出品的 LLM 流量路由器，在保持 OpenAI/Anthropic 原生 API 兼容的前提下，跨模型和供应商智能调度请求。\n\n⭐ 2,002（本周 +932）\n\n🎯 为什么有趣：5 月才创建的新项目，Rust 编写，不到一周 star 涨了 46%。解决了实际痛点 — 多模型混用时如何透明切换、压测和优化成本。NVIDIA 背书 + Rust 性能 + 实用工具属性，三重加持。\n\n🏷️ AI / LLM / 基础设施 / Rust / 路由\n\n---\n\n### 3. [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi)\n一句话简介：用 Rust 写的本地优先 Logitech Options+ 替代品 — 重映射按键、DPI、SmartShift，无需账号、零遥测。\n\n⭐ 12,318（本周 +2,674）\n\n🎯 为什么有趣：5 月创建，2 个月就从 0 冲到 1.2 万 star。用 Rust 替代官方闭源驱动，本地 HID++ 协议直连，\"无账号、无遥测\"的隐私理念精准击中了开源社区的爽点。这周突然爆发，很可能和最近隐私议题升温有关。\n\n🏷️ 硬件 / Rust / 驱动 / 隐私 / 开源替代\n\n---\n\n### 4. [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)\n一句话简介：为编码 Agent CLI 提供长期记忆的方案，支持 Claude Code、Codex 等不同 Agent 之间的记忆交接。\n\n⭐ 3,786（本周 +1,952）\n\n🎯 为什么有趣：5 月 21 日才创建，不到 3 个月时间，本周 star 几乎翻倍。核心洞察很精准 — 当前 AI 编程 Agent（Claude Code、Codex 等）最大的短板就是\"健忘\"，每次会话从零开始。这个项目用 Rust 实现了跨厂商的 Agent 记忆层，思路超前且实用。\n\n🏷️ AI / Agent / Rust / 开发工具 / 记忆系统\n\n---\n\n### 5. [lightningpixel/modly](https://github.com/lightningpixel/modly)\n一句话简介：本地 AI 驱动的桌面 3D 建模工具 — 从图片或文字描述生成 3D 模型，完全在本地 GPU 上运行。\n\n⭐ 7,074（本周 +1,855）\n\n🎯 为什么有趣：把 AI 图片转 3D 这个通常需要云端算力的操作，做成了完全本地化的桌面应用（TypeScript）。既解决了隐私问题（你的图片不会上传），又降低了 3D 建模的门槛。本周 star 增长 26%，3D + AI + 本地化的交叉领域目前竞争者极少。\n\n🏷️ AI / 3D 建模 / 桌面应用 / 本地推理 / 图形\n\n---\n\n> 📝 **编辑推荐**：本周趋势可以用两个词概括 — **\"端侧\"与\"记忆\"**。从 14MB 的 Needle 到本地运行的 Modly，从跨 Agent 记忆到无遥测的硬件驱动，社区正在用行动投票：比起更大的模型和更依赖云端的服务，人们更关心的是**能不能在我自己的设备上跑、能不能记住我是谁**。AI 正从\"云端巨兽\"走向\"随身工具\"。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

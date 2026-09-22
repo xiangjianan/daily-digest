@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-14",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Now I have verified the data. Let me compile the final report.\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐（2026 年 7 月 14 日）\n\n---\n\n### 1. [littledivy/mimic](https://github.com/littledivy/mimic) — 拦",
+   "full": "Now I have verified the data. Let me compile the final report.\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐（2026 年 7 月 14 日）\n\n---\n\n### 1. [littledivy/mimic](https://github.com/littledivy/mimic) — 拦截任意 App，把它变成 Python 库调用\n\n⭐ **803** | 🏷️ Python / 逆向工程 / 自动化\n\n一句话简介：拦截任意 iOS App 的网络请求和 API 调用，自动生成 Python 客户端，让你像调用库一样操控该 App。\n\n🎯 **为什么有趣：**\n- **极具创意** — 用「拦截 → 逆向 → 生成 SDK」的方式把任意封闭 App 变成 Python 库，思路非常新颖\n- **Star 飙升** — 7 月 13 日刚创建，不到 24 小时就获得 800+ star，增速惊人\n- **实用性 + 创新性兼具** — 自动化 App 交互的痛点长期存在，mimic 提供了一种优雅的黑盒方案，MIT 开源\n\n---\n\n### 2. [browser-use/video-use](https://github.com/browser-use/video-use) — 用 AI 编程 Agent 编辑视频\n\n⭐ **16,900** | 🏷️ AI / 视频 / Agent\n\n一句话简介：让 Claude Code、Codex 等编程 Agent 通过 Manim（3Blue1Brown 风格）和 HyperFrames 来创作和编辑视频，无需传统剪辑软件。\n\n🎯 **为什么有趣：**\n- **前沿性** — 来自 browser-use 团队，将「用代码做视频」这个概念做到 Agent 化，是 AI + 创意工具的交叉前沿\n- **Star 增长快** — 本周获得 **1,467** star 增长，总量近 17k，社区热度极高\n- **有创意** — 打破了「视频编辑 = GUI 剪辑」的思维定式，用编程 Agent 描述式生成视频，2.1k forks 说明可玩性很强\n\n---\n\n### 3. [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — 给 AI Agent 造的 Office 套件\n\n⭐ **16,400** | 🏷️ AI Agent / 工具 / C#\n\n一句话简介：首个专为 AI Agent 设计的 Office 套件，无需安装 Microsoft Office 即可通过命令行读写 Word、Excel、PowerPoint，单二进制文件。\n\n🎯 **为什么有趣：**\n- **前沿性** — 不是给人用的 Office 工具，而是给 AI Agent 用的，这个定位本身就很有前瞻性\n- **Star 增长快** — 本周新增 **7,596** star（从约 8.8k 飙到 16.4k），增速在所有 trending 项目中排前列\n- **实用性** — 解决了 AI Agent 操作 Office 文档的核心痛点（传统方案依赖 Office 安装，这个完全独立），有 Node SDK 和插件系统，1.1k forks\n\n---\n\n### 4. [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) — 阻止 AI Agent 执行危险命令的守卫\n\n⭐ **4,000** | 🏷️ 安全 / AI Agent / Rust\n\n一句话简介：一个 Rust 编写的安全守卫工具，拦截并阻止 AI 编程 Agent（如 Claude Code）执行危险的 git 和 shell 命令，防止 `rm -rf` 等灾难。\n\n🎯 **为什么有趣：**\n- **精准切中痛点** — 随着 AI 编程 Agent 越来越自主，「Agent 误删代码库」已成为真实风险，这个工具是社区急需的安全基础设施\n- **Star 爆发** — 单日新增 **1,295** star，今日 GitHub 全站增速排名第 1\n- **实用 + 有巧思** — 用 Rust 实现高性能拦截，支持 GitHub Actions 集成，1,766 commits 说明迭代极其活跃\n\n---\n\n### 5. [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) — 终端里的 AI Agent 多路复用器\n\n⭐ **16,263** | 🏷️ AI Agent / CLI / Rust\n\n一句话简介：一个常驻终端的「Agent 多路复用器」，让你同时管理和编排多个 AI 编程 Agent（Claude Code、Codex 等）并行工作。\n\n🎯 **为什么有趣：**\n- **创意十足** — 把传统终端复用器（tmux）的理念应用到 AI Agent 编排上，「一个终端管理多个 Agent 并行编码」是全新的工作流\n- **Star 增长快** — 本周新增 **3,449** star，总量超 16k，1,105 forks\n- **前沿性** — 随着大家开始同时跑多个 AI Agent 做不同任务，herdr 提供了一种原生终端级的编排方案，Rust 实现保证了性能\n\n---\n\n> 📝 **编辑推荐：** 本周 GitHub 的主旋律是 **AI Agent 基础设施全面爆发** — 从 Agent 专用的 Office 套件（OfficeCLI）、Agent 安全守卫（destructive_command_guard）、到 Agent 编排器（herdr）和视频创作（video-use），整个生态正在从「单个 Agent 做事」进化到「多 Agent 协作 + 专业化工具链」。另一个显著趋势是 **逆向工程式自动化**（mimic），用黑盒拦截的方式让 AI 操控封闭系统，这个思路很可能在下半年催生更多有趣项目。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

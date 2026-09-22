@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-01",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 本周新项目精选（2025.8.1）\n\n---\n\n### 1. [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3)\n> 月之暗面开源最新前沿大模型\n\n⭐ **7,757**（7月27日创建，4天飙到近8K）\n\n🎯 为什么有趣：Kimi K3 是月之暗面最新一代开放前沿模",
+   "full": "## 🔥 GitHub 本周新项目精选（2025.8.1）\n\n---\n\n### 1. [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3)\n> 月之暗面开源最新前沿大模型\n\n⭐ **7,757**（7月27日创建，4天飙到近8K）\n\n🎯 为什么有趣：Kimi K3 是月之暗面最新一代开放前沿模型，发布不到一周就引发海量关注。在国产大模型开源浪潮中，Kimi 系列一直以超长上下文著称，K3 的发布进一步加剧了大模型军备竞赛，对开源社区意义重大。\n\n🏷️ `AI` / `大模型` / `开源`\n\n\n### 2. [andrewyng/openworker](https://github.com/andrewyng/openworker)\n> Andrew Ng 发布的开源 AI Worker 框架\n\n⭐ **11,431**（7月20日创建，11天破万星）\n\n🎯 为什么有趣：吴恩达亲自下场开源的 Agent 框架，信号意义极强——代表着 AI 教育界最有影响力的人物之一在推动「AI Worker」范式。结合其倡导的 Agentic Workflow 理念，这个项目很可能成为 AI Agent 领域的基础设施级项目。\n\n🏷️ `AI` / `Agent` / `框架` / `Python`\n\n\n### 3. [mshumer/Claude-of-Duty](https://github.com/mshumer/Claude-of-Duty)\n> 用一条 AI 提示词生成的使命召唤级 FPS 射击游戏\n\n⭐ **2,539**（7月25日创建，6天获2.5K星）\n\n🎯 为什么有趣：这个项目本身就是 AI 能力的\"活广告\"——整个游戏用 Three.js 构建，代码几乎完全由单个 AI 提示词生成，却能跑出接近使命召唤级别的画面和玩法。它是 AI 辅助创作的边界演示，让人重新思考\"AI 能创造什么\"。\n\n🏷️ `AI` / `游戏` / `Three.js` / `创意`\n\n\n### 4. [vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)\n> Vercel Labs 的 TypeScript 原生编译器\n\n⭐ **2,649**（7月22日创建，9天获2.6K星）\n\n🎯 为什么有趣：TypeScript 生态最大的痛点之一就是运行时依赖 Node.js / Bun。scriptc 直接将 TypeScript 编译为原生二进制，Vercel Labs 实验性质极浓。如果能成熟，将彻底改变 TypeScript 的部署方式——从前端语言变成全栈原生语言。\n\n🏷️ `编译器` / `TypeScript` / `系统编程` / `Vercel`\n\n\n### 5. [elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST)\n> 多智能体自主红队攻防平台\n\n⭐ **5,332**（7月2日创建，一个月内破5K星）\n\n🎯 为什么有趣：自主安全测试是 AI Agent 最具前景的应用方向之一。T3MP3ST 用多智能体协作的方式模拟真实黑客攻击链——侦察、漏洞利用、横向移动一气呵成。它的设计理念（meta-harness 可编排任意 Agent）也很有启发性。\n\n🏷️ `安全` / `AI Agent` / `红队` / `多智能体`\n\n---\n\n> 💡 **编辑推荐语**：本周趋势关键词是 **「AI Worker 基础设施」**——从吴恩达的 openworker 到 YC 的 qm，从 xAI 的 grok-build 到开源安全测试 T3MP3ST，所有人都在造\"让 AI 自主干活的框架\"。Agent 生态正从「单兵作战」快速走向「编排协作」阶段，这可能是今年下半年最重要的技术方向。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

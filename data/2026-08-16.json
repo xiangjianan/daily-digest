@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-16",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "I have enough data now. Let me compile the final report. I'll select the 5 most interesting projects based on the criteria (creative, fast star growth, cutting-edge, practical + in",
+   "full": "I have enough data now. Let me compile the final report. I'll select the 5 most interesting projects based on the criteria (creative, fast star growth, cutting-edge, practical + innovative).\n\n---\n\n# 🔥 GitHub 每周有趣新项目推荐\n\n> 2026 年 8 月 16 日 · 数据来源：GitHub Trending（本周）\n\n---\n\n### 1️⃣ [cactus-compute/needle](https://github.com/cactus-compute/needle) — 14MB 的微型基础模型\n\n一句话简介：仅 14MB 大小的 foundation model，能在手机、可穿戴设备、智能家居和机器人上本地运行。\n\n⭐ **6,210** stars · 本周 +2,488 · 语言：Python\n\n🎯 **为什么有趣：** 在 LLM 越来越大的趋势下，needle 反其道而行——把模型压缩到 14MB，同时保留实用推理能力。这意味着 AI 可以真正跑在手表、IoT 设备等资源受限的终端上，隐私零泄露，延迟趋近于零。边缘 AI 的里程碑级项目。\n\n🏷️ AI / Edge Computing / 嵌入式 / 模型压缩\n\n---\n\n### 2️⃣ [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) — NVIDIA 出品的 LLM 智能流量调度器\n\n一句话简介：为 LLM 应用提供跨模型/跨供应商的流量路由，完全兼容 OpenAI 和 Anthropic API，支持灵活的模型选择、基准测试和成本优化。\n\n⭐ **1,609** stars · 本周 +1,326 · 语言：Rust\n\n🎯 **为什么有趣：** 由 NVIDIA NeMo 团队官方出品，用 Rust 写的高性能代理层。解决了多模型时代的核心痛点——如何在 GPT、Claude、开源模型之间无缝切换、A/B 测试、灰度发布。对于多模型策略的企业级应用来说，这是一个基础设施级工具。本周增速极快（已翻倍），说明市场对这个需求非常饥渴。\n\n🏷️ AI / 基础设施 / Rust / API 网关 / 多模型路由\n\n---\n\n### 3️⃣ [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) — 自我进化的 RLM 编程 Agent\n\n一句话简介：一个自我改进的 RLM（Reward Learning Model）Agent，专门用于编程工作流和长时间自主任务。\n\n⭐ **16,400** stars · 本周 +8,488 · 语言：TypeScript\n\n🎯 **为什么有趣：** 不同于普通的 coding agent，prime-agent 引入了\"自我改进\"机制——Agent 能从自己的执行结果中学习，持续优化策略。本周净增 8,488 stars，是增长最快的项目之一。对于长时间运行的自主编程任务（如多文件重构、端到端功能开发），这种能自我反思进化的 Agent 架构代表了 AI coding 工具的下一个方向。\n\n🏷️ AI / Agent / 自主编程 / TypeScript / RLM\n\n---\n\n### 4️⃣ [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) — 一行 YAML 微调大模型\n\n一句话简介：通过一个 YAML 配置文件即可微调 LLM，创新的 layer streaming 技术让 8B 模型能在 4GB 显存的笔记本上训练。\n\n⭐ **1,837** stars · 本周 +297（今日 +297）· 语言：Python\n\n🎯 **为什么有趣：** 大模型微调的门槛被不断降低，但 Soup 做得更极端——layer streaming 技术逐层加载模型参数，将显存需求从 16GB+ 降到 4GB。普通笔记本就能 fine-tune 8B 模型， democratizing LLM training 的又一个重要一步。对没有 GPU 集群但有想法的开发者来说，这是真正的工具。\n\n🏷️ AI / LLM 微调 / 效率优化 / 低资源训练\n\n---\n\n### 5️⃣ [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) — 为 Claude Code 打造的 29 种精美图表\n\n一句话简介：29 种编辑级图表模板，纯 HTML + SVG 实现，专为 Claude Code 等 AI coding agent 设计，无阴影、无 Mermaid 泥泞代码。\n\n⭐ **19,010** stars · 本周 +14,735 · 语言：HTML\n\n🎯 **为什么有趣：** 本周绝对的 star 火箭（一周涨了近 15k ⭐），因为它精准击中了 AI 时代的新痛点：AI coding agent 生成架构图时，Mermaid 渲染粗糙、风格不可控。这套自包含的 HTML+SVG 图表模板让 AI 直接输出高质量可视化，适用于技术文档、PR 说明、架构设计。小而美，实用极强。\n\n🏷️ AI 工具 / 可视化 / 设计系统 / 开发者工具\n\n---\n\n> 📝 **编辑推荐语：** 本周趋势的核心关键词是 **\"AI 基础设施的分层深化\"**——从超微型模型（needle）到多模型路由（Switchyard），从自我进化 Agent（prime-agent）到低门槛微调（Soup），再到 AI 原生设计工具（diagram-design），开发者社区正在构建 AI 生态的每一层。大模型本身不再是唯一焦点，**如何让 AI 更高效地部署、调度、训练和可视化**，才是当下最火热的创新方向。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

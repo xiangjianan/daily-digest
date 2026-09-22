@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-29",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 本周有趣新项目推荐（8 月 29 日）\n\n---\n\n### 1. [gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — 浏览器里的间谍卫星模拟器，数据是真实的\n⭐ 11,591（今日单日 +3,829）\n\n实时开源空间情报平台，在 WebGL 光照 3D 地球",
+   "full": "## 🔥 GitHub 本周有趣新项目推荐（8 月 29 日）\n\n---\n\n### 1. [gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) — 浏览器里的间谍卫星模拟器，数据是真实的\n⭐ 11,591（今日单日 +3,829）\n\n实时开源空间情报平台，在 WebGL 光照 3D 地球上展示实时卫星追踪、航班追踪和地理空间数据。基于 Cesium 构建，融合了 OSINT 与可视化。\n\n🎯 **为什么有趣：** 2 个月前才创建，本周爆发式增长——单天 3,829 颗星。把卫星遥感和 OSINT 做成了人人可用的浏览器体验，创意和前沿性兼具。\n\n🏷️ `3D可视化` / `OSINT` / `WebGL` / `地理空间`\n\n---\n\n### 2. [OpenLogi](https://github.com/AprilNEA/OpenLogi) — Logitech Options+ 的开源 Rust 替代品\n⭐ 17,487（本周 +4,825）\n\n用 Rust 编写的本地优先 Logitech 鼠标驱动：重映射按键、调节 DPI、控制 SmartShift，通过 HID++ 协议直连硬件。无需账号、零遥测。\n\n🎯 **为什么有趣：** 隐私运动 + 硬件自由化的代表作。单开发者项目一周涨近 5K 星，社区对\"拒绝厂商锁定\"的渴望可见一斑。Rust 实现也展示了底层硬件控制的工程美感。\n\n🏷️ `Rust` / `硬件` / `隐私` / `驱动`\n\n---\n\n### 3. [Apache Maka](https://github.com/apache/maka) — 本地优先的 AI Agent 工作区（Apache 孵化中）\n⭐ 3,938（本周 +1,918，近 50% 为本周增长）\n\n将 Agent 的所有交互——模型消息、工具调用、权限决策——记录为不可变的 append-only 日志，实现可回溯、可审计的 Agent 行为。\n\n🎯 **为什么有趣：** Apache 基金会的新孵化项目，引入了「事件溯源」架构到 AI Agent 领域。解决了当前 Agent 系统最大的痛点之一：行为不可复现。TypeScript + Electron，本地运行，理念先进。\n\n🏷️ `AI Agent` / `事件溯源` / `本地优先` / `TypeScript`\n\n---\n\n### 4. [ponytail](https://github.com/DietrichGebert/ponytail) — 让你的 AI 编码 Agent 像\"最懒的高级工程师\"一样思考\n⭐ 115,766（今日 +1,396）\n\n一套 AI Agent 技能/规则集，将 YAGNI（你不需要它）原则注入 Claude Code、Cursor 等 AI 编码助手。\"最好的代码是你从未写过的代码。\"\n\n🎯 **为什么有趣：** 2.5 个月达到 11.5 万星，2026 年增长最快的仓库之一。它不写代码——它教 AI 少写代码。用 prompt engineering 的方式重塑 AI 编码文化，个人独立开发者项目，概念传播力极强。\n\n🏷️ `AI Agent` / `Prompt Engineering` / `编码哲学` / `Claude Code`\n\n---\n\n### 5. [ai-job-search](https://github.com/MadsLorentzen/ai-job-search) — 在你本地机器上跑的 AI 求职框架\n⭐ 37,865（本周 +4,828）| 🍴 Fork 率 34%\n\n基于 Claude Code 的本地 AI 求职工具链：自动评估岗位、定制简历、生成求职信、准备面试。Fork 即可用。\n\n🎯 **为什么有趣：** 34% 的 Fork 率极其罕见——说明用户在真正地拿去用、去改。解决了求职者最痛的点，同时完全本地化保障隐私。实用性与创新性兼备。\n\n🏷️ `AI` / `求职` / `自动化` / `Claude Code`\n\n---\n\n> 📝 **编辑推荐：** 本周 GitHub 的趋势可以概括为 **\"Agent 生态全面爆发\"**——无论是 Agent 的技能插件（ponytail）、编排框架（Munder Difflin）、行为审计（Maka），还是 Agent 驱动的实际应用（ai-job-search），都在同步爆发。与此同时，隐私优先的本地工具（OpenLogi）和硬核开源地理情报（gods-eye-view）则提醒我们：社区对掌控权和透明度的追求同样强烈。Agent 时代的基础设施正在被快速搭建。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

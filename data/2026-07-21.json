@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-21",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Now I have all the data. Let me compile the report.\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐（2026.7.21）\n\n### 1. [nethical6/conversation-steganography](https://github.com/nethical6/conversation-",
+   "full": "Now I have all the data. Let me compile the report.\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐（2026.7.21）\n\n### 1. [nethical6/conversation-steganography](https://github.com/nethical6/conversation-steganography)\n一句话：用大语言模型把隐写术藏进看似正常的对话里，AI 生成的一段闲聊可能暗藏秘密信息。\n⭐ 887 | 🏷️ AI / 安全 / Go\n🎯 **为什么有趣**：概念极其新颖——把隐写术（Steganography）和 LLM 结合，让秘密信息伪装成日常对话。AI 时代的信息安全玩法被彻底拓宽了，这种「用 AI 反制 AI」的思路非常有启发性。\n\n### 2. [Nutlope/hallmark](https://github.com/Nutlope/hallmark)\n一句话：反 AI 审美塑料感的设计技能包，让 Claude Code / Cursor / Codex 生成有品位的 UI 而非千篇一律的渐变圆角。\n⭐ 14,530（本周 +9,173）| 🏷️ AI / CSS / 设计工具\n🎯 **为什么有趣**：精准击中了当前最大痛点——AI 生成的界面「长一个样」（AI slop）。作为本周 star 增长最快的项目之一，它用纯 CSS 规范约束 AI 输出质量，思路简单却直击要害。社区爆发式认可说明了开发者们的共鸣有多强。\n\n### 3. [thesysdev/appless](https://github.com/thesysdev/appless)\n一句话：「如果手机没有 App 会怎样？」——一个生成式 UI 概念原型，用 AI 动态生成界面替代传统 App。\n⭐ 303 | 🏷️ 前端 / UI / AI\n🎯 **为什么有趣**：对「App 生态」的底层假设提出了大胆质疑。不是又一个聊天机器人，而是重新思考移动端交互范式的概念验证。虽然还处于早期，但思维实验的价值在于它能启发整个社区重新审视「App 必不可少」这个信念。\n\n### 4. [tandpfun/wardrobe](https://github.com/tandpfun/wardrobe)\n一句话：用 gpt-image 自动识别、提取、分类你衣橱里的衣服，生成数字衣橱管理。\n⭐ 1,236 | 🏷️ AI / 图像 / 生活工具\n🎯 **为什么有趣**：把 AI 视觉能力用在了一个极其贴近日常的痛点上。不是又一个通用图像工具，而是「拍张照就整理好衣柜」的实用魔法。一周内超千星说明「AI + 日常生活」场景的需求远未被满足。\n\n### 5. [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)\n一句话：本地优先的代码智能图谱，为 AI 编码工具构建代码库持久化地图，只让 AI 读取真正相关的代码。\n⭐ 24,012（本周 +3,073）| 🏷️ AI / 开发工具 / Python\n🎯 **为什么有趣**：解决了一个所有 AI 编码工具都面临的瓶颈——上下文窗口不够用。它不是简单地增加 token 限制，而是通过构建代码依赖图谱来智能裁剪上下文，实测在大型仓库中能显著降低 context 消耗。本周新增 3K+ star，是开发者工具领域的突破性思路。\n\n---\n\n> 📝 **编辑推荐语**：本周趋势清晰地指向「AI 工具的可信度与品味」——从反 AI 塑料审美的 hallmark，到对抗 AI 审查的隐写术，再到优化 AI 上下文效率的 code-review-graph，社区正在从「用 AI 做事」进化到「让 AI 做得更好、更安全、更优雅」。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

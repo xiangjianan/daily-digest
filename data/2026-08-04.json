@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-04",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 本周新项目趋势速递（2025年8月4日）\n\n---\n\n### 1️⃣ MoonshotAI/Kimi-K3 — 全球首个开放 3T 级大模型\n**🔗** [github.com/MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3)\n**一句话简介：** 月之暗面发布的 2",
+   "full": "## 🔥 GitHub 本周新项目趋势速递（2025年8月4日）\n\n---\n\n### 1️⃣ MoonshotAI/Kimi-K3 — 全球首个开放 3T 级大模型\n**🔗** [github.com/MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3)\n**一句话简介：** 月之暗面发布的 2.8 万亿参数 MoE 开放权重模型，支持百万 token 上下文，采用自研 KDA 注意力机制。\n**⭐ 8,013**（8 天内）\n**🎯 为什么有趣：** 全球首个开放的万亿级大模型，MoE 稀疏激活仅 16/896 专家，覆盖 GPU 内核优化、编译器开发、CAD、芯片设计等硬核场景。2.5 倍缩放效率提升，开源即引爆。\n**🏷️ AI 大模型 · MoE · 开源权重 · 多模态**\n\n---\n\n### 2️⃣ yc-software/qm — 多人协作 AI Agent 工作台\n**🔗** [github.com/yc-software/qm](https://github.com/yc-software/qm)\n**一句话简介：** Y Combinator 团队打造的 Multiplayer Agent Harness，让多个 AI 编码 Agent 同时协作完成任务。\n**⭐ 10,471**（6 天内）\n**🎯 为什么有趣：** 本周增长最猛的新项目，6 天破万星。\"多人 Agent 协作\"概念新颖，突破单一 Agent 的局限，支持 Codex 和 Claude Code 集成，构建了完整的 microVM 部署体系。\n**🏷️ AI Agent · 协作编程 · TypeScript · 工作流**\n\n---\n\n### 3️⃣ FareedKhan-dev/kimi-k3-in-c — 纯 C 语言跑万亿参数推理\n**🔗** [github.com/FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c)\n**一句话简介：** 用纯 C99 代码实现 2.78T 参数 Kimi K3 模型推理，仅需单 CPU + 8.24 GB 内存，零依赖。\n**⭐ 1,472**（3 天内）\n**🎯 为什么有趣：** 极致的系统工程——将万亿参数模型压缩到 8GB 内存运行，无需 BLAS、无需框架、无需 GPU。充分利用 Kimi K3 MoE 的稀疏性，代码可移植性极高，3 天近 1,500 星。\n**🏷️ 系统编程 · AI 推理 · C 语言 · 内存优化**\n\n---\n\n### 4️⃣ vercel-labs/scriptc — TypeScript 原生编译器\n**🔗** [github.com/vercel-labs/scriptc](https://github.com/vercel-labs/scriptc)\n**一句话简介：** Vercel 实验室推出的 TypeScript-to-Native 编译器，将 TS 代码直接编译为原生可执行文件。\n**⭐ 2,835**（13 天内）\n**🎯 为什么有趣：** TypeScript 生态突破 Node.js 运行时边界的里程碑。Vercel Labs 出品质量有保障，13 天 461 次 commit 的开发节奏极快，解决 TS 开发者的性能痛点，实用价值极高。\n**🏷️ 编译器 · TypeScript · Native · 编程语言**\n\n---\n\n### 5️⃣ trycompai/crm — AI 原生开源 CRM\n**🔗** [github.com/trycompai/crm](https://github.com/trycompai/crm)\n**一句话简介：** Agent-first（智能体优先）的开源 CRM 系统，将 AI Agent 放在核心位置驱动客户关系管理。\n**⭐ 3,752**（4 天内）\n**🎯 为什么有趣：** \"Agentic CRM\" 概念领先，重新定义了 CRM 的产品形态。填补了开源 AI CRM 的空白，4 天近 4,000 星，架构完整包含 API、文档和技能系统。\n**🏷️ AI CRM · Agent · SaaS · 开源**\n\n---\n\n> 📝 **编辑推荐语：** 本周 GitHub 的新项目趋势可以用一个词概括——**「Agent 化一切」**。从 Kimi K3 3T 模型开放引发的推理生态爆发，到多人协作 Agent 框架、Agent-first CRM，AI Agent 正在从概念走向基础设施。与此同时，TypeScript 冲向原生编译、纯 C 极致优化万亿模型推理——底层工程的想象力同样令人兴奋。这是一个「基础设施周」。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

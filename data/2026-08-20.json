@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-20",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 每周有趣新项目推荐（2026.08.20）\n\n---\n\n### 1. [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)\n> 38 种编辑级图表模板，专为 Claude Code、Codex 等 AI 编码助手设计，纯 HTML",
+   "full": "## 🔥 GitHub 每周有趣新项目推荐（2026.08.20）\n\n---\n\n### 1. [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)\n> 38 种编辑级图表模板，专为 Claude Code、Codex 等 AI 编码助手设计，纯 HTML + SVG，无需任何依赖。\n\n⭐ **23,805**（本周 +14,397 🚀）\n\n🎯 **为什么有趣：** 本周增速最猛的项目之一。它的思路非常巧妙——不是让 AI 生成 Mermaid 之类的代码图表（往往丑且难控），而是手作 38 种精心设计的 SVG 图表模板，让 AI 编码助手直接引用渲染。这种\"人设计模板 + AI 填内容\"的混合模式，比纯 AI 生成质量高得多，解决了 AI 编码场景下\"图表输出难看\"的真实痛点。\n\n🏷️ AI 工具 / 设计 / 模板\n\n---\n\n### 2. [cactus-compute/needle](https://github.com/cactus-compute/needle)\n> 仅 14MB 的基础模型，能在手机、可穿戴设备、智能家居和机器人等微型设备上运行。\n\n⭐ **7,951**（本周 +3,838）\n\n🎯 **为什么有趣：** 把大模型压缩到 14MB 并在边缘设备上运行，这个尺度在 2026 年依然令人惊叹。它不是简单的量化裁剪，而是从头设计的超微型基础模型架构。随着 AI 从云端向端侧迁移，这类\"能在手表上跑的 LLM\"代表了 AI 部署的前沿方向，对嵌入式 AI 和机器人领域有实际意义。\n\n🏷️ AI / 边缘计算 / 嵌入式 / 模型压缩\n\n---\n\n### 3. [semantica-agi/semantica](https://github.com/semantica-agi/semantica)\n> 图原生（Graph-Native）基础设施，为 AI 系统提供上下文管理和可问责性。\n\n⭐ **9,677**（本周 +4,005）\n\n🎯 **为什么有趣：** 传统 AI 系统的上下文管理靠向量数据库和线性 RAG，而 Semantica 用图结构来组织知识——节点是实体、边是关系，天然适合多跳推理和因果追溯。\"可问责 AI\"（Accountable AI）也是当前热点，让 AI 的推理过程可审计、可回溯，在企业级场景有强需求。图 + AI 的交叉领域目前竞争者不多，思路很有前瞻性。\n\n🏷️ AI / 知识图谱 / 基础设施 / RAG\n\n---\n\n### 4. [lightningpixel/modly](https://github.com/lightningpixel/modly)\n> 桌面应用，通过本地 GPU 上的 AI 从图片或文字提示生成 3D 模型，完全离线运行。\n\n⭐ **6,964**（本周 +1,797）\n\n🎯 **为什么有趣：** AI 生成 3D 模型是当前 AIGC 的前沿热点（text-to-3D / image-to-3D），但大多数方案依赖云端 API。Modly 的亮点在于**完全本地运行**——你的图片不出电脑，隐私安全有保障，且不花钱。对游戏开发者、设计师和 3D 打印爱好者来说，这是一个能直接解决工作流问题的实用工具，同时技术栈（本地 GPU 推理 + 桌面应用）也很有工程价值。\n\n🏷️ AI / 3D / 桌面应用 / AIGC\n\n---\n\n### 5. [macro-inc/macro](https://github.com/macro-inc/macro)\n> 用 Rust 构建的统一团队工作空间：邮件、聊天、文档、任务、AI Agent、通话和 CRM，全部通过 @-mention 互联并共享 AI 记忆。\n\n⭐ **3,816**（本周 +2,557）\n\n🎯 **为什么有趣：** \"所有工具合而为一\"的想法并不新（Notion、Slack 都在尝试），但 Macro 的独特之处在于：① 用 Rust 构建，性能和安全性有保障；② 核心创新是 **@-linked shared AI memory**——不同模块（邮件、文档、聊天）之间的信息通过 AI 记忆自动关联，而不是靠手动链接；③ 一周内获得 2,500+ star，说明社区对\"AI-native workspace\"这个方向有强烈期待。它试图重新定义团队协作的交互范式。\n\n🏷️ Rust / 效率工具 / AI Agent / 协作平台\n\n---\n\n> 📝 **编辑推荐：** 本周趋势清晰地指向 **AI 从\"能用\"走向\"好用\"的落地阶段**——needle 让模型塞进手表、modly 让 3D 生成跑在本地、diagram-design 让 AI 输出专业图表、semantica 让 AI 推理可审计、macro 让 AI 记忆贯穿工作流。热潮已经从\"训练更大的模型\"转向\"让 AI 真正融入日常工具链\"，这才是 2026 年最值得关注的方向。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

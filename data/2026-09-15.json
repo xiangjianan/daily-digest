@@ -1,0 +1,35 @@
+{
+ "date": "2026-09-15",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "全部完成，线上验证通过。\n\n🔧 [2026-09-15] 每日创意小工具 #3：BYTELENS — 文件 X 光机\n💡 一句话介绍：把任意文件拖进浏览器，立刻看到它的字节级解剖图——文本在哪、压缩噪声在哪、内部藏着什么格式，像拍 X 光一样，全程不离开你的设备。\n\n🛠️ 在线使用：https://xiangjianan.github.io/bytelens",
+   "full": "全部完成，线上验证通过。\n\n🔧 [2026-09-15] 每日创意小工具 #3：BYTELENS — 文件 X 光机\n💡 一句话介绍：把任意文件拖进浏览器，立刻看到它的字节级解剖图——文本在哪、压缩噪声在哪、内部藏着什么格式，像拍 X 光一样，全程不离开你的设备。\n\n🛠️ 在线使用：https://xiangjianan.github.io/bytelens-20260915/ ｜ 仓库：https://github.com/xiangjianan/bytelens-20260915\n\n🧠 创意来源：今天 HN Show HN 扫到三条同向线索——ToolVerve（75 个 100% 浏览器内存运行的工具）、PDF Pocket Tools（单文件离线工具包）、Gedcom Tools（浏览器内直接检查文件），加上 tiny MoE viz 的「把不可见变可见」。hexdump 是唯一传统的字节级查看方式但极不友好，在线文件检查器又要上传文件。原创点：把「文件 = 像素地图」做成即时可视化体验——1 字节 1 像素按类型上色（零值/文本/空白/高熵彩色噪声），叠加全文件缩略 minimap（点哪跳哪）、分块香农熵曲线（一眼分辨明文与压缩段）、17 种魔数签名钉标定位、点击任意字节出十六/十/二进制检查器。纯 FileReader + Canvas，单文件零依赖，file:// 双击即用，手机触屏适配。\n\n✅ 质量验证：playwright 无头 6 组断言全绿（PNG/ZIP 样本签名识别、混合二进制检查器读数、空文件友好守卫、大文件 minimap 跳转、复制报告），零 JS 报错；PIL 像素统计确认渲染；Pages 上线后线上无头复验同样通过。\n\n⚖️ 今日取舍：映射上限设为 4 MB（更大文件提示截断，避免移动端内存爆掉）；2 字节弱魔数（BM/MZ/GZIP）只在 offset 0 采信——自检时随机数据 64K 扫描区必然误报，这个真实 bug 是冒烟测试抓出来修掉的。未打磨：暂不支持超文件的 stride 采样全景、熵曲线块数固定 128。明天可迭代：导出标注 PNG、目录级批量 X 光、对比两个文件的字节图 diff。",
+   "job_id": "6ff8e716c927"
+  },
+  {
+   "name": "每日沉迷小游戏",
+   "emoji": "🎮",
+   "time": "10:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🎮 [2026-09-15] 每日沉迷小游戏 #7：JAYWALK（乱穿马路）\n\n💡 一句话玩法：点屏幕左/中/右三分之一，把排队的小人派进四条车道的车流——读间隙、叠连击、贪并发，碰撞一次即死，点一下重开。\n\n🧠 沉迷机制：今天调研 HN Algolia 近期无新爆火休闲游戏（Hopera 已于 #4 用过），改从经典过马路题材取经——\n- **Frogg",
+   "full": "🎮 [2026-09-15] 每日沉迷小游戏 #7：JAYWALK（乱穿马路）\n\n💡 一句话玩法：点屏幕左/中/右三分之一，把排队的小人派进四条车道的车流——读间隙、叠连击、贪并发，碰撞一次即死，点一下重开。\n\n🧠 沉迷机制：今天调研 HN Algolia 近期无新爆火休闲游戏（Hopera 已于 #4 用过），改从经典过马路题材取经——\n- **Frogger**（读间隙张力）：本作核心赌注，但加了 0.38s 路口车灯预警，每次派遣都是“看得见”的公平赌注，死得服气才想再来\n- **Crossy Road**（过马路+连跳雪球）：1.6s 连击窗口 ×(1+0.25(c-1)) 最高 ×5，带可见倒计时条逼你“还能再塞一个吗”\n- **Traffic Panic**（路口指挥压力）：安全打法与得分打法刻意分离——擦车 +5 分、并发人数放大倍率，贪婪就是策略\n- **Flappy Bird**：死亡→点击→新局，重开成本 <1s\n\n🕹️ 在线试玩：https://xiangjianan.github.io/jaywalk-20260915/ ｜仓库：https://github.com/xiangjianan/jaywalk-20260915\n\n⚖️ 今日取舍：\n- 系列首次换操作动词族——前 6 期全是按住/松开，本次用“点位置选列+时机判断”，玩法不与已发布 6 期任何内核重叠\n- 自检抓到两个真问题并修复：①首版车从屏幕边“凭空刷出”导致不公平死亡（bot t=2s 暴死取证）→ 加入场车灯预警；②bot 预测未来刷车用平均入场距离偏晚 0.5s → 改最近侧保守估计。终版 60s 浸泡：0 死、60.5fps、零报错，机制单元测试（连击倍率/过期重置/near-miss/碰撞）全过\n- 遗留：连击升级音效只在每 3 连击触发（1-2 连无音感）；bot 保守单发 60s 仅 63 分，人类贪并发的分数上限未验证——真人反馈后再调\n\n本地路径：`/home/xjn/projects/jaywalk-20260915/`，明天 #8 候选池已记入摘要。",
+   "job_id": "4e5dc8651932"
+  },
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "验证完成，信息充足：RLT 有 HN 讨论（15pt + Seb Raschka 视频解读）交叉印证，DeepSelect 是 DeepSeek 官方仓库，各项目创建时间和增速都核实过。筛选出 5 个满足「至少两条标准」的项目成稿。\n\n---\n\n# 🛰️ GitHub 每日有趣新项目推送 · 2026-09-15\n\n过去 7 天新创建仓库中，经 GitHub",
+   "full": "验证完成，信息充足：RLT 有 HN 讨论（15pt + Seb Raschka 视频解读）交叉印证，DeepSelect 是 DeepSeek 官方仓库，各项目创建时间和增速都核实过。筛选出 5 个满足「至少两条标准」的项目成稿。\n\n---\n\n# 🛰️ GitHub 每日有趣新项目推送 · 2026-09-15\n\n过去 7 天新创建仓库中，经 GitHub Search API + Trending 周榜 + Hacker News 三源交叉验证，精选 5 个：\n\n---\n\n### 1. [recurrent-looped-tranformer (RLT)](https://github.com/yifanzhang-pro/recurrent-looped-tranformer)\n> 循环循环 Transformer：让潜在推理（latent reasoning）跨每个 token 持续进行，「无限时间深度」的循环解码器 + 全局 KV 记忆编码器\n\n⭐ **768**（创建 3 天，约 256★/天）| 🖥️ HTML（论文项目页）| 创建于 2026-09-12\n\n🎯 **为什么有趣：** 典型的前沿研究爆款——一个论文项目页 3 天近 800 star 极为罕见。方向与 OpenAI 的 recurrent depth / looped transformer 路线呼应，Seb Raschka 已出解读视频，HN 上也有讨论（15pt）。它挑战「固定层数推理」这一默认假设：把计算深度变成随 token 流动的循环过程，属于潜在推理这条最热的研究线。\n\n🏷️ AI / 深度学习架构 / 前沿研究\n\n---\n\n### 2. [DeepSelect](https://github.com/deepseek-ai/DeepSelect)\n> DeepSeek 官方开源的 Sparse Attention TopK CUDA kernel，比 `torch.topk` 快 2～20 倍\n\n⭐ **349**（创建 6 天）| 🖥️ CUDA | 创建于 2026-09-09\n\n🎯 **为什么有趣：** DeepSeek V3.2/V4 系列的核心组件——稀疏注意力里的 TopK 选择算子，官方直接放出了生产级实现 + 算法深度剖析（中英双语）。前沿性拉满（推理底层优化是当前最卷的赛道），实用性也极强：任何自己复现 DSA 或做长上下文推理的团队都能直接受益。典型的「大厂开源基础设施」打法。\n\n🏷️ AI / 推理优化 / CUDA / 系统底层\n\n---\n\n### 3. [AgentVerse-OS](https://github.com/agentverse-os/AgentVerse-OS)\n> 给开发者和他的 AI agent 用的单机个人云 OS：一条命令装在 Ubuntu 上，浏览器里得到窗口化桌面 + 隔离工作区（VS Code、Claude Code、Codex）+ 944 个自托管应用的商店\n\n⭐ **425**（创建 3 天，约 142★/天）| 🖥️ Rust + Svelte | 创建于 2026-09-12\n\n🎯 **为什么有趣：** 「AI agent 时代的个人操作系统」这个想法很妙——不是给 agent 再造一个编排框架，而是把整台家用服务器变成 agent 的宿舍：每个 agent 有自己的隔离工作区，人机共用一个桌面，且只走 Tailscale、完全不暴露公网。Rust 核心保证了性能。踩中了「自托管 + agent 基础设施」两条趋势线的交点，创意与实用性兼具。\n\n🏷️ AI Agent / 自托管 / 云操作系统 / Rust\n\n---\n\n### 4. [Mac-Duo](https://github.com/sumimakito/Mac-Duo)\n> 把 iPhone「折叠开合」的屏幕动效搬到 MacBook 上：合上盖子时屏幕内容会倾斜、模糊、淡出，菜单栏可调\n\n⭐ **883**（创建 5 天，约 177★/天）| 🖥️ Swift | 创建于 2026-09-10\n\n🎯 **为什么有趣：** 本周最有「纯乐趣」的项目——没有任何实际生产力，只是把一个美学执念做成了真的，5 天 883 star 全靠社区自发送。这类「数字物件感」小工具（配合 HN 上同期出现的 Foldelight）说明大家对被效率工具轰炸的疲劳：有时一个让人会心一笑的物理拟真动效，就是最好的开源传播素材。中英双语、开源、原生 Swift，完成度很高。\n\n🏷️ macOS / 创意 / UI 动效 / 菜单栏工具\n\n---\n\n### 5. [gongwen-gbt9704-skill](https://github.com/mizzlelover/gongwen-gbt9704-skill)\n> 中文公文排版 Agent Skill：按国标 GB/T 9704-2012 把内容生成完全可编辑的 DOCX，支持 Claude Code / Kimi / Trae 等多个 agent\n\n⭐ **616**（创建 6 天，约 103★/天）| 🖥️ JavaScript | 创建于 2026-09-09\n\n🎯 **为什么有趣：** Agent Skill 生态里最「接地气」的爆款——用 AI 解决一个真实到不能再真实的中国办公痛点：红头文件格式。作者甚至按《党政机关公文格式》国标实现了字体、字号、版式规则，还配套了 CEB 老格式转换工具，README 里认真写了信息安全脱敏提醒。证明 agent skill 的机会不在炫技而在垂直场景：一个月能帮体制内用户省下无数小时调格式的时间。127 fork 说明被大量实际采用。\n\n🏷️ AI Skill / 办公效率 / 文档生成 / 中文场景\n\n---\n\n### 📝 编辑推荐\n> 本周的主线非常清晰：**agent 生态正在「基础设施化」**——从底层 kernel（DeepSelect）、研究架构（RLT）、个人操作系统（AgentVerse-OS）到垂直场景技能（公文排版），各层都在爆发；而 Mac-Duo 的走红则提醒我们，纯粹让人愉悦的小东西依然有最强的传播力。\n\n*数据截至 2026-09-15 09:00 UTC，star 数为抓取时点数值。*",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-13",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "I now have comprehensive data from the trending page. Let me compile my final report. I have verified the data directly from GitHub. Here's what I found:\n\n---\n\n## 🔥 GitHub 本周有趣新项目推",
+   "full": "I now have comprehensive data from the trending page. Let me compile my final report. I have verified the data directly from GitHub. Here's what I found:\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐\n\n> 数据来源：GitHub Trending（本周）| 2026 年 8 月 13 日\n\n---\n\n### 1. [cloudflare/computer](https://github.com/cloudflare/computer)\n> 给你的 AI Agent 一台虚拟电脑 👾\n\n⭐ **7,883** （本周 +6,020）\n\n🎯 **为什么有趣：** Cloudflare 出品，把虚拟文件系统塞进 Durable Object 里，给 AI Agent 提供持久的「电脑环境」。支持 Bash、Node.js、Python 等多种执行后端，Agent 可以在云端拥有自己的文件、进程和 shell。这是 Agent 基础设施领域的全新思路——不再是简单的 API 调用，而是给 Agent 一台真正能「生活」的虚拟机。\n\n🏷️ `AI Agent` · `基础设施` · `Cloudflare` · `TypeScript`\n\n---\n\n### 2. [huangruiteng/loopx](https://github.com/huangruiteng/loopx)\n> 面向长时间运行 AI Agent 团队的轻量状态内核\n\n⭐ **4,508** （本周 +2,509）\n\n🎯 **为什么有趣：** 解决了一个真实痛点——多 Agent 协作时的状态管理和任务接力。loopx 作为「循环工程状态内核」，提供持久目标、配额感知的自动唤醒、可执行 TODO、证据日志和可验证的交接机制。跨 Codex、Claude Code 等多种 Agent 循环框架，是一周内从 0 爆到 4.5k star 的国产新项目。\n\n🏷️ `AI Agent` · `多智能体协作` · `状态管理` · `Python`\n\n---\n\n### 3. [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)\n> 把任何技术书籍 PDF 自动转化为 Claude Code 技能\n\n⭐ **21,000** （本周 +3,983）\n\n🎯 **为什么有趣：** 创意十足——把 O'Reilly 书籍、技术文档 PDF 自动拆解、结构化，变成 Claude Code 等 AI 编程助手可以直接引用的 skill 文件。等于让 AI 边写代码边「翻书」参考。解决的是 AI 编程中「知识幻觉」问题的巧妙方案，支持多语言目录检测和智能分块。\n\n🏷️ `AI` · `文档处理` · `Claude Code` · `Python`\n\n---\n\n### 4. [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag)\n> 用知识图谱 + AI 驱动的终极代码库 RAG\n\n⭐ **4,140** （本周 +1,511）\n\n🎯 **为什么有趣：** 不同于传统的文件级 RAG，这个项目把代码库抽象为知识图谱（函数调用关系、模块依赖等），然后用图数据库进行语义查询。支持多语言 monorepo，可以自然语言查询「哪些函数调用了这个 API」然后直接定位修改。CodeGraph-RAG + AI 编辑的组合，是代码理解和重构的新范式。\n\n🏷️ `RAG` · `知识图谱` · `代码分析` · `AI` · `Python`\n\n---\n\n### 5. [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector)\n> 用 Rust 写的极速 PDF 检测、分类和文本提取库\n\n⭐ **15,158** （本周 +4,043）\n\n🎯 **为什么有趣：** 实用性拉满。核心功能是智能判断一个 PDF 是扫描件还是纯文本，据此决定走 OCR 还是直接提取。这是 PDF 处理管线中关键但长期被忽视的「路由」问题。Rust 实现保证了性能，来自知名项目 firecrawl 团队，工程品质有保障。非常适合作为文档 AI 管线的基础组件。\n\n🏷️ `Rust` · `PDF` · `OCR` · `文档处理` · `工具`\n\n---\n\n**📝 编辑推荐语：** 本周的趋势非常清晰——**Agent 基础设施全面爆发**。从给 Agent 一台虚拟电脑（cloudflare/computer），到 Agent 之间的状态管理与任务接力（loopx），再到让 Agent 学会「翻书」（book-to-skill）和「理解代码图谱」（code-graph-rag），整个生态正在从「单 Agent 写代码」进化到「Agent 团队协作 + 持久化环境 + 知识增强」。这是继 coding agent 热潮之后的下一个战场。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

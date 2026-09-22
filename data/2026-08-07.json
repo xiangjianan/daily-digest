@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-07",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 本周有趣新项目推荐（2026.8.7）\n\n---\n\n### 1. 🖥️ [cloudflare/computer](https://github.com/cloudflare/computer)\n> 「给你的 Agent 一台电脑 👾」\n\n⭐ **5,124** stars（今日单日暴涨 ~2,800）\n\n🎯 **为什么有趣：** C",
+   "full": "## 🔥 GitHub 本周有趣新项目推荐（2026.8.7）\n\n---\n\n### 1. 🖥️ [cloudflare/computer](https://github.com/cloudflare/computer)\n> 「给你的 Agent 一台电脑 👾」\n\n⭐ **5,124** stars（今日单日暴涨 ~2,800）\n\n🎯 **为什么有趣：** Cloudflare 官方出品——给 AI Agent 一台真实的计算机来操作，而不仅仅是 API 调用。这是「Agentic Computing」的前沿探索：Agent 可以像人一样直接操控计算环境。单日 2,800+ star 的增速说明社区对这一概念高度兴奋。\n\n🏷️ `AI` `Agent` `云计算` `TypeScript`\n\n---\n\n### 2. 🔓 [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill)\n> AI 驱动的逆向工程 / 授权渗透测试技能路由包 — 自动选择工具链 + 自进化知识库\n\n⭐ **20,182** stars（本周新增 **10,091**）\n\n🎯 **为什么有趣：** 本周 GitHub 趋势榜 #1。将 AI Agent 的「技能路由」模式引入安全研究领域——根据任务自动选择和启动合适的工具，且知识库会自我进化。集成了 Burp Suite MCP、CTF 沙箱编排等，创意十足，一周破万 star 实至名归。\n\n🏷️ `安全` `逆向工程` `AI-Agent` `渗透测试` `CTF`\n\n---\n\n### 3. 🧠 [block/buzz](https://github.com/block/buzz)\n> 「蜂巢思维」通信平台\n\n⭐ **24,556** stars（本周新增 **5,903**）\n\n🎯 **为什么有趣：** Block（Square）团队出品，最具创意的项目——重新定义群体通信为「集体智能」，而非传统聊天或社交媒体。近 2.5 万 star 且仍在快速增长，Claude 也作为贡献者参与，说明这不是玩票项目，而是在认真探索全新的通信范式。\n\n🏷️ `通信` `协作` `社交平台` `AI`\n\n---\n\n### 4. ⚡ [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)\n> DeepSeek 原生 AI 编程 Agent，专为 prefix-cache 稳定性设计——常驻终端不掉线\n\n⭐ **32,721** stars（本周新增 **4,203**）\n\n🎯 **为什么有趣：** 总 star 最高的新项目之一，解决了一个真实痛点：AI 编程 Agent 在长时间运行时容易丢失上下文或 token 成本爆炸。Reasonix 专门针对 prefix-cache 稳定性做了工程优化，可以作为持久化终端伴侣常驻运行。这是 Cursor/Cline 之外的 DeepSeek 原生替代方案，实用性和创新性兼具。\n\n🏷️ `AI` `编程Agent` `CLI` `终端` `LLM`\n\n---\n\n### 5. 🔄 [huangruiteng/loopx](https://github.com/huangruiteng/loopx)\n> 轻量级 Loop 工程状态内核——为长期运行的 AI Agent 团队提供持久目标、配额唤醒、可执行待办和可验证交接\n\n⭐ **3,158** stars（今日单日 **847**）\n\n🎯 **为什么有趣：** 架构层面最有新意的项目。解决了多 Agent 长期协作的硬问题——跨不同编码 Agent（Codex、Claude Code 等）管理状态、目标、配额和交接。「Loop 工程状态内核」是一个全新的抽象层，目前没有同类替代品。在较小基数上日增近千 star，增长势头凶猛。\n\n🏷️ `AI-Agent` `多智能体编排` `状态管理` `CLI`\n\n---\n\n### 📊 本周概览\n\n| # | 项目 | Stars | 本周增量 | 类别 |\n|---|------|-------|---------|------|\n| 1 | cloudflare/computer | 5.1K | ~3K/日 | Agentic Computing |\n| 2 | zhaoxuya520/reverse-skill | 20.2K | 10K | AI 安全 |\n| 3 | block/buzz | 24.6K | 5.9K | 通信平台 |\n| 4 | esengine/DeepSeek-Reasonix | 32.7K | 4.2K | AI 编程 Agent |\n| 5 | huangruiteng/loopx | 3.2K | ~850/日 | 多 Agent 编排 |\n\n---\n\n> 📝 **编辑推荐：** 本周 GitHub 趋势可以用一个词概括——**「Agent 基础设施大爆发」**。从给 Agent 一台真机（cloudflare/computer）、到 Agent 安全工具链（reverse-skill）、到 Agent 长期运行稳定性（DeepSeek-Reasonix）、再到多 Agent 协作编排（loopx），整个生态正在从「单 Agent 能不能用」向「Agent 团队怎么可靠地跑起来」快速演进。如果你今年只关注一个方向，那就是 AI Agent 工程化。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

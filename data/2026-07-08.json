@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-08",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔍 GitHub 本周有趣新项目推荐（2026.7.8）\n\n---\n\n### 1. 🔥 [T3MP3ST](https://github.com/elder-plinius/T3MP3ST) — 自主红队渗透测试平台\n一句话简介：多 Agent 协作的安全攻防平台，让 AI Agent 们自动完成渗透测试。\n\n⭐ 3,537（6 天内）\n\n🎯 **为什",
+   "full": "## 🔍 GitHub 本周有趣新项目推荐（2026.7.8）\n\n---\n\n### 1. 🔥 [T3MP3ST](https://github.com/elder-plinius/T3MP3ST) — 自主红队渗透测试平台\n一句话简介：多 Agent 协作的安全攻防平台，让 AI Agent 们自动完成渗透测试。\n\n⭐ 3,537（6 天内）\n\n🎯 **为什么有趣：** 采用「Agent 的 Agent」架构，多个 AI 安全 Agent 自动协同执行攻击链。3.5K star 在不到一周内达成，说明社区对 AI 驱动安全工具的巨大需求——把渗透测试这种高度专业化的工作交给多智能体系统，思路非常前沿。\n\n🏷️ `AI` · `安全` · `CLI` · `多 Agent`\n\n---\n\n### 2. 🪄 [riddle](https://github.com/MaximeRivest/riddle) — Tom Riddle 的日记本（reMarkable 电纸书版）\n一句话简介：在电纸书上手写提问，页面会「喝掉你的墨水」并以手写字迹回答——真实还原《哈利·波特》中的日记本。\n\n⭐ 1,114（3 天内）\n\n🎯 **为什么有趣：** 创意满分——把 AI 对话伪装成魔法道具。用 Rust 编写，运行在 reMarkable Paper Pro 上，AI 以手写风格文字回应，交互体验极具沉浸感。3 天破千 star，硬件 + AI 的创意组合让人眼前一亮。\n\n🏷️ `AI` · `硬件` · `电纸书` · `创意应用`\n\n---\n\n### 3. 🎮 [Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) — C&C: Generals 登陆 Apple 全平台\n一句话简介：把 2003 年经典即时战略游戏《命令与征服：将军》移植到 macOS、iPhone 和 iPad 上原生运行。\n\n⭐ 1,318（4 天内）\n\n🎯 **为什么有趣：** 基于 EA 公开的 GPL 源码，通过 DXVK/MoltenVK 把 DirectX 翻译为 Vulkan，实现跨平台渲染，还为 iOS 做了定制触控操作。用现代图形技术复活 20 年前的经典，技术含量高，情怀拉满。\n\n🏷️ `游戏` · `C++` · `Apple Silicon` · `Vulkan` · `iOS`\n\n---\n\n### 4. 🛡️ [knockoff](https://github.com/Shpigford/knockoff) — Amazon 山寨品牌过滤器\n一句话简介：Chrome 插件，一键过滤亚马逊上的山寨/伪品牌商品，让你只看到真正的正规品牌。\n\n⭐ 1,166（2 天内）\n\n🎯 **为什么有趣：** 解决了一个所有人都遇到过但没人认真做过的痛点——亚马逊山寨品牌泛滥。由 Baremetrics 创始人打造，2 天破千 star，说明这个需求有多普遍。简单、实用、立即可用。\n\n🏷️ `浏览器插件` · `工具` · `电商`\n\n---\n\n### 5. 🌍 [dnsglobe](https://github.com/514-labs/dnsglobe) — DNS 全球传播可视化终端工具\n一句话简介：在终端里看 DNS 记录在全球 34 个公共 DNS 节点的传播情况，以世界地图形式实时展示。\n\n⭐ 696（3 天内）\n\n🎯 **为什么有趣：** 用 Ratatui 在终端里渲染出精美的世界地图，把枯燥的 DNS 排查变成视觉享受。Rust 编写，DevOps 日常工具做到了极致的美感。属于「明明可以只用 CLI 输出文字，但偏要做得很酷」的类型。\n\n🏷️ `CLI` · `TUI` · `网络` · `DevOps` · `Rust`\n\n---\n\n### 📊 本周趋势观察\n\n> **AI Agent 正在从「聊天」走向「行动」。** 本周最火的几个项目——自主渗透测试、魔法日记、科学研究工作台——都不再是传统的对话式 AI，而是让 AI 在特定场景中真正「动手做事」。同时，Rust 继续统治新系统工具领域，而「把无聊的东西做得好看」这个趋势在 CLI 工具中越来越明显。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

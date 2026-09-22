@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-30",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 本周有趣新项目速递（2026.8.30）\n\n---\n\n### 1. [tt-a1i/archify](https://github.com/tt-a1i/archify)\n一句话简介：AI Agent 技能——生成精美、可验证的架构图/工作流图/时序图/数据流图，输出为自包含 HTML，支持动画和导出。\n\n⭐ 32,378 | 本周 ",
+   "full": "## 🔥 GitHub 本周有趣新项目速递（2026.8.30）\n\n---\n\n### 1. [tt-a1i/archify](https://github.com/tt-a1i/archify)\n一句话简介：AI Agent 技能——生成精美、可验证的架构图/工作流图/时序图/数据流图，输出为自包含 HTML，支持动画和导出。\n\n⭐ 32,378 | 本周 +14,875\n\n🎯 **为什么有趣：** 一周暴涨近 1.5 万星，增速惊人。把 AI Agent 的「输出」从纯文本提升到了**可视化图表**层级，而且是自包含 HTML（无需任何依赖即可分享），思路很巧妙。属于 AI Agent 生态中少见的「可视化表达」方向。\n\n🏷️ `AI` / `Agent` / `可视化` / `工具`\n\n---\n\n### 2. [tailscale/tailcat](https://github.com/tailscale/tailcat)\n一句话简介：像 netcat 一样使用，但走 Tailscale 的数据平面——无需 Tailscale 控制平面即可实现端到端加密传输。\n\n⭐ 3,849 | 今日 +789（日增速 20.5%）\n\n🎯 **为什么有趣：** Tailscale 团队出品，用极简的方式解决了一个真实痛点：**你想用 netcat 在两台机器间传数据，但它们不在同一网络**。tailcat 让你跳过 Tailscale 的协调服务，直接点对点传。对安全工程师和 SRE 来说非常实用，概念新颖且优雅。\n\n🏷️ `网络` / `安全` / `CLI` / `Go`\n\n---\n\n### 3. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)\n一句话简介：浏览器里的间谍卫星模拟器——在 3D 地球上实时展示开源空间情报数据。\n\n⭐ 13,069 | 今日 +1,855（日增速 14%）\n\n🎯 **为什么有趣：** 把卫星遥感、开源情报（OSINT）和 3D 地球可视化结合到一个浏览器页面里，创意十足。技术栈是纯 JavaScript，无需后端。这种「把复杂军事级概念做成熟人可玩的东西」的项目，既酷又教育性强。\n\n🏷️ `可视化` / `3D` / `OSINT` / `前端`\n\n---\n\n### 4. [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi)\n一句话简介：用 Rust 写的本地优先 Logitech Options+ 替代品——重映射按键、DPI、SmartShift，走 HID++ 协议，零账号零遥测。\n\n⭐ 17,731 | 本周 +4,114\n\n🎯 **为什么有趣：** Logitech 官方软件臃肿且强制联网，这个项目用 Rust 从协议层直接控制鼠标，**完全本地运行、无遥测**。解决了一个硬件生态中「软件绑架硬件」的真实问题，增长速度也说明痛点普遍存在。\n\n🏷️ `硬件` / `Rust` / `隐私` / `开源`\n\n---\n\n### 5. [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)\n一句话简介：GPT-Image2 工业级提示词引擎——530+ 逆向工程案例、20+ 模板，系统化地榨干 GPT-Image2 的视觉生成能力。\n\n⭐ 25,302 | 本周 +13,141（周增速 52%）\n\n🎯 **为什么有趣：** 不是简单调用 API，而是**逆向工程了 530+ 种场景的最佳提示词模式**，形成可复用的模板库。这种「把黑盒模型的能力边界系统化摸清」的做法，比单纯套壳更有深度，对 AI 图像生成实践者非常有价值。\n\n🏷️ `AI` / `图像生成` / `提示词工程` / `资源库`\n\n---\n\n> 📝 **编辑推荐：** 本周 GitHub 趋势的主旋律是 **AI Agent 生态的爆发**——从插件市场（Anthropic、Cursor 官方插件库同时上线）到 Agent 技能（archify 一周 1.5 万星），再到 Agent 写代码（JetBrains 出 AI 编码指南），整个「Agent 作为新操作系统」的叙事正在加速形成。同时，tailcat 和 OpenLogi 代表了另一股力量：**用开源和本地优先反击 SaaS 壁垒**。两个方向并行，值得持续关注。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

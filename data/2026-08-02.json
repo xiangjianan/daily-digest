@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-02",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Based on my research from GitHub Trending and the individual repos, here's this week's report:\n\n---\n\n# 🔥 GitHub 每周新项目速递（2026.8.2）\n\n---\n\n### 1. [permissionlesstech/bitchat](https://",
+   "full": "Based on my research from GitHub Trending and the individual repos, here's this week's report:\n\n---\n\n# 🔥 GitHub 每周新项目速递（2026.8.2）\n\n---\n\n### 1. [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat)\n**蓝牙 mesh 网络聊天，IRC 风格的无服务器通信工具**\n\n⭐ 34,042 stars（本周 +5,737）\n\n🎯 **为什么有趣**：完全不需要互联网或中央服务器，通过蓝牙 mesh 网络进行去中心化群聊，带回早期 IRC 的纯粹体验。在极端场景（演唱会、灾难救援、离线活动）有真实实用价值，同时理念非常朋克——真正的「无需许可」通信。iOS 原生 Swift 编写，开源社区活跃，贡献者包括 Claude Code 等 AI 编码代理，形成了人机协作开发的有趣案例。\n\n🏷️ P2P / 蓝牙 / 离线通信 / iOS / Swift\n\n---\n\n### 2. [block/buzz](https://github.com/block/buzz)\n**基于 Nostr 协议的「蜂巢心智」通信平台**\n\n⭐ 20,672 stars（本周 +9,003，增速第一 🚀）\n\n🎯 **为什么有趣**：本周增速最快的项目。基于 Nostr 去中心化协议，支持 AI Agent 作为「远程代理」参与群组通信，真正实现了人 + AI 混合协作的通信平台。Rust 编写的跨平台客户端，有桌面端和移动端。概念上非常前沿——不是传统聊天工具，而是一个可以接入 AI 代理的「蜂巢」集体智能通信层。\n\n🏷️ Nostr / 去中心化 / AI Agent / 通信平台 / Rust\n\n---\n\n### 3. [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite)\n**为 AI 编码代理打造的零配置浏览器，可共享你的登录态**\n\n⭐ 7,494 stars（本周 +4,090）\n\n🎯 **为什么有趣**：精准击中了 AI 编码工具（如 Codex、Claude Code）做浏览器自动化时的痛点——需要登录态但又不想让 AI 扰乱你的正常浏览。ego-lite 提供一个隔离的浏览器环境，AI 代理可以复用你的登录态进行操作而不影响你的主浏览器。零成本、零配置，已内置 Claude Code 和 Codex 的插件支持。思路巧妙，实用性极强。\n\n🏷️ AI Agent / 浏览器自动化 / 开发工具 / 隔离沙箱\n\n---\n\n### 4. [alibaba/open-code-review](https://github.com/alibaba/open-code-review)\n**阿里巴巴开源的混合架构代码审查工具：确定性管道 + LLM Agent**\n\n⭐ 17,652 stars（本周 +4,708）\n\n🎯 **为什么有趣**：在阿里内部大规模验证过，采用「确定性管道 + LLM Agent」的混合架构——规则引擎处理 NPE、线程安全、XSS、SQL 注入等确定性缺陷，LLM 处理设计层面的问题。精确到行级评论，兼容 OpenAI 和 Anthropic API。代表了企业级 AI 代码审查的最新实践，不是简单套壳 GPT，而是真正理解了「哪些该用规则、哪些该用 AI」的工程智慧。\n\n🏷️ AI 代码审查 / 工程工具 / LLM / Go / 企业级\n\n---\n\n### 5. [1jehuang/jcode](https://github.com/1jehuang/jcode)\n**号称内存效率最高的代码运行框架**\n\n⭐ 15,062 stars（本周 +3,548）\n\n🎯 **为什么有趣**：Rust 编写的极低内存占用代码执行框架，专门优化了在资源受限环境下的表现。从 6,525 次提交和 162 个 tag 的迭代频率来看，项目非常活跃且成熟。在边缘计算、嵌入式设备、CI/CD 轻量化运行等场景有明确的实用价值，本周新增了 Discovery call-rate 基准测试等性能优化工作。\n\n🏷️ 系统 / Rust / 边缘计算 / 性能优化 / 运行时\n\n---\n\n### 📝 编辑推荐\n\n本周趋势总结：**「AI Agent 基础设施」全面爆发**。榜单上的项目几乎都在围绕 AI Agent 生态构建——从让 AI 更好操作浏览器（ego-lite）、到让 AI 参与人类通信（buzz）、到让 AI 拥有领域知识（book-to-skill，15k stars 本周 +5,105），再到用 AI 增强代码审查（open-code-review）。而 bitchat 和 buzz 则同时代表了去中心化通信的回归。我们正在进入一个 AI 不再是独立工具、而是作为「参与者」嵌入到每一层基础设施中的时代。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

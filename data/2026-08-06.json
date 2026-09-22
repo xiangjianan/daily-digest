@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-06",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "我现在已经有了足够的数据。我来整理一下这份报告。\n\n## 🔥 GitHub 本周有趣新项目推荐（2026.8.6）\n\n---\n\n### 1. **reverse-skill** — AI 驱动的安全研究技能路由包\n🔗 [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skil",
+   "full": "我现在已经有了足够的数据。我来整理一下这份报告。\n\n## 🔥 GitHub 本周有趣新项目推荐（2026.8.6）\n\n---\n\n### 1. **reverse-skill** — AI 驱动的安全研究技能路由包\n🔗 [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill)\n> 逆向工程/渗透测试/安全研究的 AI 技能路由包，支持 Claude Code、Kiro、Cursor、Cline 等客户端，自动路由任务 + 按需自举工具链 + 自进化知识库。\n\n⭐ **19,413**（本周 +9,904 🚀）\n🎯 **为什么有趣**：创意满分——把安全研究的各种工具链（CTF、Burp Suite、逆向分析等）封装成 AI Agent 可调用的「技能」，AI 自动判断任务类型并路由到合适工具，还能自举安装所需环境、积累经验知识。不是常见的套壳聊天机器人，而是把安全工程流程做了真正的智能化改造。\n🏷️ `AI Agent` `安全` `渗透测试` `逆向工程` `CLI`\n\n---\n\n### 2. **TencentDB Agent Memory** — 团队级 AI Agent 记忆中枢\n🔗 [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)\n> 将对话、文档、代码转化为四种可复用记忆资产（Chat Memory、Skill、LLM-Wiki、Code-Graph），支持跨 Agent 和框架共享治理。\n\n⭐ **15,503**（本周 +5,445 🚀）\n🎯 **为什么有趣**：解决了当前 AI Agent 生态的核心痛点——Agent 之间的记忆孤岛问题。腾讯把这个做成了「团队级记忆中枢」，四种记忆类型（对话记忆、技能、知识库、代码图谱）的抽象很清晰，且有治理机制。刚发布 2.0 版本，增长极快，是企业级 AI 基础设施的有力尝试。\n🏷️ `AI Agent` `记忆系统` `基础设施` `企业级`\n\n---\n\n### 3. **ego-lite** — AI Agent 专用浏览器\n🔗 [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite)\n> 专为 AI Agent 打造的高速浏览器，可与你的登录态浏览器共享会话，让 AI（如 Codex、Claude Code）操作浏览器而不干扰你。零成本、零配置。\n\n⭐ **8,900**（本周 +2,737）\n🎯 **为什么有趣**：非常实用的巧思——不是造一个新浏览器，而是做一个极轻量的「浏览器壳」，让 AI Agent 可以复用你已有的登录状态来执行浏览器自动化（网页操作、表单填写等），同时不影响你正常使用。这解决了「AI 无法访问需要登录的页面」这一实际痛点，想法巧妙且实现简洁。\n🏷️ `AI Agent` `浏览器` `自动化` `工具`\n\n---\n\n### 4. **DeepSeek-Reasonix** — DeepSeek 原生终端编程 Agent\n🔗 [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)\n> 基于 DeepSeek 的终端 AI 编程 Agent，核心设计围绕 prefix-cache 稳定性优化——可以常驻运行不中断。\n\n⭐ **32,000**（本周 +3,408）\n🎯 **为什么有趣**：不是又一个 Claude Code / Cursor 替代品，而是专为 DeepSeek 模型优化的终端 Agent，最大的创新点在于利用 DeepSeek 的 prefix-cache 特性做了深度的缓存稳定性工程——让 Agent 可以长时间运行、多次调用而不会因上下文失效「失忆」。4400+ 次提交，开发极其活跃，是目前最成熟的 DeepSeek 原生编码工具。\n🏷️ `AI 编程` `终端` `DeepSeek` `Agent` `CLI`\n\n---\n\n### 5. **buzz** — 群体意识通信平台\n🔗 [block/buzz](https://github.com/block/buzz)\n> 一个「蜂巢思维」通信平台——让多个人/AI Agent 共享意识、协同思考的新范式通信工具。\n\n⭐ **23,543**（本周 +6,456 🚀）\n🎯 **为什么有趣**：概念上最大胆的项目——不只是聊天工具，而是尝试构建「群体意识」式的通信模型。2162+ 次提交、860 个 issue、1200+ PR，社区极其活跃。将人类协作和 AI Agent 的协同混为一体，探索通信的未来形态。概念新颖、增长迅猛。\n🏷️ `通信` `协作` `AI Agent` `社交` `开源`\n\n---\n\n> 📝 **编辑推荐语**：本周趋势关键词是 **「Agent 基础设施」**——从 reverse-skill 的安全技能路由、TencentDB Agent Memory 的记忆中枢、ego-lite 的浏览器桥接，到 DeepSeek-Reasonix 的缓存优化 Agent——整个社区都在围绕 AI Agent 生态构建「最后一公里」的关键基础设施。AI 编程工具不再只是「让 AI 写代码」，而是开始解决会话持久化、记忆共享、工具编排等深层问题，标志着 Agent 工程从玩具走向工程化的转折点。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

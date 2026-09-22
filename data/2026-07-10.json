@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-10",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 每周有趣新项目 — 2026年7月10日\n\n---\n\n### 1. [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) — AI 编程 Agent 的终端多路复用器\n- **一句话简介：** 像 tmux 一样在终端里同时运行多个 AI 编程 Agent（Claude",
+   "full": "## 🔥 GitHub 每周有趣新项目 — 2026年7月10日\n\n---\n\n### 1. [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) — AI 编程 Agent 的终端多路复用器\n- **一句话简介：** 像 tmux 一样在终端里同时运行多个 AI 编程 Agent（Claude Code、Codex 等），带精美 TUI 界面。\n- ⭐ **15,005**（本周 +4,756，周增长 32%）\n- 🎯 **为什么有趣：** 一个人用 Rust 写的项目，一周内涨了近 5K star。精准击中了开发者同时管理多个 AI Agent 的痛点——以前你得开一堆终端窗口，现在有了统一的管理界面。概念新颖、执行精良。\n- 🏷️ `Rust` `CLI` `TUI` `AI-Agent` `开发者工具`\n\n---\n\n### 2. [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) — 在 Claude Code 里调用 OpenAI Codex\n- **一句话简介：** OpenAI 官方出品的 Claude Code 插件，让你可以在 Claude Code 内部调用 Codex 来审查代码或委派任务。\n- ⭐ **27,295**（本周 +4,792）\n- 🎯 **为什么有趣：** 竞争对手之间的跨生态融合！OpenAI 主动为 Claude Code 做插件，说明 AI 工具的互操作性已成为共识。3.5 个月破 27K star，官方出品 + 颠覆性思路。\n- 🏷️ `AI` `Claude` `OpenAI` `插件` `开发者工具`\n\n---\n\n### 3. [TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox) — 为 AI Agent 打造的轻量安全沙箱\n- **一句话简介：** 腾讯云开源的即时、并发、安全且轻量的代码执行沙箱，专为 AI Agent 设计。\n- ⭐ **9,503**\n- 🎯 **为什么有趣：** 随着 AI Agent 频繁执行代码，安全性成为核心问题。CubeSandbox 用 Rust 构建，面向高并发场景，解决了 \"让 Agent 安全跑代码\" 这一关键基础设施需求。大厂开源 + 前沿方向，3 个月近万星。\n- 🏷️ `Rust` `安全` `沙箱` `AI-Agent` `云原生`\n\n---\n\n### 4. [bradautomates/claude-video](https://github.com/bradautomates/claude-video) — 让 Claude 能\"看\"视频\n- **一句话简介：** 一个 Claude Code 的 slash command（`/watch`），自动下载视频、提取帧、转录音频，然后交给 Claude 分析。\n- ⭐ **6,926**\n- 🎯 **为什么有趣：** 小而美的创意工具——用简单的方式填补了 AI 编程 Agent 在\"视频理解\"上的空白。2.5 个月近 7K star，说明社区对这个痛点的强烈需求。概念巧妙，上手即用。\n- 🏷️ `Python` `AI` `视频分析` `Claude` `开发者工具`\n\n---\n\n### 5. [facebook/astryx](https://github.com/facebook/astryx) — Meta 开源的\"Agent-Ready\"设计系统\n- **一句话简介：** Meta（Facebook）开源的 TypeScript 设计系统，特别之处在于它是\"Agent 就绪\"的——AI 编程 Agent 可以根据设计规范自动生成一致的 UI。\n- ⭐ **7,611**（本周 +4,087，周增长 54%！）\n- 🎯 **为什么有趣：** Meta 入局 \"Agent-Ready\" 工具链，明确把 AI Agent 作为设计系统的目标用户之一。过半 star 本周涌入，MIT 协议。这代表了设计系统从\"人用\"到\"机用\"的范式转变。\n- 🏷️ `TypeScript` `设计系统` `UI` `AI-Agent` `Meta`\n\n---\n\n### 💡 编辑推荐\n\n> 本周的主旋律是 **AI Agent 基础设施**——无论多路复用（herdr）、跨平台互通（codex-plugin-cc）、安全沙箱（CubeSandbox）、能力扩展（claude-video）还是设计系统（astryx），所有热门项目都在解决同一个问题：**如何让 AI Agent 更好用、更安全、更强大**。我们正在从\"用 AI 写代码\"过渡到\"构建围绕 AI Agent 的完整开发生态\"——这可能是今年最重要的技术趋势。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

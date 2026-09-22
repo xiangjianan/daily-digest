@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-09",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "根据搜索结果，以下是本周（2026年8月3-9日）GitHub 上最有趣的新项目和爆火项目：\n\n---\n\n## 🔥 GitHub 本周趣味新项目速递\n\n### 1. [firecrawl/anydoc](https://github.com/firecrawl/anydoc) — ⭐ 12,339\n\n> **一句话：** Rust 写的万能文档转 Markd",
+   "full": "根据搜索结果，以下是本周（2026年8月3-9日）GitHub 上最有趣的新项目和爆火项目：\n\n---\n\n## 🔥 GitHub 本周趣味新项目速递\n\n### 1. [firecrawl/anydoc](https://github.com/firecrawl/anydoc) — ⭐ 12,339\n\n> **一句话：** Rust 写的万能文档转 Markdown 工具，支持 Word、PPT、Excel、PDF、EPUB 等十余种格式，还带 WASM 浏览器版本。\n\n🎯 **为什么有趣：** 本周新创建，几天内飙到 1.2 万 star。文档转 Markdown 是 LLM/RAG 管线的经典痛点，anydoc 用 Rust 一次解决所有格式，还输出 WASM 可在浏览器端直接跑——实用性与技术巧思兼具。\n\n🏷️ `Rust` / `文档处理` / `WASM` / `LLM 工具链`\n\n---\n\n### 2. [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) — ⭐ 18,449（本周 +8,046）\n\n> **一句话：** 腾讯云出品的 AI Agent 团队级记忆中枢，把对话、文档、代码转化为可复用的四种记忆资产。\n\n🎯 **为什么有趣：** 一周暴涨 8k star。Agent 记忆是目前 AI 基础设施的薄弱环节，这个项目提出了一个结构化方案（Chat Memory / Skill / LLM-Wiki / Code-Graph），企业级血统但完全开源，方向极具前瞻性。\n\n🏷️ `AI Agent` / `记忆系统` / `TypeScript` / `基础设施`\n\n---\n\n### 3. [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) — ⭐ 33,283（本周 +4,704）\n\n> **一句话：** 基于 DeepSeek 的终端 AI 编程 Agent，Go 编写，专为持久运行设计（prefix-cache 稳定性优化），4,900+ commits，每小时都有新提交。\n\n🎯 **为什么有趣：** 直接对标 Claude Code / Cursor Agent，但 DeepSeek 原生且针对长时间会话深度优化。开发节奏令人瞠目（近 5000 commits），社区热情极高，是本周最硬核的项目之一。\n\n🏷️ `AI 编程` / `Go` / `CLI Agent` / `DeepSeek`\n\n---\n\n### 4. [usekaneo/kaneo](https://github.com/usekaneo/kaneo) — ⭐ 7,796（本周 +2,259）\n\n> **一句话：** 开源项目管理工具，slogan 是 \"All you need. Nothing you don't.\"——想做 Jira/Linear 的轻量替代品。\n\n🎯 **为什么有趣：** 一周涨 2.2k star。开发者对臃肿的 PM 工具有普遍不满，kaneo 抓住了这个痛点，以极简理念切入。Monorepo 全栈方案，CI/CD + devcontainer 开箱即用，执行力很强。\n\n🏷️ `项目管理` / `开源替代` / `全栈` / `开发工具`\n\n---\n\n### 5. [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — ⭐ 19,107（本周 +4,071）\n\n> **一句话：** 把任何技术书籍 PDF 转化为 Claude Code Skill，让你在编码时直接查询、引用书中的知识。\n\n🎯 **为什么有趣：** 一周 4k+ star。思路极其巧妙——将技术文献\"消化\"为 AI 可用的技能，让编程书籍变成活的知识库而非落灰的 PDF。属于 AI Agent 技能生态的新玩法，实用性拉满。\n\n🏷️ `AI Agent` / `知识管理` / `Claude Code` / `技能生态`\n\n---\n\n> 📝 **编辑推荐语：** 本周趋势高度集中在 **AI Agent 基础设施**——记忆（TencentDB）、编码（Reasonix）、技能（book-to-skill）三个方向同时爆发，说明 Agent 开发正在从\"能跑\"走向\"能用\"。文档处理（anydoc）和开发工具极简主义（kaneo）则是两个强有力的补充方向。Agent 的\"最后一公里\"正在被快速填平。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "date": "2026-09-14",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "调研到位，创意点已提炼：\n\n1. **ToolVerve / PDF Pocket Tools**（今日 HN）→ 纯前端单文件、100% 本地处理是明确趋势\n2. **Zero-width characters**（HN 572 pts 的文本隐写指纹帖 + 385 pts 的 Chrome 揭示扩展）→ 零宽字符是反复出现的真实痛点，但现有方案要么装扩展",
+   "full": "调研到位，创意点已提炼：\n\n1. **ToolVerve / PDF Pocket Tools**（今日 HN）→ 纯前端单文件、100% 本地处理是明确趋势\n2. **Zero-width characters**（HN 572 pts 的文本隐写指纹帖 + 385 pts 的 Chrome 揭示扩展）→ 零宽字符是反复出现的真实痛点，但现有方案要么装扩展、要么只查零宽单点\n3. **Trojan Source 双向控制符攻击** → 安全叙事升级\n\n**今日方案：TEXT X-RAY** —— 粘贴任意文本，X 光透视所有隐形字符（零宽/BiDi/控制符/仿冒同形字），出取证报告 + 一键清洗复制。原创点：网页版免安装、覆盖面从零宽扩展到全谱系隐形字符、混合文字仿冒检测、严重度分级判定、内置投毒样本。与 KEYTRACE 域不同（文本取证 vs 密码走位）。\n\n开始建项目写 Demo：",
+   "job_id": "6ff8e716c927"
+  },
+  {
+   "name": "每日沉迷小游戏",
+   "emoji": "🎮",
+   "time": "10:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🎮 [2026-09-14] 每日沉迷小游戏 #6：PUFF（气球漂流）\n\n💡 一句话玩法：按住充气——气球变大同时上浮；松开漏气——变小同时下沉。一个键同时控制「体型」和「高度」，钻缝、躲刺、收宝石：◆小宝石只有小体型能吃，⬢大宝石只有大体型能吃，匹配连吃叠最高 ×3 倍率。\n\n🧠 沉迷机制：今天参考了 Flappy Bird 的「死亡零成本、半秒重开」循",
+   "full": "🎮 [2026-09-14] 每日沉迷小游戏 #6：PUFF（气球漂流）\n\n💡 一句话玩法：按住充气——气球变大同时上浮；松开漏气——变小同时下沉。一个键同时控制「体型」和「高度」，钻缝、躲刺、收宝石：◆小宝石只有小体型能吃，⬢大宝石只有大体型能吃，匹配连吃叠最高 ×3 倍率。\n\n🧠 沉迷机制：今天参考了 Flappy Bird 的「死亡零成本、半秒重开」循环（https://en.wikipedia.org/wiki/Flappy_Bird）、大鱼吃小鱼的体型阶梯并做反转——这里越大≠越好，体型是用过缝空间换升力的「贪婪旋钮」；以及 HN 上持续热议的 one-button game 设计（algolia 检索佐证）。核心钩子：一键双轴耦合（按下同时变大+变高，高手是跟着关卡「呼吸」而非躲避）、3 秒上手、30–90 秒单局、全动作合成音效 + 挤压变形 + 屏震、localStorage 最高分攀比。\n\n🕹️ 在线试玩：https://xiangjianan.github.io/puff-drift-20260914/ ｜ 仓库：https://github.com/xiangjianan/puff-drift-20260914\n\n⚖️ 今日取舍：① 欲扬先抑的失败——首跑因输出截断翻车，重跑成功；② 开发自修出两个关键 bug：墙生成坐标不随卷轴回移导致关卡枯竭、物理积分多乘 33 倍位移「瞬移」，均已修复并用 Playwright 取证验证；③ 数值经机器人实测：缝隙/气球直径比从 2.65 收到终盘 1.59，测试机器人 60 秒能到 199 分（它不会躲刺不会控体型，人类上限更高），但真实手感还需你来校准——如果觉得浮力太「沉」或前 30 秒偏难，明天可微调升力与尖刺出现阈值；④ 简化了：宝石放错体型时直接穿透而非惩罚，降低挫败感。明日 #7 候选：一笔画描线 / 时间窗节奏（均需与现有爆款差异化）。",
+   "job_id": "4e5dc8651932"
+  },
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "数据收集与交叉验证完成（GitHub Search API 7 天窗口 + Trending 周榜 + HN Show HN 三方互证）。以下是本期精选：\n\n---\n\n# 🛰️ GitHub 每日有趣新项目推送 · 2026-09-14\n\n### 1. [openai/NavierStokesAndEuler](https://github.com/open",
+   "full": "数据收集与交叉验证完成（GitHub Search API 7 天窗口 + Trending 周榜 + HN Show HN 三方互证）。以下是本期精选：\n\n---\n\n# 🛰️ GitHub 每日有趣新项目推送 · 2026-09-14\n\n### 1. [openai/NavierStokesAndEuler](https://github.com/openai/NavierStokesAndEuler)\n> OpenAI 用 Lean 4 形式化证明了 Navier–Stokes 与 Euler 方程的有限时间爆破构造，配套论文已公开\n\n⭐ **1,870**（6 天）| 🖥️ Lean | 创建于 2026-09-08\n\n🎯 **为什么有趣：** 这是本周最重磅的项目——Navier–Stokes 是克雷研究所七大千禧年难题之一，OpenAI 给出了光滑初值下无整体光滑解的构造性结果，并用 Lean 4 完成机器可验证的形式化。无论最终学界如何评价，「AI + 形式化证明」攻入流体力学核心地带，标志着 AI for Math 从辅助工具走向了一线研究。前沿性直接拉满。\n\n🏷️ AI for Math / 形式化验证 / 前沿科学\n\n### 2. [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)\n> 浏览器里的「间谍卫星模拟器」——界面是模拟的，数据全是真实的开源空间情报（影像、船舶、飞机等实时轨迹）\n\n⭐ **32,660**（本周 +12,931）| 创建于 2026-06-22\n\n🎯 **为什么有趣：** 本周增速榜第一（+1.29 万星/周）。它把公开的地理空间数据源拼成一个电影感的「上帝视角」监控台，证明 OSINT 这类原本门槛极高的领域，如今用浏览器 + 开源数据就能复现。创意和传播性都极强，也引出了值得讨论的隐私边界问题。\n\n🏷️ 数据可视化 / OSINT / 前端\n\n### 3. [Vincentwei1021/anything2explainer](https://github.com/Vincentwei1021/anything2explainer)\n> 一个 Claude Code / Codex 技能：输入任意主题，输出带 TTS 配音、字幕、章节进度条的黑底动效讲解视频，支持中英文\n\n⭐ **1,240**（6 天）| 🖥️ TypeScript | 创建于 2026-09-08\n\n🎯 **为什么有趣：** 6 天 1,240 星。它不是又一个 chatbot，而是把「 coding agent 」跨界成了视频制作人——规划分镜、生成动效、合成配音一条龙。代表了今年 agent skills 生态最有创意的分支：让通用代码智能体长出专业内容生产能力，实用性（做科普/课程视频）和巧思兼备。\n\n🏷️ AI / Agent Skills / 视频生成\n\n### 4. [kevinzakka/mjbatch](https://github.com/kevinzakka/mjbatch)\n> 在 CPU 上并行运行数千个 MuJoCo 物理仿真的 Python 库（C++ 线程池、GIL 已释放、支持逐仿真参数差异化）\n\n⭐ **450**（4 天）| 🖥️ Python | 创建于 2026-09-10\n\n🎯 **为什么有趣：** 作者 kevinzakka 是 MuJoCo 生态的知名贡献者。它用最朴素的技术路线（CPU 线程池）解决了机器人 RL/ sim2real 研究的真痛点——不想为批量仿真专门开 GPU 集群时，一行 `Batch(model, 4096)` 就能跑满所有核心。小众领域 4 天 450 星，说明击中了真实需求，是「实用性 + 前沿性」兼具的基建型项目。\n\n🏷️ 机器人 / 仿真 / 科研工具\n\n### 5. [deepseek-ai/DeepSelect](https://github.com/deepseek-ai/DeepSelect)\n> DeepSeek 官方开源其稀疏注意力（DSA，用于 V3.2/V4/V4.1）的 TopK CUDA kernel 与采样器，比原生 torch.topk 快 2~20 倍\n\n⭐ **338**（5 天）| 🖥️ CUDA/C++ | 创建于 2026-09-09\n\n🎯 **为什么有趣：** 头部大模型厂把推理路径上的核心 kernel 直接开源，这在业内并不多见。对做推理优化的工程师来说是可以直接集成进自家 serving 栈的干货（附深度技术解析，中英双语）。5 天 338 星在 CUDA kernel 这种硬核小众领域已属高速，前沿性无争议。\n\n🏷️ AI Infra / CUDA / 开源大模型\n\n---\n\n### 📝 编辑推荐\n> 本周主线很清晰：**AI 正在从「写代码」外溢到「证定理、做视频、跑物理仿真」**——同时 GitHub Trending 被 agent skills 生态刷屏（架构图技能、去 AI 味写作技能动辄每周数千星），衍生出「给 Mac 加 iPhone 折叠特效」的 Mac-Duo（822★/4 天）这类趣味爆款，以及 Geiger 这类给 AI agent 做「安全审计」的新品类。技能化、专业化、跨界化，是这批新项目共同的气质。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

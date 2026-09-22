@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-03",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "All data verified. Here's the final report:\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐（2026.7.3）\n\n---\n\n### 1. 🎬 [OpenMontage](https://github.com/calesthio/OpenMontage) — AI 驱动的开源视频制片厂\n\n> 世界首个开源 A",
+   "full": "All data verified. Here's the final report:\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐（2026.7.3）\n\n---\n\n### 1. 🎬 [OpenMontage](https://github.com/calesthio/OpenMontage) — AI 驱动的开源视频制片厂\n\n> 世界首个开源 Agentic 视频制作系统：12 条流水线、52 个工具、500+ Agent 技能。让你的 AI 编程助手变成完整的视频工作室。\n\n⭐ **32,000**（本周 +10,000+）\n\n🎯 **为什么有趣：** 极具创意的交叉领域项目——它不直接做视频，而是让 Claude Code、Codex 等 AI 编程 Agent 来编排视频制作流程。集成 FFmpeg、ElevenLabs TTS、Flux/Stable Diffusion 图像生成、Remotion 程序化视频。一周涨一万星，说明 AI 原生内容生产管线是当前最大的开发者需求之一。\n\n🏷️ `AI` / `视频制作` / `Agentic` / `Python` / `开源`\n\n---\n\n### 2. 🦅 [Agent-Reach](https://github.com/Panniantong/Agent-Reach) — 给 AI Agent 装上「全网之眼」\n\n> 一条 CLI 命令，让 AI Agent 读取和搜索 Twitter、Reddit、YouTube、GitHub、B站、小红书——零 API 费用，直接抓取数据喂给 Claude Code / Cursor 等编程 Agent。\n\n⭐ **49,500**（本周 +8,000+）\n\n🎯 **为什么有趣：** 解决了 AI Agent 生态的「最后一公里」问题——Agent 会写代码但不会浏览网页。Agent-Reach 把社交媒体数据管道化，零成本替代付费 API。在中英文开发者社区同时爆火（支持 B 站、小红书、知乎）。实用性和创意兼具的典范。\n\n🏷️ `AI Agent` / `CLI` / `爬虫` / `MCP` / `Python`\n\n---\n\n### 3. 🛡️ [no-mistakes](https://github.com/kunchenguid/no-mistakes) — `git push` 的 AI 质量守门人\n\n> 本地 git 代理：拦截 `git push`，创建临时工作树，让 AI Agent 跑完整验证流水线，全部通过后才放行，自动开 PR 并盯住 CI。\n\n⭐ **5,000**（本周 +2,000+，增长率 42%）\n\n🎯 **为什么有趣：** 整个工具的交互只有一条命令：`git push no-mistakes`。这个设计理念极其优雅——把 AI 代码质量保障嵌入最底层的 git 工作流。随着 AI 编程 Agent 生成大量代码，「信任但验证」成为刚需，no-mistakes 精准命中了这个痛点。\n\n🏷️ `Git` / `AI 验证` / `CI/CD` / `Go` / `开发工具`\n\n---\n\n### 4. 📊 [ai-berkshire](https://github.com/xbtlin/ai-berkshire) — AI 时代的巴菲特\n\n> 基于 Claude Code / Codex 的价值投资研究框架：融合巴菲特、芒格、段永平、李录四大投资大师方法论，采用多 Agent 对抗分析（多头 vs 空头）。\n\n⭐ **8,900**（本周 +7,000+，78% 的 star 在本周获得）\n\n🎯 **为什么有趣：** 将多 Agent AI 以一种非常巧妙的方式应用到金融分析领域——不是简单「让 AI 选股」，而是用「对抗式 Agent」（bull vs bear）按照传奇投资人的思维框架做深度研究。本周病毒式传播，创意和前沿性满分。\n\n🏷️ `AI Agent` / `价值投资` / `金融科技` / `多 Agent` / `Python`\n\n---\n\n### 5. 🖥️ [herdr](https://github.com/ogulcancelik/herdr) — 终端里的 AI Agent 调度中心\n\n> 一个活在终端里的 Agent 复用器——像 tmux 但专为并行管理 AI 编程 Agent（Claude Code、Codex 等）而设计。\n\n⭐ **10,400**（本周 +2,700+）\n\n🎯 **为什么有趣：** 开发者越来越频繁地同时跑多个 AI 编程 Agent，但缺少统筹工具。herdr 用 Rust 写了一个 TUI，专门做 Agent 的并行调度、工作区管理和状态监控。属于 AI Agent 时代的基础设施级工具——简洁、高性能、解决真实痛点。\n\n🏷️ `Rust` / `TUI` / `终端工具` / `AI Agent 基础设施` / `开发者工具`\n\n---\n\n### 📝 编辑推荐\n\n> **本周趋势关键词：AI Agent 基础设施大爆发。** 五个项目全部围绕 AI 编程 Agent 生态构建——从视频制作（OpenMontage）、全网数据获取（Agent-Reach）、代码质量守门（no-mistakes）、金融分析（ai-berkshire）到终端调度（herdr），开发者正在疯狂地为 Agent 补齐各种能力。**2026 年中，\"给 Agent 写工具\"已经正式成为最大的开源赛道。**",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

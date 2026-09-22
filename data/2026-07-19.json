@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-19",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "All data verified. Here's the report:\n\n---\n\n# 🔥 GitHub 本周新项目精选（2026.7.12 – 7.19）\n\n## 1. **xai-org/grok-build**（[链接](https://github.com/xai-org/grok-build)）\n\nxAI（Elon Musk 旗下 AI 公司）",
+   "full": "All data verified. Here's the report:\n\n---\n\n# 🔥 GitHub 本周新项目精选（2026.7.12 – 7.19）\n\n## 1. **xai-org/grok-build**（[链接](https://github.com/xai-org/grok-build)）\n\nxAI（Elon Musk 旗下 AI 公司）开源的全屏终端 AI 编程 Agent 框架，Rust 编写，支持鼠标交互、可扩展插件体系。\n\n⭐ **19,503** | 5 天内达成\n\n🎯 **为什么有趣：** 本周当之无愧的王者。xAI 直接开源了驱动 Grok 的编程 Agent 底座，Rust + 全屏 TUI + Agent Client Protocol (ACP) 支持，可嵌入编辑器、CI 流水线和 headless 模式。5 天近 2 万 star，顶级 AI 实验室直接下场开源 Agent 基础设施，这在行业里极为罕见。\n\n🏷️ AI / Rust / TUI / 编程 Agent\n\n---\n\n## 2. **pixel-point/aval**（[链接](https://github.com/pixel-point/aval)）\n\n一种全新的 Web 交互式视频开放格式——内置状态机、帧精确过渡、打包 Alpha 透明度。\n\n⭐ **1,226** | 6 天内达成\n\n🎯 **为什么有趣：** 提出一个全新的 Web 视频格式，把交互性（状态机驱动）、帧精确转场和透明通道直接烘焙进格式本身。这比用 JS 在 `<video>` 上叠加交互层优雅得多，有望彻底改变 Web 视频的交互体验。想法大胆且工程扎实。\n\n🏷️ Web / 视频格式 / TypeScript / 前端\n\n---\n\n## 3. **littledivy/mimic**（[链接](https://github.com/littledivy/mimic)）\n\n拦截任意应用程序，然后像调用 Python 库一样调用它。\n\n⭐ **1,184** | 6 天内达成\n\n🎯 **为什么有趣：** 概念极具创意——\"万物皆可 Python 库\"。通过拦截任意应用的网络/进程通信，将其逆向包装成可编程调用的 Python 接口。对自动化测试、AI Agent 工作流（让 Agent 操控无 API 的 GUI 应用）有巨大实用价值。实用性与创新性兼备。\n\n🏷️ Python / 自动化 / 进程拦截 / 工具\n\n---\n\n## 4. **nethical6/conversation-steganography**（[链接](https://github.com/nethical6/conversation-steganography)）\n\n利用 LLM 将秘密消息隐藏在看似正常的对话中——AI 驱动的对话隐写术。\n\n⭐ **747** | 3 天内达成\n\n🎯 **为什么有趣：** 将大语言模型用于隐写术（steganography）是一个全新的应用方向——让 LLM 生成表面完全正常的对话文本，暗中嵌入隐藏信息。既展示了 LLM 能力的边界，也引发关于 AI 安全、隐私和信息隐藏的深层思考。概念新颖且有争议性，社区讨论度很高。\n\n🏷️ AI / 安全 / 隐写术 / Go\n\n---\n\n## 5. **vshulcz/deja-vu**（[链接](https://github.com/vshulcz/deja-vu))\n\n为编程 Agent 提供跨会话持久记忆层：搜索、MCP 回忆、自动上下文注入、密钥脱敏、统计，兼容 Claude Code / Codex / Cursor / Gemini CLI 等所有主流 Agent。单零依赖二进制。\n\n⭐ **366** | 5 天内达成\n\n🎯 **为什么有趣：** 编程 Agent 的痛点精准打击——各种 Agent（Claude Code、Codex、Cursor 等）疯狂生成会话日志却毫无跨会话记忆。deja-vu 用一个零依赖 Go 二进制统一解决了所有主流 Agent 的记忆问题，支持 MCP 协议和密钥自动脱敏。虽然 star 数不是最高，但解决了 AI 编程工具链中一个真实且普遍的痛点，工程品味很高。\n\n🏷️ AI / 编程 Agent / Go / 工具链 / MCP\n\n---\n\n### 📝 本周编辑推荐语\n\n> **本周的主题是「AI Agent 基础设施大爆发」。** 从 xAI 开源编程 Agent 底座，到统一跨 Agent 记忆层，到 AI 隐写术、应用拦截即 Python 库——开发者们正在围绕 AI Agent 构建一整套全新工具链。与此同时，Web 视频格式的革新也提醒我们：并非所有创新都在 AI 赛道，底层基础设施的突破同样激动人心。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

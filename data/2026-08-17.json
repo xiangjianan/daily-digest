@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-17",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 每周有趣新项目推荐（2025.8.11 — 8.17）\n\n---\n\n### 1. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)\n**一句话简介：** DeepSeek 推出的插件化 AI 编程 Agent 框架——一切皆插",
+   "full": "## 🔥 GitHub 每周有趣新项目推荐（2025.8.11 — 8.17）\n\n---\n\n### 1. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)\n**一句话简介：** DeepSeek 推出的插件化 AI 编程 Agent 框架——一切皆插件。\n⭐ 143,130\n🎯 **为什么有趣：** 本周之星增长最猛的新项目，4 天内狂揽 14 万+ star。将 AI 编程助手的所有能力拆解为可组合的插件，生态正在快速成型，多个配套仓库同步上榜。AI Agent 架构的新范式探索，值得关注。\n🏷️ `AI` · `Agent 框架` · `插件系统` · `TypeScript`\n\n---\n\n### 2. [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover)\n**一句话简介：** 一键剥离多厂商 AI 内容溯源标记——C2PA、元数据、Unicode 隐写、统计水印全覆盖。\n⭐ 12,465\n🎯 **为什么有趣：** AI 水印正成为全球监管热点，这个工具反其道而行，能清除文本和图像（PNG/JPEG/SVG/PDF/DOCX 等）中所有 AI 来源痕迹。话题性强，技术涉及隐写术和内容溯源博弈，6 天内万星增速在安全隐私领域非常罕见。\n🏷️ `AI 水印` · `隐私` · `内容溯源` · `C2PA` · `安全` · `Python`\n\n---\n\n### 3. [dmmulroy/anti-slop](https://github.com/dmmulroy/anti-slop)\n**一句话简介：** 面向 TypeScript/JavaScript 的\"反 slop\"代码风格检查规则集——检测 AI 生成的\"看起来像回事但没实质\"的代码模式。\n⭐ 1,849\n🎯 **为什么有趣：** AI 编程助手泛滥后，代码中充斥着\"AI 味\"：多余注释、无意义类型断言、过度样板代码。这个 linter 规则集精准识别这些模式，思路新颖且非常实用——开发团队维护代码质量的新武器。\n🏷️ `代码质量` · `Linting` · `AI 代码检测` · `OxLint` · `TypeScript`\n\n---\n\n### 4. [xoreaxeaxeax/skitter-creek-bath-salts](https://github.com/xoreaxeaxeax/skitter-creek-bath-salts)\n**一句话简介：** 利用 DRAM 扰码技术解锁 CPU 上的一切安全机制——顶级硬件安全研究者的新作。\n⭐ 1,748\n🎯 **为什么有趣：** 作者以 uncover 重大 CPU 漏洞闻名（Move Fast and Break Everything），这次展示了通过 DRAM scrambling 绕过 CPU 安全机制的新技术。4 天内近 2k star，在硬件安全圈引发震动。名字玩梗，内容硬核。\n🏷️ `硬件安全` · `CPU 漏洞` · `DRAM` · `逆向工程` · `C` · `系统编程`\n\n---\n\n### 5. [Leutenegger/book-to-skill](https://github.com/Leutenegger/book-to-skill)\n**一句话简介：** 将任意技术书籍 PDF 转化为 Claude Code 可用的 skill——边写代码边参考全书内容。\n⭐ 1,164\n🎯 **为什么有趣：** 巧妙桥接技术文献与 AI 编程工作流。自动把 PDF 书籍结构化为知识 skill，让 Claude Code 在编码时能实时引用书中的专业内容。解决了\"查书太慢、凭记忆不准\"的痛点，实用且有创意。\n🏷️ `AI Agent` · `Claude Code` · `知识管理` · `开发者工具` · `Python`\n\n---\n\n> 📝 **编辑推荐：** 本周 GitHub 趋势呈现出清晰的\"AI 元工具\"浪潮——大家不仅在用 AI，更在围绕 AI 生态构建**检查、清洗、增强**的上层工具。从剥离 AI 水印、检测 AI 生成代码 slop，到把书籍喂给 coding agent，开发社区正在积极消化和驯化 AI 对日常工作流的冲击。同时 DeepSeek Harness 的爆发式增长表明，Agent 插件化架构正在成为下一个竞争焦点。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

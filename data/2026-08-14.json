@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-14",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 本周新项目精选（8月7日–14日）\n\n---\n\n### 1. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)\n> DeepSeek Harness: Everything is a Plugin.\n\n⭐ **81,388**",
+   "full": "## 🔥 GitHub 本周新项目精选（8月7日–14日）\n\n---\n\n### 1. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)\n> DeepSeek Harness: Everything is a Plugin.\n\n⭐ **81,388**\n\n🎯 **为什么有趣：** DeepSeek 出品的插件化 AI 平台，主打\"万物皆插件\"的理念。创建仅 **1–2 天**就拿下 8 万+ star，堪称本周绝对爆款。从架构设计上看，它试图统一 AI Agent 的能力扩展方式，社区反响极其热烈。\n\n🏷️ `AI` · `Agent` · `TypeScript` · `插件系统`\n\n---\n\n### 2. [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover)\n> 剥离多厂商 AI 来源标记：Unicode 文本净化、统计改写钩子，以及 PNG/JPEG/SVG/PDF/DOCX/HTML/MD 的 C2PA/元数据清除。\n\n⭐ **6,174**\n\n🎯 **为什么有趣：** 随着各大 AI 厂商开始在生成内容中嵌入水印（C2PA 协议等），这个工具站在了\"反水印\"的最前沿。一周内 6K+ star 说明社区对 AI 内容溯源透明度的强烈关注。支持格式之广令人印象深刻。\n\n🏷️ `AI` · `隐私` · `Python` · `工具`\n\n---\n\n### 3. [antirez/h3.c](https://github.com/antirez/h3.c)\n> MiniMax H3 推理引擎，专为 Mac 电脑打造。\n\n⭐ **1,816**\n\n🎯 **为什么有趣：** Redis 作者 antirez 的新作——用 **纯 C 语言** 写了一个极简的 LLM 推理引擎，能在 Mac 上本地运行 MiniMax H3 模型。延续了 antirez 一贯的\"极简主义系统编程\"风格，从 0 实现模型推理，对想深入理解 LLM 推理原理的开发者来说价值极高。\n\n🏷️ `系统` · `C` · `LLM` · `本地推理`\n\n---\n\n### 4. [xoreaxeaxeax/skitter-creek-bath-salts](https://github.com/xoreaxeaxeax/skitter-creek-bath-salts)\n> 通过 DRAM 扰码解锁 CPU 上的一切隐藏特性。\n\n⭐ **1,267**\n\n🎯 **为什么有趣：** 硬件黑客精神拉满的项目。作者发现通过操控 DRAM 信号可以解锁 CPU 未公开的功能特性，纯粹的低层硬件逆向工程。项目名和描述都充满极客趣味，对于系统安全和芯片架构爱好者来说是难得的硬核玩具。\n\n🏷️ `硬件` · `逆向工程` · `C` · `安全`\n\n---\n\n### 5. [SaladDay/pi-from-scratch](https://github.com/SaladDay/pi-from-scratch)\n> 600 行 TypeScript 写成的超级迷你版 pi，让你从零构建自己的 AI Agent。\n\n⭐ **940**\n\n🎯 **为什么有趣：** 教育意义极强的项目——用区区 600 行代码实现了一个完整可运行的 pi-agent，是理解 AI Agent 底层工作原理的最佳教学材料之一。对想从零开始理解 agent 框架（如 claude-code、cursor）背后机制的开发者特别有价值。\n\n🏷️ `AI` · `Agent` · `TypeScript` · `教学`\n\n---\n\n> 📝 **编辑推荐：** 本周趋势一句话——**\"AI Agent 基础设施爆发\"**。从 DeepSeek 的插件化平台到 antirez 的本地推理引擎，再到极简 agent 教学项目，整个社区正在疯狂建设 AI Agent 的生态基座。与此同时，AI 水印争议和 CPU 硬件逆向的走红，说明开源社区对\"打破黑盒\"这件事有着持续的执念。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

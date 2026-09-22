@@ -1,0 +1,15 @@
+{
+ "date": "2026-08-08",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 本周新项目推荐（2026.8.1 – 8.8）\n\n---\n\n### 1. [firecrawl/anydoc](https://github.com/firecrawl/anydoc) ⭐ 11,541\n> 用 Rust 写的通用文档转 Markdown 工具，支持 Word、PPT、Excel、PDF、EPUB、CSV、RTF 等十",
+   "full": "## 🔥 GitHub 本周新项目推荐（2026.8.1 – 8.8）\n\n---\n\n### 1. [firecrawl/anydoc](https://github.com/firecrawl/anydoc) ⭐ 11,541\n> 用 Rust 写的通用文档转 Markdown 工具，支持 Word、PPT、Excel、PDF、EPUB、CSV、RTF 等十余种格式，并提供 Node.js / Python 绑定。\n\n🎯 **为什么有趣**：5 天内破万星，堪称本周增速之王。AI 时代数据管道的痛点正是「各种文档格式 → 干净 Markdown」，anydoc 一步到位，实用性拉满。Rust 实现保证性能，MIT 协议，拿来即用。\n🏷️ `AI` `文档处理` `Rust` `数据管道`\n\n---\n\n### 2. [thebuggeddev/anatomy](https://github.com/thebuggeddev/anatomy) ⭐ 2,002\n> 基于 Three.js 的交互式 3D 人体解剖浏览器，集成了 GPT 5.6 Sol AI，可以对着 3D 模型提问。\n\n🎯 **为什么有趣**：3D 图形 + 医学可视化 + AI 的三重跨界融合，创意十足。用 WebGL 在浏览器里渲染人体模型并接入大模型做智能问答，既教育又炫酷，几天内 fork 数破 500，社区反响热烈。\n🏷️ `3D` `医学可视化` `AI` `Three.js` `Web`\n\n---\n\n### 3. [KKKKhazix/human-writing](https://github.com/KKKKhazix/human-writing) ⭐ 1,925\n> 让 AI 写出的中文文字像真人说话——一个开箱即用的 Claude 创意写作 / 编辑 Skill。\n\n🎯 **为什么有趣**：直击「AI 文字太像 AI」的痛点，中文场景下尤其稀缺。作为 Agent Skill 生态的一部分，反映了当下「AI Agent 能力插件化」的大趋势，实用性 + 创意兼具。\n🏷️ `AI` `中文写作` `Agent Skill` `NLP` `Python`\n\n---\n\n### 4. [Accio-org/RealReplicaBench](https://github.com/Accio-org/RealReplicaBench) ⭐ 1,040\n> 在真实在线服务的高保真副本中，对长周期自主 AI Agent 进行基准测试的研究平台。\n\n🎯 **为什么有趣**：Agent 评估是当前 AI 研究的前沿难题——传统 benchmark 太简单，真实环境又不可复现。RealReplicaBench 用「真实服务的高保真副本」巧妙解决了可复现性问题，学术价值高，方向前沿。\n🏷️ `AI Agent` `基准测试` `研究` `评估`\n\n---\n\n### 5. [magicrew/doc7](https://github.com/magicrew/doc7) ⭐ 719\n> 用 Go 写的文档智能处理工具，融合视觉语言模型理解文档布局，支持 docx、PDF 等格式转 AI 可读 Markdown。\n\n🎯 **为什么有趣**：与 anydoc 不同，doc7 强调「视觉理解」——不只是文本提取，而是用 VLM 理解表格、图表、版面的语义。Go 实现、MIT 协议、多模态处理，是文档 AI 领域的有力补充。\n🏷️ `AI` `文档理解` `VLM` `Go` `多模态`\n\n---\n\n> 📝 **编辑推荐**：本周 GitHub 的主题是 **「AI Agent 的基础设施大爆发」**——从文档处理（anydoc、doc7）到 Agent 评估（RealReplicaBench），再到 Agent 技能生态（human-writing），整个社区正在围绕「让 AI Agent 更好用」这一命题狂奔。anydoc 5 天破万星的成绩说明：**解决 AI 管道中的脏活累活，就是最好的创新。**",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

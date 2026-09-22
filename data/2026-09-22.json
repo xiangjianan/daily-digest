@@ -1,0 +1,35 @@
+{
+ "date": "2026-09-22",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-09-22] 每日创意小工具 #10：**MASKER** — 粘贴即脱敏的日志清洗器\n\n💡 一句话介绍：粘贴日志/JSON/CSV，即时生成一份“格式保形”的脱敏孪生——邮箱、IP、UUID、Bearer token、hex/base64 token、手机号、卡号全部换成同形态假值，同 seed 确定性可复现，100% 浏览器本地完成。\n\n",
+   "full": "🔧 [2026-09-22] 每日创意小工具 #10：**MASKER** — 粘贴即脱敏的日志清洗器\n\n💡 一句话介绍：粘贴日志/JSON/CSV，即时生成一份“格式保形”的脱敏孪生——邮箱、IP、UUID、Bearer token、hex/base64 token、手机号、卡号全部换成同形态假值，同 seed 确定性可复现，100% 浏览器本地完成。\n\n🧠 创意来源：今天 HN Show HN 扫到 [Agent Chaperone](https://github.com/agent-chaperone/agent-chaperone) 和 [Callwitness](https://github.com/AditiChaudharyy14/callwitness)（AI agent 工具调用审查——\"把不可见风险可视化\"的趋势），加上 [Web Tools List](https://webtoolslist.com) / DH Tools 的 client-side 隐私优先工具合集潮流。真实痛点：把带敏感值的日志贴进 issue 或 LLM 是每天的日常，手动脱敏太繁琐于是顺手泄漏。原创点：不做黑名单替换器，而是“格式保形 + seed 确定性”孪生——假邮箱长得像邮箱、假 UUID 是合法 v4、假卡号通过 Luhn 校验、token 长度分毫不差；同一个值全文换成同一个假值，交叉引用不乱，🎲 reroll 一键换身份。\n\n🛠️ 在线使用：https://xiangjianan.github.io/masker-20260922/ ｜仓库：https://github.com/xiangjianan/masker-20260922\n\n⚖️ 今日取舍：自由文本里的人名/用户名不做（误报不可控，README 已注明边界）；不带 `+` 区号的手机号不捕获、带空格的卡号不检测——刻意保守换零误报；文件拖拽上传未做（粘贴已覆盖主场景，留作迭代）。自检全绿：逻辑仿真 28/28（抓到并修掉假手机号位数 +3 的真 bug）、无头冒烟 14/14 零 JS 报错、线上 200。明天可迭代：自定义检测规则（正则用户自填）、CSV 列级脱敏。",
+   "job_id": "6ff8e716c927"
+  },
+  {
+   "name": "每日沉迷小游戏",
+   "emoji": "🎮",
+   "time": "10:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "线上版运行正常：单元测试双绿、bot 收宝石旋转中、0 报错。任务全链路完成，汇报如下。\n\n---\n\n🎮 [2026-09-22] 每日沉迷小游戏 #14：**SPINFALL（旋落）**\n\n💡 **一句话玩法**：点按一下，整座地牢顺时针旋转 90°——小球随世界一起转，但重力只认屏幕下方；用旋转引导小球坠竖井、滑滚道，收宝石、躲尖刺、抵达绿色舱门，关卡无",
+   "full": "线上版运行正常：单元测试双绿、bot 收宝石旋转中、0 报错。任务全链路完成，汇报如下。\n\n---\n\n🎮 [2026-09-22] 每日沉迷小游戏 #14：**SPINFALL（旋落）**\n\n💡 **一句话玩法**：点按一下，整座地牢顺时针旋转 90°——小球随世界一起转，但重力只认屏幕下方；用旋转引导小球坠竖井、滑滚道，收宝石、躲尖刺、抵达绿色舱门，关卡无限生成、单命冲分。\n\n🧠 **沉迷机制**（今日调研参考）：\n- HN 近期无新爆火休闲游戏（连续第 8 天），引用 [Mobile Games Designed to Be Addictive Get More Kid-Friendly](https://news.ycombinator.com/item?id=2026-08-28) 与 [Break 5 — addictive daily word game](https://news.ycombinator.com/item?id=2026-08-31) 佐证短循环设计\n- 借鉴的心理钩子：①**一动词 3 秒上手**（超休闲公式）；②**重力当方向盘的间接控制**——不操控角色而是改造世界，每次旋转都有即时因果回执，控制感错觉；③**构造性可解**——每关由「竖井+滚道」轴对齐蛇形雕刻，路线必然存在，死亡全怪自己时机不怪地图；④亚秒重开 + 关卡数/时间加成/最高分三重可见成长\n\n🕹️ **在线试玩**：https://xiangjianan.github.io/spinfall-20260922/ ｜ **仓库**：https://github.com/xiangjianan/spinfall-20260922\n（单文件 343 行，零依赖离线可玩，鼠标/触屏/空格均可，WebAudio 合成音效 + 旋转缓动/粒子/屏震/白闪 juice）\n\n⚖️ **今日取舍**：\n- **简化了什么**：完美 AI 规划器。中途写了 3 版 bot（贪心→BFS 单元格模型→精确位姿模型），最终发现「下落中途旋转」需要连续状态建模，超出单日预算，降级为游走 bot + 引擎级单元测试（出口通路 ✓ / 尖刺死亡 ✓ 双绿）。人类的全屏时机旋转能力远强于 settled-bot，属设计意图\n- **数值哪里没调好**：滚球限速 200px/s 是为「物理与模型一致」服务的保守值，人类手感可能偏黏；旋转 tween 110ms 连转时的画面频闪未优化；「人类前 30 秒能否赢第一关」未经真人验证（宽松 BFS 证明 30/30 可解，但精确手感需真机）\n- **明天可迭代**：CCW 旋转（双指）作为第二动词、尖刺贴墙摩擦音、关卡主题色随深度渐变\n- **今日踩坑已入册**：正方形网格是旋转玩法硬前提、menu 空 grid 抛错杀死 rAF 循环、非轴对齐生成在 4 向重力下不可达、旋转进墙需环搜索推离、patch 工具吞文件尾——已全部写入技能与摘要，明天 #15 见",
+   "job_id": "4e5dc8651932"
+  },
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "数据齐了，全部经过 GitHub API 实时验证（2026-09-22）+ GitHub weekly trending + HN Algolia 三方交叉。本周最大的故事非常清晰：TypeSafe AI 的 \"System One Models / Jev\"（HN 1953 分）引发了整个生态井喷。整理最终报告：\n\n---\n\n# 🔥 GitHub 本周有",
+   "full": "数据齐了，全部经过 GitHub API 实时验证（2026-09-22）+ GitHub weekly trending + HN Algolia 三方交叉。本周最大的故事非常清晰：TypeSafe AI 的 \"System One Models / Jev\"（HN 1953 分）引发了整个生态井喷。整理最终报告：\n\n---\n\n# 🔥 GitHub 本周有趣新项目推荐\n\n> 2026 年 9 月 15 日 – 9 月 22 日 | 数据经 GitHub API + HN Algolia 交叉验证\n\n---\n\n### 1. [jev-ultrafast](https://github.com/browser-use/jev-ultrafast) — 7.1 秒订好机票的浏览器 Agent\n\n> browser-use × TypeSafe 联合出品：用「动态索引动作空间」重做浏览器 Agent——Jev 模型直接决策“点哪个元素、执行什么操作”，只有输入文字时才动用 LLM 生成文本\n\n⭐ **17,050** stars（9 月 16 日创建，6 天）\n\n🎯 **为什么有趣：** 本周最炸事件的代表作。传统浏览器 Agent 每一步都要大模型“看截图→思考→写操作”，而它让微型决策模型在毫秒内直接选出 (操作， 元素)，Demo 里苏黎世→伦敦的 Google Flights 搜索全程仅 7.1 秒——比人类快几个数量级。这是“LLM 只在必要时生成文本”这一新范式的最佳展示，6 天 1.7 万星，创意、星速、前沿、实用四项全中。\n\n🏷️ `AI Agent` / `浏览器自动化` / `推理优化` / `Python`\n\n---\n\n### 2. [laya](https://github.com/NandhaKishorM/laya) — 单次前向 33ms 的非自回归决策引擎\n\n> 多语言非自回归 System 1 决策引擎：100+ 语言的类型化决策一次前向完成（33ms），用强化学习 + 严格 proper scoring rules（RLCD）训练，自带按请求路由选 checkpoint\n\n⭐ **13,075** stars（9 月 18 日创建，4 天）\n\n🎯 **为什么有趣：** 本周学术含金量最高的爆发——HN 上“我一年前就在做非自回归决策模型”一帖狂揽 **1330 分**。它不生成任何文本，直接输出结构化决策，绕开了自回归解码的全部延迟。社区已经自发长出 laya-mlx（M3 Max 上 7–14ms 端侧推理，4.6k★）和 laya-coreml 两个运行时，“决策模型”正在成为一个独立赛道。4 天 1.3 万星，增速本周第一梯队。\n\n🏷️ `AI` / `机器学习` / `非自回归` / `强化学习` / `端侧推理`\n\n---\n\n### 3. [ZCode](https://github.com/zai-org/ZCode) — 智谱开源的编码 Agent 底座\n\n> Z.ai（智谱）官方编码 Agent harness：强大、智能、可扩展，定位是构建 coding agent 的底层框架\n\n⭐ **6,062** stars（9 月 20 日创建，仅 2 天）\n\n🎯 **为什么有趣：** 大厂开源里增速最猛的一个——**2 天 6000 星**。智谱没有只放一个 CLI 产品，而是把自家用的工作调度、上下文管理、工具扩展整套 harness 开源出来，明显对标 Claude Code 的生态位。对中文开发者来说，这是第一次有顶级国产模型厂把 Agent 底座完整开源，后续插件生态值得期待。\n\n🏷️ `AI Agent` / `编码工具` / `开源` / `TypeScript` / `国产开源`\n\n---\n\n### 4. [Compositor](https://github.com/robbietilton/Compositor) — Mac 原生 Photoshop 替代品\n\n> 用 Swift 从零打造的 Mac 原生图像编辑器，目标是成为“Photoshop 的替代品”\n\n⭐ **4,614** stars（9 月 16 日创建，6 天）\n\n🎯 **为什么有趣：** 本周榜单上难得的“非 AI”清流，恰恰因此格外显眼。在所有工具都急着套壳大模型的 2026 年，有人回到本地、原生、性能优先的老路，用 Swift 重写专业图像编辑——6 天 4,600 星说明开发者对“快、原生、不订阅”的渴望从未消失。实用性拉满，且是对当前 AI 热潮的一种健康反叙事。\n\n🏷️ `macOS` / `图像编辑` / `Swift` / `开源软件`\n\n---\n\n### 5. [fugleramme](https://github.com/arnegiacomo/fugleramme) — 听见鸟叫就画鸟的 e-ink 相框\n\n> 树莓派 + e-ink 相框：实时监听鸟鸣做本地声纹识别，把识别到的鸟渲染成 19 世纪手工雕版风格的插画显示在相框上\n\n⭐ **3,261** stars（本周在 HN 爆火，斩获 **2,389 分**，为本周 Show HN 最高分之一）\n\n🎯 **为什么有趣：** 本周最迷人的硬件 + 本地 AI 项目。全链路离线：麦克风收音 → 本地模型识别鸟种 → 生成复古雕版画风 → e-ink 显示。它示范了“端侧 AI”最优雅的用法——不追求数据中心算力，而是把 tiny model 嵌进一件安静的家居物件里。创意满分，本周 HN 社区用 2,389 分投了票。\n\n🏷️ `硬件` / `树莓派` / `本地 AI` / `声纹识别` / `创客`\n\n---\n\n### 📝 编辑推荐\n\n> 本周的主旋律是一场范式转变：TypeSafe AI 的 **\"System One Models / Jev\"**（HN 1953 分）提出“别再让大模型逐字生成，让微型模型毫秒级做类型化决策”，短短一周内生态井喷——jev-ultrafast、fast-jev-compaction（6.1k★）、kev（2.9k★）、SemIf（3.5k★）、连 GitHub Next 都下场做了 localjev。与之呼应的是全线“小型化、端侧化”：纯 C 流式加载 MoE 的 colibri（+5.5k★/周）、8GB VRAM 持续学习的 mini-AGI、M3 Max 上 14ms 的 laya-mlx。**2026 年下半场的信号很明确：AI 的下一步不在更大的模型，而在更小、更快的决策。**",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

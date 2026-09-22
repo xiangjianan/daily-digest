@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-01",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "# 🔥 GitHub 本周有趣新项目推荐\n\n> 2026 年 6 月 24 日 – 7 月 1 日\n\n---\n\n## 1. [deepseek-ai/DeepSpec](https://github.com/deepseek-ai/DeepSpec)\n\n> DeepSeek 出品的投机解码（Speculative Decoding）全栈训练与评估框架\n\n⭐ ",
+   "full": "# 🔥 GitHub 本周有趣新项目推荐\n\n> 2026 年 6 月 24 日 – 7 月 1 日\n\n---\n\n## 1. [deepseek-ai/DeepSpec](https://github.com/deepseek-ai/DeepSpec)\n\n> DeepSeek 出品的投机解码（Speculative Decoding）全栈训练与评估框架\n\n⭐ **5,601** stars（6 月 26 日创建，5 天内爆发）\n\n🎯 **为什么有趣：** 投机解码是当前 LLM 推理加速最前沿的方向之一——用一个小模型\"猜\"大模型的输出，猜对了就跳过计算，猜错了回退，平均大幅提升推理吞吐。DeepSeek 直接开源了完整工具链（数据准备 → 训练 → 评估），对想深入研究推理加速的开发者是难得的实战资源。\n\n🏷️ AI / LLM推理加速 / Python\n\n---\n\n## 2. [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)\n\n> 全球首个开源「智能体视频制作系统」——12 条管线、52 个工具、500+ Agent 技能\n\n⭐ **30,333** stars（本周暴增 **+15,353** 🚀）\n\n🎯 **为什么有趣：** 它的范式很新颖——不是传统的视频编辑软件，而是把 AI 编程 Agent 当作\"运行时\"，让 Agent 自主调用工具完成视频生产流程（素材检索 → 剪辑 → 特效 → 渲染）。等于把你的 AI 编程助手变成了一个完整的视频工作室。社区极活跃，173 次提交、85 个开放 PR。\n\n🏷️ AI Agent / 视频制作 / 工作流自动化\n\n---\n\n## 3. [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)\n\n> 高性能代码智能 MCP Server——毫秒级将代码库索引为持久化知识图谱\n\n⭐ **23,234** stars（本周暴增 **+10,031** 🚀）\n\n🎯 **为什么有趣：** MCP（Model Context Protocol）是当前 AI Agent 基础设施最热的赛道。这个项目让 Agent 拥有对整个代码库的持久记忆——支持 158 种语言，亚毫秒级查询，比传统方式减少 99% 的 token 消耗。单一静态二进制、零依赖，开箱即用。1,103 次提交，已非常成熟。\n\n🏷️ AI Agent / MCP / 代码智能 / Rust\n\n---\n\n## 4. [google-labs-code/design.md](https://github.com/google-labs-code/design.md)\n\n> Google Labs 推出的 DESIGN.md 格式规范——让 AI 编程 Agent 理解你的视觉设计系统\n\n⭐ **23,861** stars（本周暴增 **+7,524** 🚀）\n\n🎯 **为什么有趣：** 这是一个试图定义\"AI 时代的 CSS\"的开放标准。通过结构化的 DESIGN.md 文件，开发者可以向 AI Agent 描述设计系统的颜色、字体、间距、组件风格，让 Agent 在生成代码时自动遵循设计规范。如果被广泛采用，每个代码库都会有一个 README.md 和一个 DESIGN.md。\n\n🏷️ 设计系统 / AI Agent / 开发工具 / 标准规范\n\n---\n\n## 5. [lycorp-jp/sim-use](https://github.com/lycorp-jp/sim-use)\n\n> 给 AI Agent 装上「眼睛和手」——让 Agent 直接操控 iOS 模拟器和 Android 模拟器\n\n⭐ **373** stars（6 月 26 日创建，5 天内）\n\n🎯 **为什么有趣：** 来自 LY Corporation（LINE / Yahoo Japan），思路非常独特——不只是让 Agent 写代码，而是让 Agent 真正\"用\"你的 App。Agent 可以在 iOS 模拟器和 Android 模拟器上点击、滑动、输入文本，实现自动化 UI 测试和交互。在 Agent 基础设施中填补了「移动端交互」这个关键空白。\n\n🏷️ AI Agent / 移动开发 / UI 自动化测试 / Swift\n\n---\n\n> 📝 **编辑推荐语：** 本周 GitHub 的主旋律是 **AI Agent 基础设施大爆发**。从推理加速（DeepSpec）、代码记忆（codebase-memory-mcp）、设计规范（design.md）到视频生产（OpenMontage）和移动端操控（sim-use），开发者们正在疯狂构建让 Agent 变得\"更聪明、更有手\"的工具链。MCP 生态尤其火热——Agent 的 2026 年，正在从\"能对话\"走向\"能干活\"。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

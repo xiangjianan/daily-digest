@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-20",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Based on all the data gathered, here's my curated selection:\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐\n\n> 2025 年 7 月 20 日\n\n---\n\n### 1. 🎨 Nutlope/hallmark\n**链接**: https://github.com/Nutlope/hallm",
+   "full": "Based on all the data gathered, here's my curated selection:\n\n---\n\n## 🔥 GitHub 本周有趣新项目推荐\n\n> 2025 年 7 月 20 日\n\n---\n\n### 1. 🎨 Nutlope/hallmark\n**链接**: https://github.com/Nutlope/hallmark\n> ⭐ 13,730\n\n一句话简介：为 Claude Code / Cursor / Codex 打造的「反 AI 糊涂设计」技能——让 AI 编码助手生成的 UI 告别千篇一律的 AI 风格。\n\n🎯 **为什么有趣**：\n创意十足。它不写代码，而是教 AI 写出「有人味儿」的前端设计——直击当前 AI 生成 UI 同质化严重的痛点。一周内暴涨 **9,193 stars**，社区强烈共鸣。这是一个全新品类：AI coding agent 的「设计审美补丁」。\n\n🏷️ `AI` · `CSS` · `Agent Skills` · `前端设计`\n\n---\n\n### 2. 🌐 KnockOutEZ/wigolo\n**链接**: https://github.com/KnockOutEZ/wigolo\n> ⭐ 2,145\n\n一句话简介：给 AI 编码 Agent 用的本地优先搜索引擎——搜索、抓取、爬取、研究全在本地完成，无需 API Key，零成本。\n\n🎯 **为什么有趣**：\n精准切中了一个被忽视的需求：AI coding agent 需要查资料但不能总调云端 API。wigolo 通过 MCP 协议让 Agent 拥有「自主调研」能力，单日涨 **595 stars**，增速惊人。local-first + $0/query 的组合非常务实且有前瞻性。\n\n🏷️ `AI` · `MCP` · `TypeScript` · `搜索` · `CLI`\n\n---\n\n### 3. 📐 tt-a1i/archify\n**链接**: https://github.com/tt-a1i/archify\n> ⭐ 6,033\n\n一句话简介：一句话生成精美架构图——支持深色/浅色主题，导出 PNG/JPEG/WebP/SVG，适配任意 AI Agent。\n\n🎯 **为什么有趣**：\n把「画架构图」这个开发者日常最繁琐的任务之一变成了一句话指令。作为 Agent Skill 运行，一周涨 **2,103 stars**。它不是一个独立工具，而是嵌入 AI 编码工作流的一个「超能力」，思路非常巧妙。\n\n🏷️ `AI` · `Agent Skills` · `JavaScript` · `可视化` · `架构`\n\n---\n\n### 4. 📚 kangarooking/cangjie-skill\n**链接**: https://github.com/kangarooking/cangjie-skill\n> ⭐ 3,982\n\n一句话简介：把书、长视频、播客等高价值内容「蒸馏」成可执行的 Agent Skills——知识消化器。\n\n🎯 **为什么有趣**：\n概念新颖且实用：将被动的内容消费（看书/听播客）转化为主动的 AI Agent 能力。一周涨 **1,284 stars**，中文社区项目在 GitHub trending 上榜实属难得。它打通了「学习 → 技能化 → 自动化」的闭环，是 Agent Skill 生态的一个全新方向。\n\n🏷️ `AI` · `Agent Skills` · `Python` · `知识管理` · `NLP`\n\n---\n\n### 5. 🎙️ jamiepine/voicebox\n**链接**: https://github.com/jamiepine/voicebox\n> ⭐ 43,708\n\n一句话简介：开源 AI 语音工作室——克隆声音、语音转文字、语音创作，一站式搞定。\n\n🎯 **为什么有趣**：\n在 AI 语音赛道上做到了「开箱即用」的完整体验，单日涨 **610 stars** 且总量已达 4.3 万+，说明它已经从一个新项目成长为品类标杆。开源 + 全功能 + 低门槛的组合让它持续吸引关注。\n\n🏷️ `AI` · `语音合成` · `TypeScript` · `开源`\n\n---\n\n> 💡 **编辑推荐语**：本周 GitHub 趋势的核心主题只有一个词——**Agent Skills**。从设计审美（hallmark）到搜索能力（wigolo），从架构绘图（archify）到知识蒸馏（cangjie-skill），开发者们正在疯狂地为 AI 编码助手「装配新技能」。AI Agent 不再只是写代码——它们开始搜索、设计、研究、学习。这是一个从「AI 帮你写代码」到「AI 成为你的全能搭档」的范式转变。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

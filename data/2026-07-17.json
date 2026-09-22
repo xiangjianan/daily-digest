@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-17",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "## 🔥 GitHub 每周有趣新项目推荐 — 2026年7月17日\n\n---\n\n### 1. [herdr](https://github.com/ogulcancelik/herdr) — AI Agent 的「终端窗口管理器」\n> Agent multiplexer that lives in your terminal — 同时调度多个 AI 编码代",
+   "full": "## 🔥 GitHub 每周有趣新项目推荐 — 2026年7月17日\n\n---\n\n### 1. [herdr](https://github.com/ogulcancelik/herdr) — AI Agent 的「终端窗口管理器」\n> Agent multiplexer that lives in your terminal — 同时调度多个 AI 编码代理\n\n⭐ **17,373** stars（本周 +2,502）| Rust | 创建于 2026年3月\n\n🎯 **为什么有趣：** 把 tmux 的核心理念搬到了 AI 代理时代——用一个终端同时管理和编排多个 AI coding agent（Claude Code、Codex 等）。用 Rust 写的，概念极其新颖：开发者在终端里就像乐队指挥，指挥一队 AI 代理并行工作。这是 agent orchestration 领域最脑洞大开的工具之一。\n\n🏷️ CLI / AI Agent / Rust / 开发工具\n\n---\n\n### 2. [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — 为 AI Agent 量身打造的 Office 套件\n> Office suite purpose-built for AI agents — 读写 Word、Excel、PPT，单二进制，无需安装 Office\n\n⭐ **18,610** stars（本周 +5,342）| C# | 创建于 2026年3月\n\n🎯 **为什么有趣：** 解决了一个真实痛点：AI 代理需要处理 Office 文档但传统 Office API 极其臃肿。OfficeCLI 把 Word/Excel/PPT 的读写能力打包成一个轻量级 CLI 工具，AI agent 可以直接调用。不用装 Office、不依赖 COM 组件——这个\"为机器设计而非为人设计\"的理念非常前沿。\n\n🏷️ AI Agent / CLI / 办公自动化 / C#\n\n---\n\n### 3. [orca](https://github.com/stablyai/orca) — 为并行 AI Agent 时代重想的 IDE\n> Agent Development Environment (ADE) — 桌面 + 移动端，管理和可视化一群并行编码代理\n\n⭐ **20,833** stars（本周 +5,736）| TypeScript | 创建于 2026年3月\n\n🎯 **为什么有趣：** YC 投资的项目，核心理念是\"IDE 不应该只服务于一个程序员，而应该服务于一群并行工作的 AI agent\"。支持桌面和移动端，可视化监控 agent 的状态和输出。当单个 agent 的产出已经让人应接不暇时，orca 提供了一个从更高维度掌控 agent 群的视角。\n\n🏷️ IDE / AI Agent / TypeScript / YC\n\n---\n\n### 4. [hallmark](https://github.com/Nutlope/hallmark) — 「反 AI 粗制滥造」设计技能\n> Anti-AI-slop design skill for Claude Code / Cursor / Codex — 让 AI 生成的 UI 不再像模板\n\n⭐ **11,460** stars（本周 +6,573，日增 +3,372）| CSS | 创建于 2026年4月\n\n🎯 **为什么有趣：** 抓住了当下最尖锐的问题——AI 生成的 UI 千篇一律、充满\"AI味\"。hallmark 作为 coding agent 的 design skill，注入审美规则和设计原则，让 AI 输出的前端代码具备真正的人类设计感。一周暴增 6,500+ stars，说明社区对 AI 生成质量问题的焦虑已经到了临界点。\n\n🏷️ AI / 设计 / CSS / Coding Agent Skill\n\n---\n\n### 5. [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) — AI 驱动的个人量化交易 Agent\n> LLM-powered personal trading agent with multi-agent system, backtesting & quant finance\n\n⭐ **24,451** stars（本周 +5,407）| Python | 创建于 2026年4月\n\n🎯 **为什么有趣：** 来自港大数据科学实验室，把 LLM 多智能体系统引入量化交易。不只是简单的\"用 AI 选股\"，而是构建了完整的交易 pipeline：市场分析 → 策略生成 → 回测 → 执行，每个环节都有专门的 agent 负责。开源量化 + AI 的组合让它迅速出圈，3.5 个月 2.4 万 stars。\n\n🏷️ AI / 量化交易 / Python / Multi-Agent\n\n---\n\n### 📝 编辑推荐\n\n> 本周的趋势可以用一句话概括：**Agent 的操作系统正在成型。** 无论是 herdr 的终端编排、orca 的 IDE 视角、OfficeCLI 的工具链，还是 hallmark 的质量控制——开发者生态正在疯狂地为\"如何管理一群并行工作的 AI 代理\"构建基础设施。2026 下半年，围绕 AI Agent 的工具层将是 GitHub 最热的赛道。",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}

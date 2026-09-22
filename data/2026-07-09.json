@@ -1,0 +1,15 @@
+{
+ "date": "2026-07-09",
+ "jobs": [
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "Here's this week's GitHub trending report:\n\n---\n\n## 🔥 GitHub 每日有趣新项目推送（2026.07.09）\n\n### 1. RuView — [ruvnet/RuView](https://github.com/ruvnet/RuView)\n一句话简介：用普通 WiFi 信号实现实时空间感知、生命体征",
+   "full": "Here's this week's GitHub trending report:\n\n---\n\n## 🔥 GitHub 每日有趣新项目推送（2026.07.09）\n\n### 1. RuView — [ruvnet/RuView](https://github.com/ruvnet/RuView)\n一句话简介：用普通 WiFi 信号实现实时空间感知、生命体征监测和人体检测——无需任何摄像头。\n\n⭐ 当前 star 数：79,437（今日 +799）\n\n🎯 **为什么有趣**：将廉价 WiFi 硬件变成空间智能传感器，完全不依赖摄像头或昂贵的传感器，隐私友好。Rust 实现，支持 ESP32 硬件，还接入了 Home Assistant。这种「用现有基础设施做新事」的思路非常聪明，属于 IoT + AI 的交叉创新。\n\n🏷️ IoT / 硬件 / 隐私 / 智能家居\n\n---\n\n### 2. Strix — [usestrix/strix](https://github.com/usestrix/strix)\n一句话简介：开源 AI 渗透测试工具，自动发现并修复应用安全漏洞。\n\n⭐ 当前 star 数：39,286（本周 +10,274）\n\n🎯 **为什么有趣**：把 LLM 的代码理解能力用于安全审计——不是简单地扫依赖漏洞，而是真正理解应用逻辑来发现攻击面。本周增长破万，说明安全社区高度认可。Apache-2.0 开源，覆盖 CTF、Bug Bounty、企业安全等多场景。AI + 安全的组合仍是蓝海。\n\n🏷️ AI / 安全 / 渗透测试 / Cybersecurity\n\n---\n\n### 3. Astryx — [facebook/astryx](https://github.com/astryx)\n一句话简介：Facebook 出品的开源设计系统，宣称「fully customizable and agent ready」。\n\n⭐ 当前 star 数：7,301（本周 +4,943）\n\n🎯 **为什么有趣**：本周收获了总 star 数的 **68%**，增速惊人。核心亮点是「agent ready」——不只是给人用的 UI 组件库，而是让 AI 编码代理（如 Claude Code、Cursor）也能理解和操作的设计系统。Meta/Facebook 在 AI agent 基础设施上的持续投入，加上设计系统这个被忽视的 agent 基础设施层，很值得关注。\n\n🏷️ 设计系统 / AI Agent / 前端 / UI 组件\n\n---\n\n### 4. OfficeCLI — [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)\n一句话简介：专为 AI Agent 打造的 Office 套件——读取、编辑和自动化 Word/Excel/PPT，单二进制文件，无需安装 Office。\n\n⭐ 当前 star 数：12,663（今日 +1,717）\n\n🎯 **为什么有趣**：核心理念非常新颖——不是「给人类用的 Office」，而是「给 AI agent 操作的 Office」。Agent 可以直接读写 docx/xlsx/pptx，解决了一个真实痛点：AI 编码代理缺乏操作办公文档的能力。开源免费、单 binary、C# 实现，本周增速极快。实用 + 创新兼备。\n\n🏷️ AI Agent / CLI / 办公自动化 / 工具\n\n---\n\n### 5. TencentDB Agent Memory — [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)\n一句话简介：为 AI Agent 提供完全本地化的长期记忆能力，4 级渐进式存储管线，零外部 API 依赖。\n\n⭐ 当前 star 数：7,892（今日 +318）\n\n🎯 **为什么有趣**：Agent 的「记忆」问题是当前 AI 基础设施的核心短板之一。这个项目用 4 级管线（从短期到长期）实现了 agent 的持久记忆，且完全本地运行，不依赖外部 API。腾讯出品，TypeScript 实现，既有大厂技术深度，又有开源社区的活力。这是 agent 基础设施领域的重要尝试。\n\n🏷️ AI Agent / 记忆系统 / 基础设施 / 本地优先\n\n---\n\n> 📝 **编辑推荐**：本周 GitHub 趋势呈现出明显的「AI Agent 基础设施建设」主题——从 agent 专属的办公工具（OfficeCLI）、设计系统（Astryx）、记忆系统（TencentDB Agent Memory），到终端工具（herdr），社区正在疯狂补齐 agent 生态的各个基础设施层。同时，WiFi 信号的空间感知（RuView）和 AI 渗透测试（Strix）展示了 AI 在硬件和安全等传统领域的创新渗透。**AI Agent 生态的「淘金热」正在从模型本身转向工具链和基础设施。**",
+   "job_id": "5bdfe48fa5d4"
+  }
+ ]
+}
