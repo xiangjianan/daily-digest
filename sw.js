@@ -2,7 +2,7 @@
  * - 页面/manifest：网络优先，离线回退缓存（保证内容更新及时可见）
  * - data/*.json：网络优先，失败才回退缓存（每次都拿云端最新，缓存仅离线兜底）
  */
-const VERSION = 'v3';
+const VERSION = 'v4';
 const SHELL = `shell-${VERSION}`;
 const DATA = `data-${VERSION}`;
 const SHELL_ASSETS = [
@@ -40,8 +40,10 @@ self.addEventListener('fetch', (e) => {
       fetch(req)
         .then((res) => {
           if (res.ok) {
+            // 必须在返回响应给页面之前 clone（页面开始读取后 body 流会被锁定，再 clone 会抛 already used）
+            const copy = res.clone();
             // 以不带 ?t= 的干净路径为键存/取，页面端带时间戳防 CDN 缓存
-            caches.open(DATA).then((cache) => cache.put(url.pathname, res.clone()));
+            caches.open(DATA).then((cache) => cache.put(url.pathname, copy));
           }
           return res;
         })

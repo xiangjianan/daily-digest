@@ -58,20 +58,19 @@
     transition: background .25s ease;
   }
   .bar-in {
-    max-width: 640px; margin: 0 auto; padding: 0 24px;
-    height: 56px; display: flex; align-items: center; justify-content: space-between;
+    max-width: 640px; margin: 0 auto;
+    padding: calc(12px + env(safe-area-inset-top)) 24px 12px;
+    display: flex; align-items: center; justify-content: space-between;
     border-bottom: 1px solid var(--line);
   }
   .brand { font-size: 13px; font-weight: 650; letter-spacing: .18em; color: var(--text); user-select: none; }
   .brand i { font-style: normal; color: var(--faint); margin-left: 10px; letter-spacing: .02em; font-weight: 500; font-size: 12px; }
   .bar-btns { display: flex; align-items: center; gap: 4px; }
-  .ghost {
-    width: 34px; height: 34px; border-radius: 50%;
+  .ghost { width: 34px; height: 34px; border-radius: 50%;
     border: none; background: transparent; color: var(--dim);
     display: grid; place-items: center; cursor: pointer;
     transition: background .15s, color .15s, transform .12s;
   }
-  .ghost:hover { background: var(--hover); color: var(--text); }
   .ghost:active { transform: scale(.9); }
   .ghost svg { width: 18px; height: 18px; }
 
@@ -83,7 +82,6 @@
     display: flex; align-items: baseline; gap: 10px; cursor: pointer; position: relative;
   }
   .hero-date .week { font-size: 15px; font-weight: 500; color: var(--dim); letter-spacing: 0; }
-  .hero-date:hover .week { color: var(--text-2); }
   .hero-date input {
     position: absolute; inset: 0; opacity: 0; cursor: pointer;
     width: 100%; height: 100%;
@@ -98,7 +96,6 @@
     color: var(--accent); cursor: pointer; background: none; border: none;
     font-size: 12.5px; padding: 0; font-family: inherit; letter-spacing: .01em;
   }
-  .hero-sub .latest-link:hover { text-decoration: underline; text-underline-offset: 3px; }
   .hero-nav { display: flex; align-items: center; gap: 2px; padding-bottom: 4px; }
   .hero-nav .ghost { width: 32px; height: 32px; }
   .hero-nav .ghost svg { width: 17px; height: 17px; }
@@ -106,23 +103,21 @@
   /* ---------- 时间轴列表 ---------- */
   .feed { padding-top: 10px; }
   .entry {
-    display: flex; gap: 20px; padding: 24px 2px;
+    padding: 24px 2px;
     border-bottom: 1px solid var(--line);
     animation: fadeUp .35s ease both;
   }
   .entry:last-child { border-bottom: none; }
   @keyframes fadeUp { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
-  .t {
-    flex: none; width: 44px; padding-top: 3px;
-    font-size: 13px; color: var(--faint);
+  .e-meta {
+    font-size: 12.5px; color: var(--faint);
     font-variant-numeric: tabular-nums; letter-spacing: .02em;
+    display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   }
-  .e-body { flex: 1; min-width: 0; }
-  .e-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
-  .e-name { font-size: 16px; font-weight: 650; letter-spacing: -0.01em; }
+  .e-meta .ft { color: var(--fail); font-weight: 600; letter-spacing: .04em; }
+  .e-head { margin-top: 4px; }
+  .e-name { font-size: 16.5px; font-weight: 650; letter-spacing: -0.01em; }
   .e-name .emoji { font-size: 15px; margin-right: 7px; }
-  .e-dur { font-size: 12px; color: var(--faint); font-variant-numeric: tabular-nums; }
-  .e-failtag { font-size: 11.5px; font-weight: 600; color: var(--fail); letter-spacing: .04em; }
   .e-text {
     margin-top: 8px; font-size: 15px; line-height: 1.8; color: var(--text-2);
     word-break: break-word;
@@ -131,7 +126,6 @@
     display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
   }
   .e-text a { color: var(--accent); text-decoration: none; }
-  .e-text a:hover { text-decoration: underline; text-underline-offset: 3px; }
   .e-text b { color: var(--text); font-weight: 650; }
   .e-more {
     margin-top: 6px; display: inline-flex; align-items: center; gap: 3px;
@@ -139,21 +133,28 @@
     color: var(--dim); font-size: 13px; font-weight: 500; font-family: inherit;
     transition: color .15s;
   }
-  .e-more:hover { color: var(--accent); }
   .e-more svg { width: 14px; height: 14px; transition: transform .25s ease; }
   .entry.open .e-more svg { transform: rotate(180deg); }
   .entry.open .e-text.clamp { display: block; }
 
+  /* hover 反馈仅用于有真实指针的设备（避免移动端 sticky hover 残留） */
+  @media (hover: hover) and (pointer: fine) {
+    .ghost:hover { background: var(--hover); color: var(--text); }
+    .hero-date:hover .week { color: var(--text-2); }
+    .hero-sub .latest-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+    .e-text a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    .e-more:hover { background: var(--hover); }
+  }
+
   /* ---------- 骨架屏 ---------- */
-  .sk { display: flex; gap: 20px; padding: 24px 2px; border-bottom: 1px solid var(--line); }
-  .sk-t { flex: none; width: 44px; height: 15px; border-radius: 5px; }
-  .sk-b { flex: 1; }
+  .sk { padding: 24px 2px; border-bottom: 1px solid var(--line); }
   .sk-l { height: 13px; border-radius: 5px; margin-bottom: 12px; }
-  .sk-l.w60 { width: 60%; margin-bottom: 0; }
-  .sk-l.w40 { width: 40%; }
-  .sk-l.w85 { width: 85%; }
+  .sk-l.w22 { width: 22%; margin-bottom: 14px; }
+  .sk-l.w38 { width: 38%; }
+  .sk-l.w55 { width: 55%; margin-bottom: 0; }
   .sk-l.w70 { width: 70%; }
-  .sk-t, .sk-l {
+  .sk-l.w85 { width: 85%; }
+  .sk-l {
     background: linear-gradient(90deg, var(--skeleton-a) 25%, var(--skeleton-b) 45%, var(--skeleton-a) 65%);
     background-size: 240% 100%;
     animation: shimmer 1.4s ease-in-out infinite;
@@ -292,9 +293,9 @@ const CHEVRON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stro
 function skeleton() {
   let s = '';
   for (let i = 0; i < 3; i++) {
-    s += '<div class="sk"><div class="sk-t"></div><div class="sk-b">' +
-      '<div class="sk-l w40"></div><div class="sk-l w85"></div><div class="sk-l w70"></div><div class="sk-l w60"></div>' +
-      '</div></div>';
+    s += '<div class="sk">' +
+      '<div class="sk-l w22"></div><div class="sk-l w38"></div><div class="sk-l w85"></div><div class="sk-l w70"></div><div class="sk-l w55"></div>' +
+      '</div>';
   }
   return s;
 }
@@ -336,18 +337,19 @@ function render(dateStr, day) {
   if (latestBtn) latestBtn.addEventListener('click', () => show([...dateSet].sort().pop()));
 
   document.getElementById('content').innerHTML = day.jobs.map(function(j, i) {
-    const dur = j.duration_min ? '<span class="e-dur">用时 ' + j.duration_min + ' 分钟</span>' : '';
-    const fail = j.status !== 'ok' ? '<span class="e-failtag">失败</span>' : '';
+    const metaParts = [];
+    if (j.time) metaParts.push(esc(j.time));
+    if (j.duration_min) metaParts.push('用时 ' + j.duration_min + ' 分钟');
+    if (j.status !== 'ok') metaParts.push('<span class="ft">任务失败</span>');
     const full = j.full ? (
       '<div class="e-text full-text" style="display:none">' + mdLite(j.full) + '</div>' +
       '<button class="e-more" data-i="' + i + '">展开全文 ' + CHEVRON + '</button>'
     ) : '';
     return '<article class="entry" id="entry' + i + '" style="animation-delay:' + (i * 60) + 'ms">' +
-      '<div class="t">' + esc(j.time || '') + '</div>' +
-      '<div class="e-body">' +
-        '<div class="e-head"><span class="e-name"><span class="emoji">' + esc(j.emoji || '') + '</span>' + esc(j.name) + '</span>' + dur + fail + '</div>' +
-        '<div class="e-text clamp">' + mdLite(j.preview || '') + '</div>' +
-        full + '</div></article>';
+      '<div class="e-meta">' + metaParts.join(' · ') + '</div>' +
+      '<div class="e-head"><span class="e-name"><span class="emoji">' + esc(j.emoji || '') + '</span>' + esc(j.name) + '</span></div>' +
+      '<div class="e-text clamp">' + mdLite(j.preview || '') + '</div>' +
+      full + '</article>';
   }).join('');
 
   document.querySelectorAll('.e-more').forEach(function(btn) {
@@ -386,6 +388,11 @@ document.getElementById('prev').addEventListener('click', () =>
 document.getElementById('next').addEventListener('click', () =>
   show(shiftDate(document.getElementById('datepick').value || fmtLocal(new Date()), 1)));
 document.getElementById('datepick').addEventListener('change', e => show(e.target.value));
+document.getElementById('heroDate').addEventListener('click', () => {
+  // 点击日期区域任意位置都稳定唤起原生选择器（showPicker 需用户手势，旧浏览器自动回退 input 原生行为）
+  const dp = document.getElementById('datepick');
+  try { if (dp.showPicker) dp.showPicker(); } catch (e) { /* picker 已打开时忽略 */ }
+});
 
 init();
 </script>
