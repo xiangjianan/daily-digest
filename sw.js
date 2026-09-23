@@ -2,7 +2,7 @@
  * - 页面/manifest：网络优先，离线回退缓存（保证内容更新及时可见）
  * - data/*.json：网络优先，失败才回退缓存（每次都拿云端最新，缓存仅离线兜底）
  */
-const VERSION = 'v5';
+const VERSION = 'v6';
 const SHELL = `shell-${VERSION}`;
 const DATA = `data-${VERSION}`;
 const SHELL_ASSETS = [
