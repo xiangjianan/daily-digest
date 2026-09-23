@@ -366,6 +366,10 @@ function render(dateStr, day) {
 }
 
 async function show(dateStr) {
+  // 兜底：日期控件的"还原/清除"会传空值，非法日期一律回退到数据最新一天
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(dateStr || '')) {
+    dateStr = dateSet.size ? [...dateSet].sort().pop() : fmtLocal(new Date());
+  }
   document.getElementById('content').innerHTML = skeleton();
   render(dateStr, await loadDay(dateStr));
 }
