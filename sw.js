@@ -1,8 +1,8 @@
 /* 每日简报 Service Worker
  * - 页面/manifest：网络优先，离线回退缓存（保证内容更新及时可见）
- * - data/*.json：stale-while-revalidate（秒开 + 后台刷新）
+ * - data/*.json：网络优先，失败才回退缓存（每次都拿云端最新，缓存仅离线兜底）
  */
-const VERSION = 'v1';
+const VERSION = 'v2';
 const SHELL = `shell-${VERSION}`;
 const DATA = `data-${VERSION}`;
 const SHELL_ASSETS = [
@@ -34,19 +34,18 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(req.url);
   if (url.origin !== location.origin) return;
 
-  // 数据文件：SWR
+  // 数据文件：网络优先（缓存只在断网时兜底）
   if (url.pathname.includes('/data/')) {
     e.respondWith(
-      caches.open(DATA).then(async (cache) => {
-        const cached = await cache.match(req);
-        const network = fetch(req)
-          .then((res) => {
-            if (res.ok) cache.put(req, res.clone());
-            return res;
-          })
-          .catch(() => cached);
-        return cached || network;
-      })
+      fetch(req)
+        .then((res) => {
+          if (res.ok) {
+            // 以不带 ?t= 的干净路径为键存/取，页面端带时间戳防 CDN 缓存
+            caches.open(DATA).then((cache) => cache.put(url.pathname, res.clone()));
+          }
+          return res;
+        })
+        .catch(() => caches.match(url.pathname))
     );
     return;
   }

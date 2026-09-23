@@ -189,16 +189,18 @@ function mdLite(raw) {
 
 /* ---------- 数据 ---------- */
 let manifest = null;
-const dayCache = {};
+const dayCache = {};   // 仅作断网兜底：正常时每次切日期都从云端拉最新
 const dateSet = new Set();
 
 async function loadDay(dateStr) {
-  if (dayCache[dateStr] !== undefined) return dayCache[dateStr];
   try {
-    const r = await fetch('data/' + dateStr + '.json');
-    dayCache[dateStr] = r.status === 404 ? null : await r.json();
-  } catch (e) { dayCache[dateStr] = null; }
-  return dayCache[dateStr];
+    const r = await fetch('data/' + dateStr + '.json?t=' + Date.now(), { cache: 'no-store' });
+    const day = r.status === 404 ? null : await r.json();
+    dayCache[dateStr] = day;
+    return day;
+  } catch (e) {
+    return dayCache[dateStr] !== undefined ? dayCache[dateStr] : null;
+  }
 }
 
 function render(dateStr, day) {
@@ -245,7 +247,7 @@ async function show(dateStr) {
 }
 
 async function init() {
-  manifest = await (await fetch('data/manifest.json')).json();
+  manifest = await (await fetch('data/manifest.json?t=' + Date.now(), { cache: 'no-store' })).json();
   manifest.days.forEach(d => dateSet.add(d.date));
   const today = fmtLocal(new Date());
   const latest = dateSet.size ? [...dateSet].sort().pop() : today;
