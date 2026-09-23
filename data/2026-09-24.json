@@ -1,0 +1,15 @@
+{
+ "date": "2026-09-24",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-09-24] 每日创意小工具 #12：HASHGLYPH\n\n💡 一句话介绍：粘贴任意文本，SHA-256 指纹即时变成一张对称彩色「印章脸」——比对两段文本不再读 hex，看脸就知道是否相同；还内置雪崩效应演示（改一个字母 → 256 bit 里约一半翻转，两张脸彻底变掉）。\n\n🧠 创意来源：今日 HN Show HN 扫描发现本地优先浏览器",
+   "full": "🔧 [2026-09-24] 每日创意小工具 #12：HASHGLYPH\n\n💡 一句话介绍：粘贴任意文本，SHA-256 指纹即时变成一张对称彩色「印章脸」——比对两段文本不再读 hex，看脸就知道是否相同；还内置雪崩效应演示（改一个字母 → 256 bit 里约一半翻转，两张脸彻底变掉）。\n\n🧠 创意来源：今日 HN Show HN 扫描发现本地优先浏览器工具正成趋势（OnDevice Tools「64 utilities that never upload your data」与 ToolRoots「local alternatives」同日上首页）。原创点：不做「又一个 hash 计算器」，而是把不可见的摘要「画成脸」——前 32 bit 装进镜像 4×8 网格保证左右对称、色相取自摘要字节，肉眼可辨、可存 PNG（兼职确定性字符串头像）；雪崩效应是内置教学彩蛋，identicon 类产品只做生成不做的「同/异判定徽章」是核心差异。\n\n🛠️ 在线使用：https://xiangjianan.github.io/hashglyph-20260924/ ｜ 仓库：https://github.com/xiangjianan/hashglyph-20260924\n\n✅ 自检实录：纯函数逻辑仿真 11/11（空串/abc/fox/1MB 长串/CJK+emoji 对 Node crypto 全一致，雪崩 abc→abb 翻 122/256 bit）；playwright 无头 17/17 全绿、JS 零报错（同文 IDENTICAL / 异文 DIFFERENT / 双清空复位 / 移动端 390px 零溢出）；PIL 像素确认渲染；Pages 上线复验 200。WebCrypto 优先 + 纯 JS SHA-256 兜底，双击 index.html 离线可用。\n\n⚖️ 今日取舍：只做 SHA-256 不做多算法切换（雪崩教学只需一个值得推荐的默认）；glyph 只用前 32 bit——对称性牺牲信息量换辨识度，256 bit 全画反而「没有脸」；不做文件拖入哈希（文件领域 #3 BYTELENS 已占，保持纯文本单一场景）。明天可迭代：SHA-1/MD5 对比徽章标注「为何不安全」、图腾外圈嵌 digest hex 的印章环、文本+脸一起导出分享卡片。",
+   "job_id": "6ff8e716c927"
+  }
+ ]
+}
