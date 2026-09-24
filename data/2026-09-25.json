@@ -1,0 +1,15 @@
+{
+ "date": "2026-09-25",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-09-25] 每日创意小工具 #13：MOJIFIX\n\n💡 一句话介绍：粘贴乱码文本，自动诊断是哪种编码读错了它（GBK / Windows-1252 / Latin-1，含双层嵌套损坏），一键还原原文，附「锟斤拷 / 烫烫烫 / 屯屯屯」编程梗检测——100% 浏览器本地运行。\n\n🧠 创意来源：今天在 HN 看到 [Air-gapped f",
+   "full": "🔧 [2026-09-25] 每日创意小工具 #13：MOJIFIX\n\n💡 一句话介绍：粘贴乱码文本，自动诊断是哪种编码读错了它（GBK / Windows-1252 / Latin-1，含双层嵌套损坏），一键还原原文，附「锟斤拷 / 烫烫烫 / 屯屯屯」编程梗检测——100% 浏览器本地运行。\n\n🧠 创意来源：今天在 HN 看到 [Air-gapped file encryption as self-decrypting HTML page](https://news.ycombinator.com/item?id=49831231)（单文件自包含隐私工具的形态认可）和 [Times New Bastard](https://news.ycombinator.com/item?id=49826837)（把底层痛点玩味化），而「乱码修复」这个每个中文开发者都遇过的痛点居然没有好用的纯前端工具——空位确认。原创点：① 反向编码链枚举（GBK/CP1252/Latin-1 × 两层深）+ GB2312 字频分层可读性评分自动排序；② 用 gb18030 生成的 23940 条 GBK 反查表把「锟斤拷」拆回 EF BF BD 讲清不可逆真相，`烫烫烫`=0xCC 栈填充、`屯屯屯`=0xCD 堆填充的梗科普；③ FFFD 跳过式部分还原——坏一半也能救回大半。\n\n🛠️ 在线使用：<https://xiangjianan.github.io/mojifix-20260925/>｜仓库：<https://github.com/xiangjianan/mojifix-20260925>\n\n✅ 质量验证：node 逻辑仿真 15 断言（GBK/Latin1/CP1252/双层链还原、干净文本零误报、锟斤拷不幻觉、60KB <2s）+ playwright 无头冒烟 12 断言（真实粘贴→还原→复制 toast→样本 chip→390px 无横向溢出）全 PASS，零 JS 报错；线上复验加载 23940 条反查表还原成功。\n\n⚖️ 今日取舍：只覆盖「UTF-8 被 GBK/CP1252/Latin-1 误读」这一类损坏（1-2 层链），Big5/Shift-JIS 未做（表体积会翻倍，保持单文件轻量）；字节已被压成 `?`/U+FFFD 的不可逆损坏如实报告而非硬造结果。踩坑收获：手编乱码样本几乎必然不可还原（内置样例必须过自家检测器），node 经 stdout 传样本会损坏控制字符（改 JSON 文件中转）。明天可迭代：Big5/Shift-JIS 链、文件拖拽、还原路径可视化。",
+   "job_id": "6ff8e716c927"
+  }
+ ]
+}
