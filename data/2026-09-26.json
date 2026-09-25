@@ -1,0 +1,15 @@
+{
+ "date": "2026-09-26",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-09-26] 每日创意小工具 #14：HOPTRACE — 邮件头 X 光机\n💡 一句话介绍：粘贴原始邮件头，即时看到投递路线跳数时间线（每跳之间在路上花了多久）、SPF/DKIM/DMARC 判定徽章，以及大白话钓鱼红旗结论——100% 本地，数据绝不离开浏览器。\n\n🧠 创意来源：今天 HN Show HN 扫描到 local-first ",
+   "full": "🔧 [2026-09-26] 每日创意小工具 #14：HOPTRACE — 邮件头 X 光机\n💡 一句话介绍：粘贴原始邮件头，即时看到投递路线跳数时间线（每跳之间在路上花了多久）、SPF/DKIM/DMARC 判定徽章，以及大白话钓鱼红旗结论——100% 本地，数据绝不离开浏览器。\n\n🧠 创意来源：今天 HN Show HN 扫描到 local-first 无注册工具的持续趋势（Pomodoro.in「local first, no signup」、Vons「local decisions in browser」、Hamilton 零联网 dashboard）。痛点洞察：邮件看着不对劲时证据都在头里，但 MXToolbox 类在线分析器偏偏要你把**内网主机名、中继 IP、路由拓扑**贴给第三方——隐私痛点与「纯本地」卖点完全同构。原创点：单文件本地方案 + Received 链可视化成带在途耗时的跳数时间线 + 三档大白话判定（✓ NO RED FLAGS / ⚠ SUSPICIOUS / ☠ DANGEROUS），内置干净 vs 钓鱼双样例两键对比（钓鱼样例含 Reply-To 转域、时间倒流、长停滞等教科书红旗）。\n\n🛠️ 在线使用：https://xiangjianan.github.io/hoptrace-20260926/ ｜仓库：https://github.com/xiangjianan/hoptrace-20260926\n\n⚖️ 今日取舍：\n- 自检抓到 2 个真 bug 并全修：长停滞阈值写成 10 小时（60×600000ms，逻辑仿真断言抓出）；render 里用了不存在的 `Date.toUTC()`（playwright pageerror 抓出——node 仿真覆盖不到渲染层，无头冒烟不可省）\n- 最终自检：node 逻辑仿真 25/25、playwright 无头 13/13 零 JS 报错、移动端 390px 无横向溢出、本地服务与 Pages 双 200\n- 简化了什么：不做完整 MIME 解析、不深挖 DMARC 策略；启发式刻意保守（Return-Path 域不同只提示不报警，邮件列表属合法形态）\n- 明天可迭代：.eml 文件拖入、时间异常散点图、IPv6 归属提示",
+   "job_id": "6ff8e716c927"
+  }
+ ]
+}
