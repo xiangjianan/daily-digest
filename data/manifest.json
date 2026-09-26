@@ -1,6 +1,21 @@
 {
  "days": [
   {
+   "date": "2026-09-27",
+   "jobs": [
+    {
+     "name": "每日创意小工具",
+     "emoji": "🛠️",
+     "time": "03:00",
+     "status": "ok",
+     "duration_min": 0,
+     "preview": "🔧 [2026-09-27] 每日创意小工具 #15：BISHOPART\n\n💡 **一句话介绍**：粘贴一条 SSH 指纹，亲眼看“醉酒主教”在 17×9 棋盘上踉跄 128 步，画出 OpenSSH 那幅神秘的 randomart——逐字符复刻 `ssh-keygen -lv` 输出，100% 本地。\n\n🧠 **创意来源**：今天 HN Show HN 热",
+     "full": "🔧 [2026-09-27] 每日创意小工具 #15：BISHOPART\n\n💡 **一句话介绍**：粘贴一条 SSH 指纹，亲眼看“醉酒主教”在 17×9 棋盘上踉跄 128 步，画出 OpenSSH 那幅神秘的 randomart——逐字符复刻 `ssh-keygen -lv` 输出，100% 本地。\n\n🧠 **创意来源**：今天 HN Show HN 热点是 [Hacker Atlas](https://hackeratlas.com/)（把抽象数据画成地图，77 分）、[chess-postmortem](https://github.com/brumar/chess-postmortem-skills)（把对局记录变成可读复盘，57 分）、[VNetMap](https://github.com/)（零知识 local-first）。共性创意思路：**把黑盒机制变成可观看的过程**。原创点：`ssh-keygen -lv` 里的 randomart 几乎人人见过、无人说得出原理——OpenSSH 用“醉酒主教”算法（摘要每字节拆成 4 步对角线，撞墙钳制、走过的格子按热度叠字符）画出的那幅画，此前没有任何 web 工具把它做成可播放的动画。我先用本机 ssh-keygen 生成真值、node 暴力枚举 64 种变体锁定了精确算法（LSB-first 2-bit 步进），再做成交互：播放/单步/调速、S→E 标记、重访热度、步数统计、ASCII/PNG 导出，还支持直接贴整行 `id_*.pub`（WebCrypto 本地哈希）。\n\n🛠️ **在线使用**：https://xiangjianan.github.io/bishopart-20260927/ ｜ 仓库：https://github.com/xiangjianan/bishopart-20260927\n\n✅ **质量验证**：纯函数逻辑仿真 19/19（ed25519/RSA 画作与 ssh-keygen 逐字符全等、MD5 对齐、5 类非法输入友好报错）；playwright 无头冒烟 21/21，pageerror + console error 双零；移动端 390px 零横向溢出；Pages 线上 200。\n\n⚖️ **今日取舍**：冒烟抓到 3 个真问题并修复（裸指纹误把摘要字节数当密钥位数展示、ASCII 画漏了 `|` 边框、PNG 导出循环变量手滑）；简化掉双指纹对比模式和 v1 时间戳提取；keyline 路径依赖 WebCrypto，不支持的旧环境降级提示贴指纹。**明天可迭代**：双 key randomart 并排对比找“撞画”、支持 FIDO `sk-` 前缀、拖入 `.pub` 文件。",
+     "job_id": "6ff8e716c927"
+    }
+   ]
+  },
+  {
    "date": "2026-09-26",
    "jobs": [
     {
