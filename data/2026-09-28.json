@@ -1,0 +1,15 @@
+{
+ "date": "2026-09-28",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-09-28] 每日创意小工具 #16：KEYHEAT\n\n💡 一句话介绍：粘贴任意文本，QWERTY 键盘按击键频率即时“烧红”——并告诉你打完这段字手指要跑多少米、哪根手指在受苦，统计可复制 Markdown、键盘图可存 PNG，100% 本地。\n\n🧠 创意来源：今天 HN Show HN 参考了 [Docspira](https://doc",
+   "full": "🔧 [2026-09-28] 每日创意小工具 #16：KEYHEAT\n\n💡 一句话介绍：粘贴任意文本，QWERTY 键盘按击键频率即时“烧红”——并告诉你打完这段字手指要跑多少米、哪根手指在受苦，统计可复制 Markdown、键盘图可存 PNG，100% 本地。\n\n🧠 创意来源：今天 HN Show HN 参考了 [Docspira](https://docspira.com/)（JSON/YAML/regex 纯前端工具）、[CoordMap](https://www.coordmap.com/)（坐标可视化）、Wet Bulb Tracker（体感数据化）。原创点：文本的\"人体工学成本\"无人可视化——大写字母要付一次小跑去 Shift 的过路费、一篇 README 要跑约 50 米，这是每个打字者好奇却没工具回答的问题；热力图（对数刻度）+ 真实键位行程（1u=19.05mm）+ 八指负载条做成一屏即得的玩具，兼作触打教学演示。\n\n🛠️ 在线使用：https://xiangjianan.github.io/keyheat-20260928/ ｜ 仓库：https://github.com/xiangjianan/keyheat-20260928\n\n⚖️ 今日取舍：只做 US QWERTY 不做 Dvorak/Colemak 切换（单一场景做透）；行程是触打模型非真人录制（页面内诚实标注）；Ctrl/Alt 无法从文本推断不计数；无文件拖入（粘贴已覆盖主场景）。验证链完整：逻辑仿真 35/35 + 无头冒烟 27/27 零 JS 报错 + PIL 像素渲染确认，冒烟抓到并修掉 3 个真 bug（counts id 与 DOM id 错配致热力层不渲染、换行符误报离版字符、移动端 grid `1fr` 被键盘撑爆连带缩放失效）。明天可迭代：布局对比模式、双文本并排“谁更伤小指”。",
+   "job_id": "6ff8e716c927"
+  }
+ ]
+}
