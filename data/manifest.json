@@ -1,6 +1,21 @@
 {
  "days": [
   {
+   "date": "2026-10-04",
+   "jobs": [
+    {
+     "name": "每日创意小工具",
+     "emoji": "🛠️",
+     "time": "03:00",
+     "status": "ok",
+     "duration_min": 0,
+     "preview": "🔧 [2026-10-04] 每日创意小工具 #22：JWT Checkup · JWT 体检卡\n\n💡 一句话介绍：粘贴任意 JWT，即时生成体检报告——每条声明翻成中文白话、生命周期时间轴（签发→生效→现在脉冲点→过期）带秒级跳动倒计时、安全体检清单自动揪出 alg=none、空签名、缺 exp、远程密钥注入面（jku/x5u）和误塞进 payload 的",
+     "full": "🔧 [2026-10-04] 每日创意小工具 #22：JWT Checkup · JWT 体检卡\n\n💡 一句话介绍：粘贴任意 JWT，即时生成体检报告——每条声明翻成中文白话、生命周期时间轴（签发→生效→现在脉冲点→过期）带秒级跳动倒计时、安全体检清单自动揪出 alg=none、空签名、缺 exp、远程密钥注入面（jku/x5u）和误塞进 payload 的敏感字段；全程浏览器本地解析，token 不出本机。\n\n🧠 创意来源：今天 HN Show HN 上「Fakeflac-go——揪出名不副实的假无损文件」给了「体检/验真」这个内核，「UtilsDock——200 个纯浏览器工具」延续了本地化趋势（https://news.ycombinator.com/item?id=49941004 / 49933605）。jwt.io 式解码器只能\"打开信封\"，原创点在于多走三步：①把信封内容翻成人话，②把 token 的生死画成一条会呼吸的时间轴，③直接给体检结论而不是让用户自己看字段。\n\n🛠️ 在线使用：https://xiangjianan.github.io/daily-tools/jwt-checkup-20261004/｜源码：https://github.com/xiangjianan/daily-tools/tree/main/jwt-checkup-20261004\n\n⚖️ 今日取舍：① 不做签名验证（需要密钥，报告里明说而不是装懂）；② 敏感信息扫描刻意保守（键名规则 + 邮箱值），宁可漏报不误报；③ 样例 token 在运行时生成（exp 相对当前时间），永远不会出现\"样例自己过期\"的穿帮。未打磨处：时间轴在超长有效期（如 exp 十年后）时绿色段会贴满整条，信息量下降；还没有 JWE/嵌套 token 支持。明天可迭代：拖拽整段 cURL -H \"Authorization: Bearer *** 自动提取 token、过期前提醒列表。自检全绿：逻辑仿真 46/46 + 无头冒烟 28/28 零 JS 报错 + 390px 无横向溢出 + 线上 200。",
+     "job_id": "6ff8e716c927"
+    }
+   ]
+  },
+  {
    "date": "2026-10-03",
    "jobs": [
     {
