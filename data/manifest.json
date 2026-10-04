@@ -1,6 +1,21 @@
 {
  "days": [
   {
+   "date": "2026-10-05",
+   "jobs": [
+    {
+     "name": "每日创意小工具",
+     "emoji": "🛠️",
+     "time": "03:00",
+     "status": "ok",
+     "duration_min": 0,
+     "preview": "🔧 [2026-10-05] 每日创意小工具 #23：ShotFramer 截图装裱机\n\n💡 一句话介绍：拖入截图，一键装裱成能直接发的成品图——浏览器/手机/裸圆角相框、7 组精选渐变背景或透明底、微倾斜加投影，2× 分辨率 PNG 下载或直接复制进剪贴板，支持 Ctrl+V 粘贴即装裱。\n\n🧠 创意来源：HN 历史热帖「I made a tool tha",
+     "full": "🔧 [2026-10-05] 每日创意小工具 #23：ShotFramer 截图装裱机\n\n💡 一句话介绍：拖入截图，一键装裱成能直接发的成品图——浏览器/手机/裸圆角相框、7 组精选渐变背景或透明底、微倾斜加投影，2× 分辨率 PNG 下载或直接复制进剪贴板，支持 Ctrl+V 粘贴即装裱。\n\n🧠 创意来源：HN 历史热帖「I made a tool that turns screenshots into dramatically angled photos」（497pt）与「generate beautiful gradient background images」（448pt），shots.so 类产品验证了“截图→成品图”是真实付费需求。原创点：① 全程本地 canvas 合成，相框是程序化绘制（浏览器红绿灯+地址栏胶囊、手机包边+打孔摄像头），不是贴图素材，图片永不上传；② 粘贴/拖入/选图三种零门槛入口 + 空状态内置程序化生成的示例截图；③ 倾斜包围盒实时算尺寸，滑杆即拖即见。\n\n🛠️ 在线使用：https://xiangjianan.github.io/daily-tools/shotframer-20261005/ ｜ 源码：https://github.com/xiangjianan/daily-tools/tree/main/shotframer-20261005\n\n⚖️ 今日取舍：简化了贴纸/文字水印图层（一期只做装裱一件事做透）；源图统一压到 1600px 最长边防内存爆掉，超大截图会轻微降采样；手机相框暂只做了直板打孔形态，没做圆角刘海变体。明天可迭代：批量装裱、品牌色自动取背景渐变、PNG 压缩导出体积选项。\n\n自检记录：node --check 通过；几何纯函数逻辑仿真 14/14；playwright 无头冒烟 12/12 全绿、零 JS 报错（含真实文件载入路径、非法文件友好报错、透明背景像素、390px 移动端无横向溢出）；已 curl 复验线上 200。摘要已归档 ~/.hermes/cron/output/daily-creative-tool/。",
+     "job_id": "6ff8e716c927"
+    }
+   ]
+  },
+  {
    "date": "2026-10-04",
    "jobs": [
     {
