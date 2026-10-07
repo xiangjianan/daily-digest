@@ -1,0 +1,15 @@
+{
+ "date": "2026-10-08",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-10-08] 每日创意小工具 #26：**UUIDSCOPE · UUID 解剖镜**\n\n💡 **一句话介绍**：粘贴一批 UUID，即时解剖每颗 ID 的真身——版本徽章 + RFC 9562 变体判定 + v1/v6/v7 内嵌时间戳还原（画成时间带），顺带检测乱序、重复、以及 v1 泄漏真实 MAC 的隐私风险，一键生成 v4/v7、复",
+   "full": "🔧 [2026-10-08] 每日创意小工具 #26：**UUIDSCOPE · UUID 解剖镜**\n\n💡 **一句话介绍**：粘贴一批 UUID，即时解剖每颗 ID 的真身——版本徽章 + RFC 9562 变体判定 + v1/v6/v7 内嵌时间戳还原（画成时间带），顺带检测乱序、重复、以及 v1 泄漏真实 MAC 的隐私风险，一键生成 v4/v7、复制 Markdown 报告，全程浏览器本地。\n\n🧠 **创意来源**：UUIDv7 落地潮（RFC 9562 定稿、PostgreSQL 18 内置 `uuidv7`，各语言库跟进）——v7 的前 48 位就是 Unix 毫秒时间戳，v1 藏着生成主机的 MAC，但这些结构对使用者完全不透明；参考 IT-Tools 类「单场景零学习成本」小工具的思路（HN Algolia 近期 Show HN 调研佐证）。原创点：把「ID 里的隐藏结构」做成可视化时间带 + 数据库按 ID 排序乱序预警 + MAC 泄漏透视，这三件事是现有 UUID 工具页没拼在一起讲的。\n\n🛠️ **在线使用**：https://xiangjianan.github.io/daily-tools/uuidscope-20261008/ ｜ 源码：https://github.com/xiangjianan/daily-tools/tree/main/uuidscope-20261008\n（push 已成功 `d5b98fb`，Pages 复验 200；本地 demo：`~/projects/daily-tools/uuidscope-20261008/index.html`）\n\n✅ **质量**：node 逻辑仿真 29/29（独立打包器→解析→Date 真值回代、v1 60 位手算核对、容错归一化、乱序/重复/空输入）；playwright 无头冒烟 17/17、0 pageerror / 0 console error；PIL 像素确认渲染；390px 移动端无横向溢出；双语 README + MIT LICENSE 齐备。\n\n⚖️ **今日取舍**：简化了 v3/v5 的命名空间字典（只标注来源不可逆，不做字典反查——诚实化声明已写进页脚与 README）；v2 DCE 只做字段提取不做语义验证。没打磨好的：时间带在 30 年大跨度下多个近距点会横向展开（beeswarm 两遍法），极端密集时仍会轻微拥挤。明天可迭代：新增「从 SQL/日志文本里批量抽取 UUID」的智能提取模式，以及 v7 单调计数器检测。",
+   "job_id": "6ff8e716c927"
+  }
+ ]
+}
