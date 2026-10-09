@@ -1,0 +1,15 @@
+{
+ "date": "2026-10-10",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-10-10] 每日创意小工具 #28：CURLYARD（curl 翻译官）\n\n💡 一句话介绍：粘贴任意 curl 命令，立刻变成一张可读的结构化请求卡片（方法/URL 逐参拆解/头部/美化 body），再一键翻译成 fetch、axios、Python requests、Go、HTTPie 五种语言的地道代码——全程本地解析，敏感头自动打 ⚠",
+   "full": "🔧 [2026-10-10] 每日创意小工具 #28：CURLYARD（curl 翻译官）\n\n💡 一句话介绍：粘贴任意 curl 命令，立刻变成一张可读的结构化请求卡片（方法/URL 逐参拆解/头部/美化 body），再一键翻译成 fetch、axios、Python requests、Go、HTTPie 五种语言的地道代码——全程本地解析，敏感头自动打 ⚠ 防误传。\n\n🧠 创意来源：今天 HN Show HN 上 API/curl 生态很热（如 Cush \"curl your shell\"）。借鉴了“复制 curl 再翻译成代码”这个高频痛点场景，原创点在：① 结构化请求卡片——把 shell 引号/续行/`$'...'` 转义都啃下来后，URL 拆成 scheme/host/path/query 表格、JSON body 自动美化，比直接吐代码更“读懂”；② 敏感头雷达——Authorization/Cookie/API-key 头和疑似凭证的 query 参数打 ⚠，配“纯本地零上传”的隐私定位；③ 语义保真——`--data-urlencode` 先编码再拼、`-G` 把 body 移进 query、`-u` 自动转 Basic auth，这些细节是普通转换器容易做错的地方。\n\n🛠️ 在线使用：https://xiangjianan.github.io/daily-tools/curlyard-20261010/ ｜ 源码：https://github.com/xiangjianan/daily-tools/tree/main/curlyard-20261010\n（已复验线上 200，内容正确；自检：逻辑仿真 40/40 + playwright 无头冒烟 17/17 零 JS 报错 + 390px 移动端无溢出）\n\n⚖️ 今日取舍：简化了 multipart `-F`（只展示字段不做文件上传模拟）、未做 YAML/cURL 导出方向的反向转换；Go 生成用 `strings.NewReader` 简版而非分内容类型。明天可迭代：常见 API 文档 curl 的容错（反引号包裹、Windows `^` 续行）、请求卡片上的“编辑再生成 curl”闭环。",
+   "job_id": "6ff8e716c927"
+  }
+ ]
+}
