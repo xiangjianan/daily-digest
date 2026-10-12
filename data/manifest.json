@@ -1,6 +1,21 @@
 {
  "days": [
   {
+   "date": "2026-10-13",
+   "jobs": [
+    {
+     "name": "每日创意小工具",
+     "emoji": "🛠️",
+     "time": "03:00",
+     "status": "ok",
+     "duration_min": 0,
+     "preview": "线上验证全过：9 卡片生成、按钮启用、0 JS 错误。全部流程完成，汇报如下——\n\n---\n\n🔧 [2026-10-13] 每日创意小工具 #31：**ICONKIT · 图标全家桶熔炉**\n\n💡 一句话介绍：拖一张图（或只打 1-2 个字选个底色）立刻熔出网站图标全家桶——favicon.ico + 9 尺寸 PNG + ZIP 打包 + 可复制 `<li",
+     "full": "线上验证全过：9 卡片生成、按钮启用、0 JS 错误。全部流程完成，汇报如下——\n\n---\n\n🔧 [2026-10-13] 每日创意小工具 #31：**ICONKIT · 图标全家桶熔炉**\n\n💡 一句话介绍：拖一张图（或只打 1-2 个字选个底色）立刻熔出网站图标全家桶——favicon.ico + 9 尺寸 PNG + ZIP 打包 + 可复制 `<link>` 引用码，实时预览在浏览器标签页、书签栏、手机主屏里的真实长相，全程本地零上传。\n\n🧠 创意来源：今日 HN Algolia 检索 favicon/icon generator 无相关新 Show HN，故对标成熟品类 favicon.io / RealFaviconGenerator（https://realfavicongenerator.net）的共性痛点：必须上传图到别人服务器、五步流程黑盒、没图就没法开始。原创点有三个：① 「打两个字」模式让零素材用户 10 秒出全套（文字自动撑满、深浅底自动反色）；② 场景化实时预览——不给干巴巴的色块缩略图，而是把图标嵌进仿浏览器标签/书签栏/iPhone 主屏的真实语境，亮暗可切；③ 格式全手写：ICO 容器逐字节组装（ICONDIR + PNG-in-ICO）、ZIP 用 STORE 法表驱动 CRC32，零依赖实证可行。与既往 30 期无品类重叠（EXIFRAY/SHOTFRAMER/BRAILLEPIC/PIXDIET 都是图片处理，图标生成是首次）。\n\n🛠️ 在线使用：https://xiangjianan.github.io/daily-tools/iconkit-20261013/｜源码：https://github.com/xiangjianan/daily-tools/tree/main/iconkit-20261013\n（commit `be5ff47` 已推送，线上 200，线上复测 9 卡片生成 + 0 JS 错误）\n\n⚖️ 今日取舍：简化了 SVG 输入的圆角场景（图片模式不裁圆，圆角只属于文字模式，交给平台遮罩更符合真实行为）；apple-touch-icon 强制垫白底是刻意为之（iOS 会把透明渲染成黑）；PWA manifest 文件没生成，只在引用码里提示 192/512 留给 manifest 用。冒烟测试 25/25 通过——其中又抓到一个真 bug（产物对象漏装 `url`/`bytes` 字段导致全部预览图 404），已修复复测。明天可迭代：monochrome/Safari pinned tab SVG 图标、从文字模式直接选 emoji 作为图标。",
+     "job_id": "6ff8e716c927"
+    }
+   ]
+  },
+  {
    "date": "2026-10-12",
    "jobs": [
     {
