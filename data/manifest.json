@@ -1,6 +1,21 @@
 {
  "days": [
   {
+   "date": "2026-10-15",
+   "jobs": [
+    {
+     "name": "每日创意小工具",
+     "emoji": "🛠️",
+     "time": "03:00",
+     "status": "ok",
+     "duration_min": 0,
+     "preview": "🔧 [2026-10-15] 每日创意小工具 #33：RAMPSMITH · 色阶锻炉\n\n💡 **一句话介绍**：粘一个品牌色（hex/rgb/hsl/oklch/取色器通吃），在 OKLCH 感知均匀空间锻出 50→950 十一级色阶——手工感明度曲线 + 中间最艳两端收敛的彩度轮廓 + 色域边界二分收缩，每级自带 WCAG 对比度徽章和 ★品牌锚点，一键",
+     "full": "🔧 [2026-10-15] 每日创意小工具 #33：RAMPSMITH · 色阶锻炉\n\n💡 **一句话介绍**：粘一个品牌色（hex/rgb/hsl/oklch/取色器通吃），在 OKLCH 感知均匀空间锻出 50→950 十一级色阶——手工感明度曲线 + 中间最艳两端收敛的彩度轮廓 + 色域边界二分收缩，每级自带 WCAG 对比度徽章和 ★品牌锚点，一键导出 CSS 变量 / Tailwind v4 / SCSS / JSON，全程本地零上传。\n\n🧠 **创意来源**：今天 HN Show HN 刚出现「Color Studio – OKLCH palette tool」（OKLCH 色阶是当下趋势），Guitoro 虚拟吉他（540 分）验证了即开即玩交互的传播力；参考 uicolors.app 类工具的共性痛点——要么把颜色传服务器，要么 sRGB 线性插值出脏色。原创点：单输入零学习成本；把 Tailwind 手工调色「算法化」（明度曲线 + 彩度峰值轮廓 + 逐级 22 轮色域二分收缩，非插值）；对比度四象限徽章 + 离输入最近档的诚实锚点标注。仓库 33 期色彩类只有 #09 色盲模拟器，品类首次。\n\n🛠️ **在线使用**：https://xiangjianan.github.io/daily-tools/rampsmith-20261015/ ｜ 源码：https://github.com/xiangjianan/daily-tools/tree/main/rampsmith-20261015\n\n⚖️ **今日取舍**：砍掉了色相微调滑杆和 P3 宽色域导出（保单文件体量）；未打磨处：色盲友好模式没做、导出暂无 Figma tokens 格式。自检干货：冒烟首跑抓到 1 个真 bug——oklab 反变换矩阵第三行系数抄错，往返误差高达 102/255，靠「白点求和 sanity check」定位后换 Ottosson 官方直连矩阵，2000 组随机色往返误差归零、三组公开真值全中；最终 playwright 无头冒烟 26/26、0 控制台报错，GitHub Pages 已生效（HTTP 200）。明天可迭代：P3 导出 + 色阶和谐度评分。",
+     "job_id": "6ff8e716c927"
+    }
+   ]
+  },
+  {
    "date": "2026-10-14",
    "jobs": [
     {
