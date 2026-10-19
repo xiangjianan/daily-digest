@@ -1,0 +1,15 @@
+{
+ "date": "2026-10-20",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-10-20] 每日创意小工具 #38：IGNOLENS 忽略镜\n\n💡 一句话介绍：粘贴 `.gitignore` 和一串文件路径，逐条判定「会被忽略 / 会保留」，点开任意一行展开规则链——每一级目录谁命中、否定规则在哪次翻盘、「父目录已排除」陷阱在哪触发，全部看得见，全程本地零上传。\n\n🧠 创意来源：今天 HN 调研撞上经典热帖《Devel",
+   "full": "🔧 [2026-10-20] 每日创意小工具 #38：IGNOLENS 忽略镜\n\n💡 一句话介绍：粘贴 `.gitignore` 和一串文件路径，逐条判定「会被忽略 / 会保留」，点开任意一行展开规则链——每一级目录谁命中、否定规则在哪次翻盘、「父目录已排除」陷阱在哪触发，全部看得见，全程本地零上传。\n\n🧠 创意来源：今天 HN 调研撞上经典热帖《Developer tools can be magic but instead collect dust》（pathsensitive.com）——工具失宠不是因为功能弱，是因为决策过程不透明。`.gitignore` 正是日常开发里最常被误解的规则引擎：最后命中优先、`!` 否定救不回被排除的父目录、`**` 能匹配零层……`git check-ignore -v` 只告诉你「赢的是哪条」从不给推理链，gitignore.io 只管生成不管解释。原创点在于做「解释器」而非「生成器」：逐级前缀走查的规则链可视化（⚠ 不再向下走标记）+ 规则命中统计点击筛选 + 一键导出 Markdown 判定报告。\n\n🛠️ 在线使用：https://xiangjianan.github.io/daily-tools/ignolens-20261020/｜源码：https://github.com/xiangjianan/daily-tools/tree/main/ignolens-20261020\n\n⚖️ 今日取舍：\n- 引擎对齐真实 git 语义下了血本：用 `git check-ignore --no-index -v` 做先知对拍 19 条路径矩阵全绿（含否定翻盘极性、父目录陷阱、锚定与 `**` 变体），无头冒烟零 JS 报错、390px 无溢出。\n- 简化了 case-insensitive（`core.ignoreCase`）和多 gitignore 叠加场景，按最常见默认语义处理；`[...]` 字符类支持但未做范围校验提示。\n- 还没打磨的：规则链展开目前是整链一次显示，后续可做动画逐级走查；也考虑加「拖入整个 git status 输出自动喂路径」。\n- 明天可迭代：规则冲突预警（如同名规则互相覆盖时给提示）。\n\n摘要已归档：`~/.hermes/cron/output/daily-creative-tool/2026-10-20_issue38_ignolens.md`。",
+   "job_id": "6ff8e716c927"
+  }
+ ]
+}
