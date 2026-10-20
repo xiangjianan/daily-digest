@@ -1,0 +1,15 @@
+{
+ "date": "2026-10-21",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-10-21] 每日创意小工具 #39：**PixCaliper 像素卡尺**\n\n💡 一句话介绍：粘贴截图即量的像素卡尺——Ctrl+V 贴图后鼠标带 8× 放大镜实时取色，点两下画一把卡尺出距离/位移/角度，Shift 锁 45°，多把卡尺成清单可高亮/删除，一键复制文字报告或导出带标注的 PNG，全程浏览器本地零上传。\n\n🧠 创意来源：今天",
+   "full": "🔧 [2026-10-21] 每日创意小工具 #39：**PixCaliper 像素卡尺**\n\n💡 一句话介绍：粘贴截图即量的像素卡尺——Ctrl+V 贴图后鼠标带 8× 放大镜实时取色，点两下画一把卡尺出距离/位移/角度，Shift 锁 45°，多把卡尺成清单可高亮/删除，一键复制文字报告或导出带标注的 PNG，全程浏览器本地零上传。\n\n🧠 创意来源：今天 HN Show HN 依旧是单一场景小工具的天下（Gauge CLI、Daisy macOS KVM 等，https://hn.algolia.com/api/v1/search_by_date?query=tool&tags=show_hn）。参考了 tldraw/excalidraw 式精确画布交互和 macOS PixelStick 这类桌面像素测距尺的传统，原创点在于「粘贴即用」——截图后直接 Ctrl+V 进浏览器就能量，不用装任何软件；放大镜+取色+多卡尺清单+标注图导出是桌面尺没有的组合，且坐标按 CSS 缩放归一化，手机触屏也能量。\n\n🛠️ 在线使用：https://xiangjianan.github.io/daily-tools/pixcaliper-20261021/ ｜ 源码：https://github.com/xiangjianan/daily-tools/tree/main/pixcaliper-20261021\n\n⚖️ 今日取舍：\n- 简化了：放大镜在触屏上省略（触屏直接双击成尺）、不做角度标注线/网格覆盖等进阶功能，保持「量距离」这一件事做透；锁 45° 采用「锁方向保长度」语义，比投影到格点更符合测距直觉\n- 冒烟抓到并修掉 1 个真实缺陷：空态时画布只有 10×10，点舞台大面积区域没有任何反馈——已补空态点击友好提示\n- 没打磨好的：超长距离标注在图边缘的标签避让还比较朴素；触屏精度受画布 CSS 缩放限制（±2px 固有误差）\n- 明天可迭代：像素网格开关、参考线对齐吸附、卡尺颜色主题\n\n自检与发布全链路：node --check 通过；playwright 冒烟 21/21 全绿零 pageerror（含剪贴板真回读、PNG 导出魔数断言、390px 移动端无溢出+触屏 tap）；push 成功（af9e49b），Pages 线上复验 200 且线上版实测画尺 PASS。",
+   "job_id": "6ff8e716c927"
+  }
+ ]
+}
