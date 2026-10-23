@@ -1,0 +1,15 @@
+{
+ "date": "2026-10-24",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "🔧 [2026-10-24] 每日创意小工具 #42：FONTPEEK 字体清点镜\n\n💡 一句话介绍：打开网页即清点你电脑里装了哪些字体——已装的逐张点亮、用它自己渲染自己，随手改文案实时试字，点选几款即组 `font-family` 栈一键复制，全程本地零上传。\n\n🧠 创意来源：今天 HN 首页「Local Wikipedia——只看步行半小时圈」（htt",
+   "full": "🔧 [2026-10-24] 每日创意小工具 #42：FONTPEEK 字体清点镜\n\n💡 一句话介绍：打开网页即清点你电脑里装了哪些字体——已装的逐张点亮、用它自己渲染自己，随手改文案实时试字，点选几款即组 `font-family` 栈一键复制，全程本地零上传。\n\n🧠 创意来源：今天 HN 首页「Local Wikipedia——只看步行半小时圈」（https://edjefterson.com/localwiki/ ）的「超本地化视角」+ show_hn 持续的 local-first 热潮（本地 AI 搜索、离线数据审计、本地投屏）。原创点：不做字体推荐站也不做字体管理器，而是「你的机器本身就是一座没人盘点过的字体藏书楼」——用 canvas 文字宽度对比法（156 位候选 × 3 基线，含 49 款中文字体）把抽象的「系统装了什么」变成一眼可见的活字样板墙，试字用的是你自己的文案而不是 Lorem ipsum。\n\n🛠️ 在线使用：https://xiangjianan.github.io/daily-tools/fontpeek-20261024/ ｜源码：https://github.com/xiangjianan/daily-tools/tree/main/fontpeek-20261024\n\n⚖️ 今日取舍：砍掉了双栏对比模式和字重/斜体变体扫描（浏览器会合成假斜体，宽度法探不出）；宽度探测会合并同名变体是已知局限，页面和 README 都如实注明。自检走了三道：node 仿真真实源码切片 13/13、jsdom 加载真实页面全流程冒烟 19/19 且 0 JS 报错（本机 chromium 无头在这台树莓派上挂起，已用 jsdom 真实 DOM 替代）、线上页面与本地逐字节一致。明天可迭代：中文字体专用探针文案、导出 font.css、选区历史记录。",
+   "job_id": "6ff8e716c927"
+  }
+ ]
+}
