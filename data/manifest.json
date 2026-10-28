@@ -1,6 +1,21 @@
 {
  "days": [
   {
+   "date": "2026-10-29",
+   "jobs": [
+    {
+     "name": "每日创意小工具",
+     "emoji": "🛠️",
+     "time": "03:00",
+     "status": "ok",
+     "duration_min": 0,
+     "preview": "🔧 [2026-10-29] 每日创意小工具 #47：JSONDIFF（JSON 对比树）\n\n💡 一句话介绍：粘贴两份 JSON，即时长出一张红绿对比树——新增/删除/改值逐字段点亮、数组逐项对位、类型变化挂徽章，每条变更带 jq 风格路径一键复制，全程本地零上传。\n\n🧠 创意来源：今天 HN Show HN 速览到 QuickRef（client-side",
+     "full": "🔧 [2026-10-29] 每日创意小工具 #47：JSONDIFF（JSON 对比树）\n\n💡 一句话介绍：粘贴两份 JSON，即时长出一张红绿对比树——新增/删除/改值逐字段点亮、数组逐项对位、类型变化挂徽章，每条变更带 jq 风格路径一键复制，全程本地零上传。\n\n🧠 创意来源：今天 HN Show HN 速览到 QuickRef（client-side dev tools）、Toolvy（120 media tools in browser）、Notedux（主打 no login）——「本地即用、零上传」仍是明确趋势。对比 JSON 是开发者高频痛点（部署前后 API 响应、新旧配置、schema 变更），现有出路要么 jq+diff 拼管道、要么贴进在线对比网站让第三方经手数据。原创点：做的是理解嵌套的结构化对比树而非逐行文本 diff；数组按索引对位、长度变化单独成条；类型变化（number→string）挂徽章一眼看穿；树与变更清单消费同一份 diff 产物，两视图永远一致；超大结构如实截断（树 2,500 节点 / 清单 600 行）。\n\n🛠️ 在线使用：https://xiangjianan.github.io/daily-tools/jsondiff-20261029/｜源码：https://github.com/xiangjianan/daily-tools/tree/main/jsondiff-20261029\n\n⚖️ 今日取舍：数组 diff 采用最直观的同索引对比（未做对象按键匹配，避免半生不熟的功能；长度差异以独立条目诚实呈现）；解析报错的行列提示依赖引擎是否报告 position（新版 V8 常不给，README 已如实注明）。自检走满三条线：35/35 条纯函数断言（含键序无关、空容器、null 互换、特殊字符键）+ 真实 DOM 冒烟全流程（示例→树→清单→复制→互换→非法输入→清空，零 JS 报错）+ Pages 线上 200。明天可迭代：JSON Pointer / JSON Patch 导出格式、深浅色切换。",
+     "job_id": "6ff8e716c927"
+    }
+   ]
+  },
+  {
    "date": "2026-10-28",
    "jobs": [
     {
