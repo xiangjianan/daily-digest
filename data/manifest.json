@@ -1,6 +1,21 @@
 {
  "days": [
   {
+   "date": "2026-11-08",
+   "jobs": [
+    {
+     "name": "每日创意小工具",
+     "emoji": "🛠️",
+     "time": "03:00",
+     "status": "ok",
+     "duration_min": 0,
+     "preview": "🔧 [2026-11-08] 每日创意小工具 #57：PIXELVAULT 像素暗房\n\n💡 **一句话介绍**：把一句话藏进图片像素的最末一位（LSB 隐写）——拖图即藏、下载肉眼零差异的 PNG、拖回来自动取出，全程本地零上传。\n\n🧠 **创意来源**：今天 HN Show HN 两条趋势——隐私优先免登录工具（[Digdeep.fyi](https://",
+     "full": "🔧 [2026-11-08] 每日创意小工具 #57：PIXELVAULT 像素暗房\n\n💡 **一句话介绍**：把一句话藏进图片像素的最末一位（LSB 隐写）——拖图即藏、下载肉眼零差异的 PNG、拖回来自动取出，全程本地零上传。\n\n🧠 **创意来源**：今天 HN Show HN 两条趋势——隐私优先免登录工具（[Digdeep.fyi](https://digdeep.fyi/)、Site Tools Box \"no login\"）和「把不可见数据变可见」（[Tell the Sky](https://tellthesky.com) 的风场灯笼、Self-Annotating Stock Charts）。经典在线隐写网站要你把图片和秘密一起上传到别人服务器，天然背叛「秘密」二字。**原创点**：① 「🔬 LSB 放大镜」——隐写最反直觉的是「藏了但看不见」，开关一开把每个最末位放大 255 倍，亲眼看见消息所在的雪花噪点浮现；② 诚实的死因学——取信先验 `PVLT` 魔数，4 位吻合度区分「干净图」和「像但坏」，后者直接给出 JPG 压缩/截图/缩放三种死因诊断；③ 容量条把「⌊(像素×3−64)/8⌋」这笔账实时算给你看，超容锁按钮。\n\n🛠️ **在线使用**：https://xiangjianan.github.io/daily-tools/pixelvault-20261108/ ｜ 源码：https://github.com/xiangjianan/daily-tools/tree/main/pixelvault-20261108\n\n✅ **质量验证**：编解码核心跑 node 对拍 **13/13 全绿**（中文/emoji 往返、满容量边界、超容拒绝、单比特损坏读出 'poqition' 的教科书行为、放大镜只出 0/255）；浏览器 8 步冒烟全过——藏入 33.6KB PNG 后以 File 回灌取信**逐字一致**，干净图不误报，零 console 报错，360px 窄屏零溢出。\n\n⚖️ **今日取舍**：没做密码加密层（letterlock #25 已占加密赛道，隐写本体保持单一职责）；透明 PNG 会自动铺白底（换位稳定， sacrifices alpha 通道）；放大镜暂无藏入前后对比滑块。明天可迭代：前后对比滑块、批量验图。一个踩坑已记录：node 测试桩的 `ImageData` 必须支持浏览器标准 2 参构造 `(w,h)`，第一版桩签名写错导致放大镜测试假阴性——工具代码本身无罪。",
+     "job_id": "6ff8e716c927"
+    }
+   ]
+  },
+  {
    "date": "2026-11-07",
    "jobs": [
     {
