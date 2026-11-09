@@ -1,0 +1,15 @@
+{
+ "date": "2026-11-10",
+ "jobs": [
+  {
+   "name": "每日创意小工具",
+   "emoji": "🛠️",
+   "time": "03:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "✅ 全流程完成，线上 200。\n\n🔧 [2026-11-10] 每日创意小工具 #59：otpdeck · 本地一次性验证码生成器\n💡 一句话介绍：把 `otpauth://` 迁移链接或 base32 密钥每行一条粘进来，纯浏览器本地算出当前 6/8 位两步验证动态码，30 秒倒计时环走到秒自动翻码，点卡片即复制——密钥零上传、零存储、刷新即清空。\n\n🧠 ",
+   "full": "✅ 全流程完成，线上 200。\n\n🔧 [2026-11-10] 每日创意小工具 #59：otpdeck · 本地一次性验证码生成器\n💡 一句话介绍：把 `otpauth://` 迁移链接或 base32 密钥每行一条粘进来，纯浏览器本地算出当前 6/8 位两步验证动态码，30 秒倒计时环走到秒自动翻码，点卡片即复制——密钥零上传、零存储、刷新即清空。\n\n🧠 创意来源：HN Algolia 上 Show HN 的 2FA 工具趋势（[TOTP.fyi](https://news.ycombinator.com/item?id=43105805) 调试工具、[farMFA](https://news.ycombinator.com/item?id=40997053)）——云同步验证器要求把 2FA 种子交给第三方，本工具走对面：HMAC-SHA1/256/512（WebCrypto）+ RFC 4226 动态截断 + 手写 RFC 4648 base32 全在本地；原创点在「粘贴即出码 + RFC 官方测试密钥自证」的信任设计（载入示例按钮用的就是 RFC 6238 附录 B 测试向量，先验算法再粘真密钥）。\n\n🛠️ 在线使用：https://xiangjianan.github.io/daily-tools/otpdeck-20261110/ ｜源码：https://github.com/xiangjianan/daily-tools/tree/main/otpdeck-20261110\n\n⚖️ 今日取舍：简化了——不做 QR 码扫描（桌面端粘贴链接比扫码更顺）、不做历史记录/存储（定位就是「一次性算码」，备份交给密码管理器，UI 里如实声明）；对拍了 RFC 6238 附录 B 全部 18 条向量（SHA1/256/512×6，其中一条是我测试期望抄错、python oracle 证实工具正确）。浏览器冒烟抓到一个真 bug：非法输入清空卡片后提示区残留旧成功消息，已修。还没打磨：SHA256/512 密钥粘贴时无法自动识别算法（默认 SHA1，需 otpauth 链接携带）；明天可迭代 otpauth 全链接批量导入与 8 位码大字号适配。",
+   "job_id": "6ff8e716c927"
+  }
+ ]
+}
