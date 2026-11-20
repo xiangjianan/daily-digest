@@ -1,6 +1,20 @@
 {
  "days": [
   {
+   "date": "2026-11-21",
+   "jobs": [
+    {
+     "name": "每日创意小工具",
+     "emoji": "🛠️",
+     "time": "03:00",
+     "status": "fail",
+     "duration_min": 0,
+     "preview": "",
+     "job_id": "6ff8e716c927"
+    }
+   ]
+  },
+  {
    "date": "2026-11-20",
    "jobs": [
     {
