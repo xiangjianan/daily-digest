@@ -1,6 +1,21 @@
 {
  "days": [
   {
+   "date": "2026-11-22",
+   "jobs": [
+    {
+     "name": "每日创意小工具",
+     "emoji": "🛠️",
+     "time": "03:00",
+     "status": "ok",
+     "duration_min": 0,
+     "preview": "🔧 [2026-11-22] 每日创意小工具 #70：BOOKLETPRESS 册页拼版台\n💡 一句话介绍：输入小册子总页数，立刻算出对折装订的完整拼版方案——每张纸正反面各印哪几页（逐张 SVG 图解带折痕虚线），自动双面 / 手动双面两套打印页序一键复制，还能拖入 PDF 本地读页数，文件全程不出浏览器。\n\n🧠 创意来源：今天刷 HN Show HN，参",
+     "full": "🔧 [2026-11-22] 每日创意小工具 #70：BOOKLETPRESS 册页拼版台\n💡 一句话介绍：输入小册子总页数，立刻算出对折装订的完整拼版方案——每张纸正反面各印哪几页（逐张 SVG 图解带折痕虚线），自动双面 / 手动双面两套打印页序一键复制，还能拖入 PDF 本地读页数，文件全程不出浏览器。\n\n🧠 创意来源：今天刷 HN Show HN，参考了 [yavcpdf](https://github.com/araaha/yavcpdf)（键盘驱动本地 PDF）、[pstview](https://github.com/publicarray/pstview)（本地只读邮件库）、[Tools4U](https://tools4u.org)（54 个浏览器本地文件工具）和 Sprawl Guard——共同创意思路是「隐私优先的本地文件处理 + 即输入即出结果」。原创点：把印刷行业的 saddle-stitch 拼版数学（每对页码之和 = 总页数+1、末尾补空白凑 4 的倍数）做成普通人在家打印小册子就能照着干的施工单；手动双面「先印正面→整叠回纸印背面」的分开页序和逐张纸图解是现成工具少做的差异点。\n\n🛠️ 在线使用：https://xiangjianan.github.io/daily-tools/bookletimpose-20261122/｜源码：https://github.com/xiangjianan/daily-tools/tree/main/bookletimpose-20261122\n\n⚖️ 今日取舍：只做「对折一次」的 saddle-stitch（不做多帖复杂拼版和 2-up 折手，避免烂尾）；PDF 页数探测是尽力而为的纯字节扫描，压缩对象流读不出时诚实提示手填而不硬猜；手动双面回纸方向因打印机而异，只给「先拿 2 张试印」的提醒不假装精确。验证做得比较足：拼版引擎 30+ 断言（多组页数双射守恒 + 每对和 M+1）全绿，浏览器冒烟空态/补空白/非法输入/窄屏溢出/复制兜底全过。明天可迭代：多帖签名（signature）拆分、成品页尺寸自定义（非标纸张）。",
+     "job_id": "6ff8e716c927"
+    }
+   ]
+  },
+  {
    "date": "2026-11-21",
    "jobs": [
     {
