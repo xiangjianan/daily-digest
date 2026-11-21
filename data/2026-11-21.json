@@ -9,6 +9,16 @@
    "duration_min": 0,
    "preview": "",
    "job_id": "6ff8e716c927"
+  },
+  {
+   "name": "GitHub 趣项目",
+   "emoji": "🔥",
+   "time": "17:00",
+   "status": "ok",
+   "duration_min": 0,
+   "preview": "所有 5 个候选验证通过：作者账号真实(HybridRobotics 是 2014 年的老牌实验室账号、带 arXiv 论文；rust-anything 作者 2021 年老账号 81 个仓库)，无刷星嫌疑。数据采集完毕，输出报告。\n\n---\n\n# 🛰️ GitHub 每日新项目精选(2026-11-21)\n\n### 1. [rust-anything](h",
+   "full": "所有 5 个候选验证通过：作者账号真实(HybridRobotics 是 2014 年的老牌实验室账号、带 arXiv 论文；rust-anything 作者 2021 年老账号 81 个仓库)，无刷星嫌疑。数据采集完毕，输出报告。\n\n---\n\n# 🛰️ GitHub 每日新项目精选(2026-11-21)\n\n### 1. [rust-anything](https://github.com/erkamyaman/rust-anything)\n> 把现有应用逐模块重写为 Rust,每一步都与原程序**录制的行为**对照验证——先录后改，防漂移\n\n⭐ **6,922**(5 天，11-16 创建，日增约 1,400)| 🖥️ Rust | 附带 Claude Code / Codex agent skill + npm 包\n\n🎯 **为什么有趣：** 目前最火的新项目。它把“语言迁移”这个老大难拆成了 agent 可执行的闭环：录制原行为 → 逐块重写 → 自动比对，理论上无限接近零回归。做法新颖(不是又一个“AI 生成代码”玩具)，踩中了 agent-skills 生态爆发点，增长速度断层领先。\n\n🏷️ AI Agent / Rust / CLI / 代码迁移\n\n### 2. [S2Arm](https://github.com/jhaizhou-ops/S2Arm)\n> 用静态重编译把 Switch 游戏转成 ARM64 原生代码，图形直通 Metal——iPhone/iPad/Mac 一部设备跑整个游戏库\n\n⭐ **3,753**(13 天，近几日爆发式增长)| 🖥️ C# | 官网 s2arm.com,中英日多语 README\n\n🎯 **为什么有趣：** 2026 年“原生重编译”流派(N64Recomp/mkw-recomp 一脉)的集大成者：不跑模拟器、不做转译层，直接 ARM64 原生执行 + Metal 原生渲染。把主机模拟、Apple Silicon、图形管线三个前沿方向拧在了一起，技术含量极高。\n\n🏷️ 静态重编译 / 模拟器 / Apple Silicon / 游戏\n\n### 3. [yogurt](https://github.com/FrigadeHQ/yogurt)\n> 本地运行的 AI 会议笔记：不派会议机器人入会，llama.cpp 全程离线，数据不出电脑\n\n⭐ **2,808**(11 天)| 🖥️ TypeScript | HN Show HN **307 分 / 118 评论**，独立信号强\n\n🎯 **为什么有趣：** 精准打中“Granola/Otter 要听我所有会议”的隐私焦虑，Mac/Win/Linux 全平台开源免费。实用性 + 创新性兼具的典范：本地小模型做会议记录这个组合被社区真金白银地投票认可了。\n\n🏷️ 本地 AI / 隐私 / 生产力 / 开源替代\n\n### 4. [lastbook](https://github.com/Immortal-Protocols/lastbook)\n> 装进一台笔记本就能离线重建文明的急救包：手册、百科、视频、离线地图 + 基于库内资料回答问题的本地 AI\n\n⭐ **2,792**(9 天)| 🖥️ Python | HN **419 分 / 227 评论**(11-19 登顶热帖)\n\n🎯 **为什么有趣：** “离线知识 + 本地 AI 问答”的选题极其刁钻——为断网、灾难、基础设施缺失场景设计。创意满分，而且不是概念货：RAG 问答、离线地图、视频教程全部落地。HN 227 条评论的讨论热度证明它戳中了集体焦虑。\n\n🏷️ 离线优先 / 本地 AI / 知识库 / 生存工具\n\n### 5. [supermimic](https://github.com/HybridRobotics/supermimic)\n> 用**单个可微分世界模型**训练人形机器人全身运动追踪，基于 mjlab 构建\n\n⭐ **1,907**(11 天)| 🖥️ Python | UCSD HybridRobotics 实验室出品，[arXiv 论文](https://arxiv.org/abs/2610.28480) + 项目页齐全\n\n🎯 **为什么有趣：** 本周唯一的硬核机器人研究方向：把全身运动控制统一进一个可微分世界模型，而不是分层的策略网络。学术可信度极高(老牌实验室、随论文开源)，是“具身智能”热潮里少见的可直接复现的开源实现。\n\n🏷️ 机器人 / 具身智能 / 世界模型 / 强化学习\n\n> 💡 **本周遗珠：** Wireless-Device-Battery-Monitor(⭐5,501,5 天——无线外设电量直接显示在 Win 任务栏，免厂商套件)和 linger(⭐3,078,全本地个人 AI agent)。\n\n### 📝 编辑推荐\n> 本周主线清晰：**\"agent-skills\"正在成为新的分发渠道**(rust-anything、inference-optimisation-skill、Trending 周榜的 ffmpeg-skill 全是这个形态)，同时 **local-first 隐私 AI**(yogurt、linger、lastbook)和**原生重编译**(S2Arm、mkw-recomp)两条线同步升温——AI 在往“不联网”走，游戏在往“不模拟”走，很有意思的对冲。",
+   "job_id": "5bdfe48fa5d4"
   }
  ]
 }
